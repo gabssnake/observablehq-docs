@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Observable Docs"
   text: "[DRAFT] How to work in Observable"
-  tagline: Your one stop shop for all questions Observable
+  tagline: Your spot for all questions Observable
   actions:
     - theme: brand
       text: Markdown Examples
