@@ -27,17 +27,68 @@ export default defineConfig({
       dark: "/observable-dark.svg"
     },
     nav: [
-      {text: "Home", link: "/"},
+      {text: "Getting Started", link: "/"},
       {text: "Examples", link: "/markdown-examples"}
     ],
     sidebar: [
       {
-        text: "Examples",
+        text: "Getting Started",
         items: [
-          {text: "Markdown Examples", link: "/markdown-examples"},
-          {text: "Runtime API Examples", link: "/api-examples"}
+          {text: "Why Observable", link: "/"},
+          {text: "A taste of Observable", link: "/"},
+          {text: "Creating your account", link: "/"},
+          {text: "Learn Observable"}
+        ]
+      },
+      {
+        text: "Notebooks",
+        items: [
+          {text: "Cell modes", link: "/"},
+          {text: "Data Table cell", link: "/"},
+          {text: "Chart cell", link: "/"},
+          {text: "Add Data", link: "/"},
+          {text: "Importing", link: "/"},
+          {text: "Debugging", link: "/"},
+          {text: "Tinker Mode", link: "/"},
+          {text: "Fork, Suggest, Merge", link: "/"},
+          {text: "Saving & History", link: "/"},
+          {text: "Collaboration", link: "/"}
+        ]
+      },
+      {
+        text: "Collections",
+        items: [
+          {text: "Placeholder"}
+        ]
+      },
+      {
+        text: "Dashboards",
+        items: [
+          {text: "Placeholder"}
+        ]
+      },
+      {
+        text: "Notifications",
+        items: [
+          {text: "Placeholder"}
+        ]
+      },
+      {
+        text: "Accounts & Workspaces",
+        items: [
+          {text: "Security", link: "/"},
+          {text: "Transfer", link: "/"},
+          {text: "Membership", link: "/"},
+          {text: "Databases", link: "/"},
+          {text: "Permissions", link: "/"},
+          {text: "Secrets", link: "/"},
+          {text: "API / Notebook Keys", link: "/"},
+          {text: "Suggestions", link: "/"},
+          {text: "Profile", link: "/"},
+          {text: "Trash", link: "/"}
         ]
       }
+
     ],
     search: {
       provider: "local"
