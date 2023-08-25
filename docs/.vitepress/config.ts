@@ -45,14 +45,15 @@ export default defineConfig({
         text: "Cells",
         collapsed: true,
         items: [
-          {text: "Cell Basics", link: "/"},
+          {text: "Adding cells", link: "/cells/addingcells.md"},
           {text: "Cell Modes",
           collapsed: true,
            items: [
              {text: "JavaScript",
+             collapsed: true,
               items: [
-                {text: "Introduction to Code"},
-                {text: "Observable JavaScript"},
+                {text: "Introduction to Code", link: "/"},
+                {text: "Observable JavaScript", link: "/"},
                 {text: "Require in Observable", link: "/"}
               ]
              },
