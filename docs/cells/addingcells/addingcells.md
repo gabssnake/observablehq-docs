@@ -15,7 +15,7 @@ Cells can be added in a few different ways in Observable.
 The **Add cell menu** appears as the first thing you see upon opening a blank notebook. 
 
 <figure>
-  <img src="/cells/blankNotebook.png" alt="The Add cell menu opened up as it would be by default in a new notebook." style="border-radius: 8px; overflow: hidden;"/>
+  <img src="/cells/addingcells/blankNotebook.png" alt="The Add cell menu opened up as it would be by default in a new notebook." style="border-radius: 8px; overflow: hidden;"/>
     <figcaption>The <b>Add cell menu</b>.</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ After the initial **Add cell menu** is closed, likely the first thing you will n
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
-    src="/cells/addCellBar.png" alt="The Add bar showing the JavaScript, Text, Data, and Chart cell options."
+    src="/cells/addingcells/addCellBar.png" alt="The Add bar showing the JavaScript, Text, Data, and Chart cell options."
   />
   <figcaption>The <b>Add cell bar</b>.</figcaption>
 </figure>
@@ -58,7 +58,7 @@ The search bar is ready at the top of the **Add cell menu**. Selecting an option
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
-    src="/cells/cellMenuSearch.png" alt="The Add cell menu search bar."
+    src="/cells/addingcells/cellMenuSearch.png" alt="The Add cell menu search bar."
   />
   <figcaption>The <b>Add cell menu</b> search bar. 
 </figcaption>
@@ -73,7 +73,7 @@ When you input freeform text into the search box that does not match any known m
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 400px"
-    src="/cells/freeFormText.png" alt="The search bar with some JavaScript entered. Upon not finding a match, the user is suggested to insert as JavaScript, Markdown, or HTML. The Insert as JavaScript option is highlighted."
+    src="/cells/addingcells/freeFormText.png" alt="The search bar with some JavaScript entered. Upon not finding a match, the user is suggested to insert as JavaScript, Markdown, or HTML. The Insert as JavaScript option is highlighted."
   />
   <figcaption>An unmatched search query.
 </figcaption>
@@ -86,7 +86,7 @@ Cell suggestions are over to the right side of the space that the next cell's **
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
-    src="/cells/dataTableCellMenuNextSteps.png" alt="A Data table cell with button suggestions, Create chart and Convert to SQL, together highlighted by a red rounded-edged rectangle."
+    src="/cells/addingcells/dataTableCellMenuNextSteps.png" alt="A Data table cell with button suggestions, Create chart and Convert to SQL, together highlighted by a red rounded-edged rectangle."
   />
   <figcaption>The <b>Create chart</b> button and <b>Convert to SQL</b> button.
 </figcaption>

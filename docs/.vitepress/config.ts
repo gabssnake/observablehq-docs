@@ -45,7 +45,7 @@ export default defineConfig({
         text: "Cells",
         collapsed: true,
         items: [
-          {text: "Adding cells", link: "/cells/addingcells.md"},
+          {text: "Adding cells", link: "/cells/addingcells/addingcells.md"},
           {text: "Cell Modes",
           collapsed: true,
            items: [
