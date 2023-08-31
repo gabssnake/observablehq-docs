@@ -89,7 +89,7 @@ export default defineConfig({
                   {text: "Apache Parquet", link: "/"}
                  ]
                 },
-                {text: "Cloud files", link: "/"},
+                {text: "Cloud files", link: "/data/files/cloud-files/cloud-files.md"},
                 {text: "Supported integrations",
                 collapsed: true,
                  items: [
