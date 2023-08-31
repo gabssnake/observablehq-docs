@@ -93,7 +93,7 @@ export default defineConfig({
                 {text: "Supported integrations",
                 collapsed: true,
                  items: [
-                  {text: "Microsoft Teams", link: "/"},
+                  {text: "Microsoft Teams", link: "/data/files/supported-integrations/microsoft-teams/microsoft-teams.md"},
                   {text: "Google Drive", link: "/"}
 
                  ]
