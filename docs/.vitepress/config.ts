@@ -84,7 +84,7 @@ export default defineConfig({
                   {text: "CSV", link: "/data/files/file-attachments/file-attachments#csv-files"},
                   {text: "ZIP", link: "/data/files/file-attachments/file-attachments#zip-files"},
                   {text: "SQLite", link: "/"},
-                  {text: "DuckDB", link: "/"},
+                  {text: "DuckDB", link: "/data/files/file-types/duckdb/duckdb.md"},
                   {text: "Apache Arrow", link: "/"},
                   {text: "Apache Parquet", link: "/"}
                  ]
