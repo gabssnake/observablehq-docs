@@ -105,7 +105,7 @@ export default defineConfig({
               text: "Databases",
               collapsed: true,
               items: [
-                {text: "Connecting to databases", link: "/"},
+                {text: "Connecting to databases", link: "/data/databases/connecting-to-databases/connecting-to-databases.md"},
                 {text: "Database panel and schema viewer", link: "/"},
                 {text: "Self-hosted proxies", link: "/"},
                 {text: "Database clients",
