@@ -53,7 +53,7 @@ export default defineConfig({
              collapsed: true,
               items: [
                 {text: "JavaScript code in Observable", link: "/cells/cell-modes/js/js-cells/js-code.md"},
-                {text: "Observable JavaScript"},
+                {text: "Observable JavaScript", link: "/cells/cell-modes/js/observable-js/observable-js.md"},
                 {text: "Require in Observable", link: "/"}
               ]
              },
