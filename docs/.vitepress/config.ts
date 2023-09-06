@@ -163,7 +163,7 @@ export default defineConfig({
             text: "Inputs",
             collapsed: true,
             items: [
-              {text: "Using inputs in Observable", link: "/"},
+              {text: "Using inputs in Observable", link: "/inputs/inputs-overview/inputs-overview.md"},
               {text: "Input types",
               collapsed: true,
                items: [
