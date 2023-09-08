@@ -108,6 +108,7 @@ export default defineConfig({
                 {text: "Connecting to databases", link: "/data/databases/connecting-to-databases/connecting-to-databases.md"},
                 {text: "Database pane and schema viewer", link: "/data/databases/databases-pane/databases-pane-schema-viewer.md"},
                 {text: "Self-hosted proxies", link: "/data/databases/self-hosted-proxies/self-hosted-proxies.md"},
+                {text: "DatabaseClient specification", link: "/data/databases/databaseclient-specification/databaseclient-specification.md"},
                 {text: "Database clients",
                 collapsed: true,
                  items: [
