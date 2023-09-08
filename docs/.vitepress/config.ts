@@ -57,7 +57,7 @@ export default defineConfig({
                 {text: "Require in Observable", link: "/cells/cell-modes/js/js-require/js-require.md"}
               ]
              },
-             {text: "Text", link: "/"},
+             {text: "Text", link: "/cells/cell-modes/text/text.md"},
              {text: "Data Table", link: "/"},
              {text: "Chart", link: "/"},
              {text: "HTML", link: "/"},
