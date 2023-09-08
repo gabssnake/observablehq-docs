@@ -168,20 +168,20 @@ export default defineConfig({
               {text: "Input types",
               collapsed: true,
                items: [
-                 {text: "Button", link: "/"},
-                 {text: "Toggle", link: "/"},
-                 {text: "Checkbox", link: "/"},
-                 {text: "Radio", link: "/"},
-                 {text: "Range", link: "/"},
-                 {text: "Select", link: "/"},
-                 {text: "Text", link: "/"},
-                 {text: "Textarea", link: "/"},
-                 {text: "Date/Datetime", link: "/"},
-                 {text: "Color", link: "/"},
-                 {text: "Search", link: "/"},
-                 {text: "Table", link: "/"},
-                 {text: "File", link: "/"},
-                 {text: "Form", link: "/"}
+                 {text: "Button", link: "/inputs/inputs-overview/inputs-overview#button"},
+                 {text: "Toggle", link: "/inputs/inputs-overview/inputs-overview#toggle"},
+                 {text: "Checkbox", link: "/inputs/inputs-overview/inputs-overview#checkbox"},
+                 {text: "Radio", link: "/inputs/inputs-overview/inputs-overview#radio"},
+                 {text: "Range", link: "/inputs/inputs-overview/inputs-overview#range"},
+                 {text: "Select", link: "/inputs/inputs-overview/inputs-overview#select"},
+                 {text: "Text", link: "/inputs/inputs-overview/inputs-overview#text"},
+                 {text: "Textarea", link: "/inputs/inputs-overview/inputs-overview#textarea"},
+                 {text: "Date/Datetime", link: "/inputs/inputs-overview/inputs-overview#date"},
+                 {text: "Color", link: "/inputs/inputs-overview/inputs-overview#color"},
+                 {text: "Search", link: "/inputs/inputs-overview/inputs-overview#search"},
+                 {text: "Table", link: "/inputs/inputs-overview/inputs-overview#table"},
+                 {text: "File", link: "/inputs/inputs-overview/inputs-overview#file"},
+                 {text: "Form", link: "/inputs/inputs-overview/inputs-overview#and-more"}
                ]
               }
             ]
