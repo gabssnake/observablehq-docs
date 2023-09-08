@@ -6,6 +6,16 @@ These lightweight interface components—buttons, sliders, dropdowns, tables, an
 
 Declare your inputs with [viewof](https://observablehq.com/@observablehq/views), like so: 
 
+```js
+viewof gain = Inputs.range([0, 11], {value: 5, step: 0.1, label: "Gain"})
+```
+
+The range input above (created with `Inputs.range()`) specifies the total range of values a user can choose from (0 to 11), along with options for: 
+
+- `value`: the default starting value or option of an input
+- `step`: the increments along the range (here, change by increments of 0.1)
+- `label`: a label informing or prompting the user
+
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
@@ -49,11 +59,15 @@ These basic inputs will get you started:
 * [Color](https://observablehq.com/@observablehq/input-color): choose a color
 * [File](https://observablehq.com/@observablehq/input-file): choose a local file
 
-Minimal examples of each are shown below. Click on the input name and links for more information. 
+Minimal examples of each are shown below. Click on the input name and links for examples to explore and interact with in Observable notebooks. 
 
 ### [Button](https://observablehq.com/@observablehq/input-button) 
 
 Do something when a button is clicked. [Examples ›](https://observablehq.com/@observablehq/input-button) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#button)
+
+```js
+viewof clicks = Inputs.button("Click me")
+```
 
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
@@ -65,6 +79,10 @@ Do something when a button is clicked. [Examples ›](https://observablehq.com/@
 
 Toggle between two values (on or off). [Examples ›](https://observablehq.com/@observablehq/input-toggle) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#toggle)
 
+```js
+viewof mute = Inputs.toggle({label: "Mute"})
+```
+
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="/inputs/inputs-overview/input-toggle.mp4" alt="A user clicks on and off of a single checkbox labeled 'Mute'. Code to create the checkbox is below: viewof mute = Inputs.toggle({label: 'Mute'})."
@@ -74,6 +92,10 @@ Toggle between two values (on or off). [Examples ›](https://observablehq.com/@
 ### [Checkbox](https://observablehq.com/@observablehq/input-checkbox) 
 
 Choose any from a set. [Examples ›](https://observablehq.com/@observablehq/input-checkbox) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#checkbox)
+
+```js
+viewof flavors = Inputs.checkbox(["salty", "sweet", "bitter", "sour", "umami"], {label: "Flavors"})
+```
 
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
@@ -85,6 +107,10 @@ Choose any from a set. [Examples ›](https://observablehq.com/@observablehq/inp
 
 Choose one from a set. [Examples ›](https://observablehq.com/@observablehq/input-radio) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#radio)
 
+```js
+viewof flavor = Inputs.radio(["salty", "sweet", "bitter", "sour", "umami"], {label: "Flavor"})
+```
+
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="/inputs/inputs-overview/input-radio.mp4" alt="A user clicks on and off of radio buttons to select a single option. Code to create the input is shown: viewof flavors = Inputs.radio['salty', 'sweet', 'bitter', 'sour', 'umami'], {label: 'Flavor'})."
@@ -95,6 +121,10 @@ Choose one from a set. [Examples ›](https://observablehq.com/@observablehq/inp
 
 Pick a number. [Examples ›](https://observablehq.com/@observablehq/input-range) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#range)
 
+```js
+viewof n = Inputs.range([0, 255], {step: 1, label: "Favorite number"})
+```
+
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="/inputs/inputs-overview/input-range.mp4" alt="A user slides a cursor along a range, change the selected numeric value. Code to create the input is shown: viewof n = Inputs.range([0, 255], {step: 1, label: 'Favorite number'})."
@@ -104,6 +134,10 @@ Pick a number. [Examples ›](https://observablehq.com/@observablehq/input-range
 ### [Select](https://observablehq.com/@observablehq/input-select)
 
 Choose one, or any, from a menu. [Examples ›](https://observablehq.com/@observablehq/input-select) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#select)
+
+```js
+viewof homeState = Inputs.select([null].concat(stateNames), {label: "Home state"})
+```
 
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
@@ -116,6 +150,10 @@ Choose one, or any, from a menu. [Examples ›](https://observablehq.com/@observ
 
 Enter freeform single-line text. [Examples ›](https://observablehq.com/@observablehq/input-text) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#text)
 
+```js
+viewof name = Inputs.text({label: "Name", placeholder: "What’s your name?"})
+```
+
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="/inputs/inputs-overview/input-text.mp4" alt="A user types text into an initially blank text box to update a stored value. Code to create the input is shown: viewof name = Inputs.text({label: 'Name', placeholder: 'What’s your name?'})"
@@ -125,6 +163,10 @@ Enter freeform single-line text. [Examples ›](https://observablehq.com/@observ
 ### [Textarea](https://observablehq.com/@observablehq/input-textarea)
 
 Enter freeform multi-line text. [Examples ›](https://observablehq.com/@observablehq/input-textarea) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#textarea)
+
+```js
+viewof bio = Inputs.textarea({label: "Biography", placeholder: "What’s your story?"})
+```
 
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
@@ -137,6 +179,10 @@ Enter freeform multi-line text. [Examples ›](https://observablehq.com/@observa
 
 Choose a date, or a date and time. [Examples ›](https://observablehq.com/@observablehq/input-date) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#date)
 
+```js
+viewof birthday = Inputs.date({label: "Birthday"})
+```
+
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="/inputs/inputs-overview/input-date.mp4" alt="A user selects a date from a calendar widget. Code shown to create the date input: viewof birthday = Inputs.date({label: 'Birthday'})"
@@ -147,6 +193,10 @@ Choose a date, or a date and time. [Examples ›](https://observablehq.com/@obse
 
 Choose a color. [Examples ›](https://observablehq.com/@observablehq/input-color) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#color)
 
+```js
+viewof color = Inputs.color({label: "Favorite color", value: "#4682b4"})
+```
+
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="/inputs/inputs-overview/input-color.mp4" alt="A user scrolls through different colors to choose one. Code shown to create the date input: viewof color = Inputs.color({label: 'Favorite color', value: '#4682b4'})"
@@ -156,6 +206,10 @@ Choose a color. [Examples ›](https://observablehq.com/@observablehq/input-colo
 ### [File](https://observablehq.com/@observablehq/input-file)
 
 Choose a local file. [Examples ›](https://observablehq.com/@observablehq/input-file) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#file)
+
+```js
+viewof file = Inputs.file({label: "CSV file", accept: ".csv", required: true})
+```
 
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
@@ -174,6 +228,10 @@ These fancy inputs are designed to work with tabular data such as CSV or TSV [fi
 
 Query a tabular dataset. [Examples ›](https://observablehq.com/@observablehq/input-search) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#search)
 
+```js
+viewof search = Inputs.search(capitals, {placeholder: "Search U.S. capitals"})
+```
+
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="/inputs/inputs-overview/input-search.mp4" alt="A user enters text ('Sacramento') into a text box, and an array of objects is automatically filtered to only contain objects with that string."
@@ -183,6 +241,12 @@ Query a tabular dataset. [Examples ›](https://observablehq.com/@observablehq/i
 ### [Table](https://observablehq.com/@observablehq/input-table)
 
 Browse a tabular dataset. [Examples ›](https://observablehq.com/@observablehq/input-table) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#table)
+
+For an array of objects named *search*:
+
+```js
+viewof rows = Inputs.table(search)
+```
 
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
