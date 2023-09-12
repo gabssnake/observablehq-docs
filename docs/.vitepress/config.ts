@@ -85,8 +85,8 @@ export default defineConfig({
                   {text: "ZIP", link: "/data/files/file-attachments/file-attachments#zip-files"},
                   {text: "SQLite", link: "/data/files/file-types/sqlite/sqlite.md"},
                   {text: "DuckDB", link: "/data/files/file-types/duckdb/duckdb.md"},
-                  {text: "Apache Arrow", link: "/"},
-                  {text: "Apache Parquet", link: "/"}
+                  {text: "Apache Arrow", link: "/data/files/file-attachments/file-attachments#arrow-files"},
+                  {text: "Apache Parquet", link: "/data/files/file-attachments/file-attachments#parquet-files"}
                  ]
                 },
                 {text: "Cloud files", link: "/data/files/cloud-files/cloud-files.md"},

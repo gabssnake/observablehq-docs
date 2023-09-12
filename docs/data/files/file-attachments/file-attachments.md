@@ -171,6 +171,50 @@ chunk = {
     }
 ```
 
+### Arrow files
+
+Observable's [Data table cell](https://observablehq.com/@observablehq/data-table-cell) accepts attached [Apache Arrow files](https://arrow.apache.org/). After attaching an Arrow file in your notebook, insert a new Data table cell, then select the file as the data source.
+
+<figure>
+  <img
+    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 70%"
+    src="/data/files/file-attachments/arrow-dtc.png" alt="Screen shot of open Data table cell, with an arrow file as the selected data source."
+  />
+  <figcaption>Choose an attached Arrow file as the source in a Data table cell.</figcaption>
+</figure>
+
+Naming the Data table cell (for example, as *flights* below) allows you to call the loaded data elsewhere in your notebook:
+
+<figure>
+  <img
+    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 70%"
+    src="/data/files/file-attachments/rename-arrow-dtc.png" alt="Screen shot of open Data table cell, with a new cell name ('flights') added immediately to the left of the data source."
+  />
+  <figcaption>Rename the Data table cell to the left of the selected data source to call the data elsewhere in your notebook.</figcaption>
+</figure>
+
+### Parquet files
+
+Observable's [Data table cell](https://observablehq.com/@observablehq/data-table-cell) accepts attached [Apache Parquet files](https://parquet.apache.org/). After attaching a Parquet file in your notebook, insert a new Data table cell, then select the file as the data source.
+
+<figure>
+  <img
+    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 70%"
+    src="/data/files/file-attachments/parquet-dtc.png" alt="Screen shot of open Data table cell, with a parquet file shown as the selected data source."
+  />
+  <figcaption>Choose an attached Parquet file as the source in a Data table cell.</figcaption>
+</figure>
+
+Naming the Data table cell (for example, as *penguins* below) allows to call the loaded data elsewhere in your notebook:
+
+<figure>
+  <img
+    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 70%"
+    src="/data/files/file-attachments/rename-parquet-dtc.png" alt="Screen shot of open Data table cell, with a new cell name ('penguins') added immediately to the left of the data source."
+  />
+  <figcaption>Rename the Data table cell to the left of the selected data source to call the data elsewhere in your notebook.</figcaption>
+</figure>
+
 ### URLs
 
 Use `FileAttachment` to pass a URL. For example, the following code will create a link to download a PDF attached to a notebook:
