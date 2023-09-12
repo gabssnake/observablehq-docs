@@ -224,7 +224,7 @@ export default defineConfig({
             text: "Saving and History",
             collapsed: true,
             items: [
-              {text: "How saving works", link: "/"},
+              {text: "How saving works", link: "/saving-and-history/how-saving-works/how-saving-works.md"},
               {text: "Notebook history", link: "/saving-and-history/notebook-history/notebook-history.md"}
             ]
           },
