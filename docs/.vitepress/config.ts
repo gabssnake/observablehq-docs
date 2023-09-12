@@ -235,7 +235,7 @@ export default defineConfig({
               {text: "Sharing work",
               collapsed: true,
                items: [
-                {text: "Sharing", link: "/"},
+                {text: "Sharing", link: "/collaborating/sharing-work/sharing/sharing.md"},
                 {text: "Searching", link: "/"},
                 {text: "Pausing live edits in public notebooks", link: "/"},
                 {text: "Tags: Organizing work"},
