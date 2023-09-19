@@ -59,7 +59,7 @@ export default defineConfig({
              },
              {text: "Text", link: "/cells/cell-modes/text/text.md"},
              {text: "Data Table", link: "/"},
-             {text: "Chart", link: "/"},
+             {text: "Chart", link: "/cells/cell-modes/chart/chart-cell.md"},
              {text: "HTML", link: "/"},
              {text: "SQL", link: "/"},
              {text: "Mathematical", link: "/"}
