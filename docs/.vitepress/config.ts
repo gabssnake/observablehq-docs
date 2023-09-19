@@ -34,7 +34,7 @@ export default defineConfig({
         text: "Getting Started",
         items: [
           {text: "Why Observable", link: "/"},
-          {text: "A taste of Observable", link: "/"},
+          {text: "A taste of Observable", link: "https://observablehq.com/@observablehq/a-taste-of-observable"},
           {text: "Learning Observable", link: "/"},
           {text: "Enterprise and Pro team onboarding", link: "/"},
           {text: "Interactive tutorials", link: "/"},

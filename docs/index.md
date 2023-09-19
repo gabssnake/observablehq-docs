@@ -8,26 +8,30 @@ hero:
   tagline: Your spot for all questions Observable.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Tour the product
+      link: https://observablehq.com/@observablehq/a-taste-of-observable
+    - theme: brand
+      text: Sign Up!
+      link: https://observablehq.com/login?screen=signup
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
+      text: Quickguides
+    - theme: alt
+      text: Interactive tutorials
 features:
+  - title: Why Observable?
+    details: Understand our use case.
+    link: /fundamentals/
   - title: Learning Observable
-    details: The basics to getting up and running in Observable.
-    link: /fundamentals/getting-started
-  - title: Accounts & Workspaces
     details: Set up your Observable account and configure your workspace.
+  - title: Cells
+    details: Learn how to use the building blocks of Observable notebooks.
+    link: /cells/addingcells/addingcells
   - title: Data
-    details: Securely get data in and out of Observable
-  - title: Sharing & Collaboration
-    details: Get your work infront of others, in notebooks or anywhere on the web.
+    details: Securely get data in and out of Observable.
   - title: Inputs
-    details: Observable Inputs allows you to quickly add interactivity to your analysis
+    details: Observable Inputs allows you to quickly add interactivity to your analysis.
   - title: Observable JavaScript
-    details: Learn about Observable JavaScript makes development a breeze
+    details: Learn about the differences between Observable JavaScript and vanilla JavaScript.
   - title: Debugging
     details: Follow these tips to solving issues in Observable
   - title: Tips & Tricks
