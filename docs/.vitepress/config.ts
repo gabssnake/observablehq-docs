@@ -35,7 +35,13 @@ export default defineConfig({
         items: [
           {text: "Why Observable", link: "/"},
           {text: "A taste of Observable", link: "https://observablehq.com/@observablehq/a-taste-of-observable"},
-          {text: "Learning Observable", link: "/"},
+          {text: "Learning Observable", 
+          collapsed: true,
+           link: "/learn/index.md",
+          items: [
+           {text: "Overview", link: "/learn/learn-overview/learn-overview.md"}
+          ]
+          },
           {text: "Enterprise and Pro team onboarding", link: "/"},
           {text: "Interactive tutorials", link: "/"},
           {text: "Quickguides", link: "/"}
