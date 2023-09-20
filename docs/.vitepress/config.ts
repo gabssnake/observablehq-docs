@@ -220,9 +220,9 @@ export default defineConfig({
               {text: "Basic Embedding", link: "/embedding/basic"},
               {text: "Advanced Embedding and downloading", link: "/embedding/advanced"},
               {text: "Embed a notebook in a React app", link: "/"},
-              {text: "API and notebook keys", link: "/"},
+              {text: "Auto-resizing embed", link: "/"},
+              {text: "API and notebook keys", link: "/embedding/api-keys"},
               {text: "Troubleshooting embedding", link: "/embedding/troubleshooting"}
-
             ]
           },
           {
