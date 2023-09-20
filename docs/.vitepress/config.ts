@@ -217,9 +217,11 @@ export default defineConfig({
             text: "Embedding",
             collapsed: true,
             items: [
+              {text: "Basic Embedding", link: "/"},
+              {text: "Advanced Embedding and downloading", link: "/"},
               {text: "Basic Embedding", link: "/embedding/basic"},
               {text: "Advanced Embedding and downloading", link: "/embedding/advanced"},
-              {text: "Embed a notebook in a React app", link: "/"},
+              {text: "Embed a notebook in a React app", link: "/embedding/how-to-embed-a-notebook-in-a-react-app"},
               {text: "Auto-resizing embed", link: "/"},
               {text: "API and notebook keys", link: "/embedding/api-keys"},
               {text: "Troubleshooting embedding", link: "/embedding/troubleshooting"}
@@ -319,5 +321,6 @@ export default defineConfig({
     footer: {
       copyright: `Copyright ${new Date().getUTCFullYear()} Observable, Inc.`
     }
-  }
+  },
+  ignoreDeadLinks: 'localhostLinks',
 })
