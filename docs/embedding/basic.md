@@ -7,7 +7,11 @@ Embedding lets you put a working version of your notebooks inside another websit
 <iframe width="100%" height="635" frameborder="0"
   src="https://observablehq.com/embed/@d3/sortable-bar-chart?cell=viewof+order&cell=chart"></iframe>
 
-It shows two cells in one: one to control the sort order, and one to show the chart. And this isn’t an [import](https://observablehq.com/@observablehq/introduction-to-imports) — it’s just HTML, which means it can go anywhere on the web. It’s made with the Embed tool, which you can find it in the cell menu (to the left of every cell) and in the notebook menu (in the top right of the page):
+It shows two cells in one: one to control the sort order, and one to show the chart. And this isn’t an [import](https://observablehq.com/@observablehq/introduction-to-imports) — it’s just HTML, which means it can go anywhere on the web.
+
+## How to embed notebooks
+
+Embedding is done with the Embed tool, which you can find it in the cell menu (to the left of every cell) and in the notebook menu (in the top right of the page):
 
 <figure>
   <img
@@ -61,3 +65,7 @@ The Runtime-based embedding methods are limited to environments where you can ru
 Some sites like Medium and Reddit that don’t allow arbitrary HTML still “unfurl” certain links you paste to interactive versions, using a standard called [oEmbed](https://oembed.com/). Under the Iframe code, click “Copy URL only” and paste it elsewhere; depending on the site, it will expand to the full interactive embed. If the site uses Embedly, the Iframe can automatically resize to match the height of your content.
 
 “Embed” means different things to different people, and this only covers a small fraction of the ways you can take the work you do here elsewhere. It doesn’t help you embed in Slack, Facebook, Twitter, or LinkedIn, which don’t support arbitrary interactive embeds; we still use the notebook thumbnail for those. To share your work in an email, presentation, or other document, you might try “Download PNG” in the cell menu for SVG or canvas cells. To capture something dynamic, you can use Shift-Command-5 (⇧⌘5) to record part of the screen. 
+
+## Auto-resizing embeds
+
+It is possible to create embeds that respond to the size of the browser window. [This notebook describes how it works](https://observablehq.com/@observablehq/auto-resizing-embed?collection=@observablehq/embedding-notebooks) and offers a simple function that can be imported into your own notebooks.
