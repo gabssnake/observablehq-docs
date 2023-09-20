@@ -244,7 +244,7 @@ export default defineConfig({
                items: [
                 {text: "Sharing", link: "/collaborating/sharing-work/sharing/sharing.md"},
                 {text: "Searching", link: "/collaborating/sharing-work/search/search.md"},
-                {text: "Pausing live edits in public notebooks", link: "/"},
+                {text: "Pausing live edits in public notebooks", link: "/collaborating/sharing-work/pause-live-edits/pause-live-edits.md"},
                 {text: "Tags: Organizing work"},
                 {text: "Licenses"}
                ]
