@@ -217,7 +217,7 @@ export default defineConfig({
             text: "Embedding",
             collapsed: true,
             items: [
-              {text: "Basic Embedding", link: "/"},
+              {text: "Basic Embedding", link: "/embedding/basic"},
               {text: "Advanced Embedding and downloading", link: "/"},
               {text: "Embed a notebook in a React app", link: "/"},
               {text: "Auto-resizing embed", link: "/"},
