@@ -291,7 +291,7 @@ export default defineConfig({
               {text: "Observable's Security model", link: "/security/data-security-and-privacy"},
               {text: "Security and data access in Observable", link: "/security/security-and-data-access"},
               {text: "Security and data access in Observable", link: "/"},
-              {text: "Using secrets with Observable", link: "/"}
+              {text: "Using secrets with Observable", link: "/security/secrets"}
             ]
           },
           {
