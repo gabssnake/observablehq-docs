@@ -249,7 +249,7 @@ export default defineConfig({
                 {text: "Licenses", link: "/collaborating/sharing-work/licenses/licenses.md"}
                ]
               },
-              {text: "Comments", link: "/"},
+              {text: "Comments", link: "/collaborating/comments/comments.md"},
               {text: "Suggestions", link: "/"},
               {text: "Following users and teams", link: "/"},
               {text: "Tinker mode: temporary edits to a notebook", link: "/"}
