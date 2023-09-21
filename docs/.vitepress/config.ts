@@ -255,7 +255,7 @@ export default defineConfig({
               {text: "Suggestions", link: "/collaborating/suggestions/suggestions.md"},
               {text: "Suggestions", link: "/"},
               {text: "Following users and teams", link: "/collaborating/following/following-users-and-teams.md"},
-              {text: "Tinker mode: temporary edits to a notebook", link: "/"}
+              {text: "Tinker mode: temporary edits to a notebook", link: "/collaborating/tinker-mode/tinker-mode.md"}
             ]
           },
           {
