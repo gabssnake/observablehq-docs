@@ -262,7 +262,7 @@ export default defineConfig({
             text: "Debugging",
             collapsed: true,
             items: [
-              {text: "Safe mode", link: "/"},
+              {text: "Safe mode", link: "/debugging/safe-mode/safe-mode.md"},
               {text: "Minimap", link: "/"},
               {text: "Module require debugger", link: "/"},
               {text: "How to require stubborn modules", link: "/"}
