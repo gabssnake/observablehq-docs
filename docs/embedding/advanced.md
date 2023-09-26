@@ -38,7 +38,7 @@ Your notebook can be compiled and downloaded as a [JavaScript module](https://ha
 
 <figure>
   <img
-    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 70%"
+    class="screenshot w-70"
     src="/embedding/download-code.png" alt="Screen shot of open sidebar showing the Embed option, next to the notebook menu in the top right also showing the Export->Embed cells option highlighted"
   />
 </figure>
@@ -58,27 +58,26 @@ The most obvious way to embed a notebook is to display its contents, live, in a 
 ```html
 <!DOCTYPE html>
 <body>
+<!-- Optional stylesheet -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+
 <script type="module">
-
 // Load the Observable runtime and inspector.
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 // Your notebook, compiled as an ES module.
-import notebook from "https://api.observablehq.com/@jashkenas/my-neat-notebook.js?v=3";
-
+import define from "https://api.observablehq.com/@jashkenas/my-neat-notebook.js?v=3";
 // Load the notebook, observing its cells with a default Inspector
 // that simply renders the value of each cell into the provided DOM node.
-new Runtime().module(notebook, Inspector.into(document.body));
-
+new Runtime().module(define, Inspector.into(document.body));
 </script>
 ```
 
-The inspector doesn’t include any inline styles, but there is a [default stylesheet](https://cdn.jsdelivr.net/npm/@observablehq/inspector@3/dist/inspector.css) ([see source](https://github.com/observablehq/inspector/blob/master/src/style.css)) if you want it. To make your embedded notebook beautiful, try a CSS framework. We favor [Tachyons](http://tachyons.io/) here at Observable, but there are lots of good choices, such as GitHub’s [Primer](https://primer.style/css).
+The code above includes an optional default stylesheet. To make your embedded notebook match your own website's styles, you can replace that with your own, or use a CSS framework like [Tachyons](http://tachyons.io/), or GitHub’s [Primer](https://primer.style/css).
 
 If you don’t want to render the entire notebook, define a custom function to control which cells are rendered and where they go. For example, to render just the cell named “chart” into the DOM element with the same id, say:
 
 ```js
-new Runtime().module(notebook, name => {
+new Runtime().module(define, name => {
   if (name === "chart") {
     return new Inspector(document.querySelector("#chart"));
   }
@@ -113,7 +112,7 @@ An *observer* is an object that you define and implements optional methods to ob
 For example, here’s an observer that doesn’t touch the DOM, instead logging all evaluation to the console:
 
 ```js
-new Runtime().module(notebook, name => {
+new Runtime().module(define, name => {
   return {
     pending() { console.log(`\${name} is running…`); },
     fulfilled(value) { console.log(name, value); },
@@ -125,7 +124,7 @@ new Runtime().module(notebook, name => {
 Below is an observer that listens to the “selection” cell, calling *setSelection* to do something with the new value (say, a [React state hook](https://reactjs.org/docs/hooks-state.html)). This technique could be used with a [brushable scatterplot](https://observablehq.com/@d3/brushable-scatterplot) to drive your application with the selected data.
 
 ```js
-new Runtime().module(notebook, name => {
+new Runtime().module(define, name => {
   switch (name) {
     case "viewof selection": return new Inspector(container);
     case "selection": return {fulfilled(value) { setSelection(value); }};
@@ -136,7 +135,7 @@ new Runtime().module(notebook, name => {
 Sometimes you just want the current value of a cell. For that, you don’t need a proper *observer*; instead, use [*module*.value](https://github.com/observablehq/runtime/blob/master/README.md#module_value) to get a promise to the current value of the cell with the given name.
 
 ```js
-const module = new Runtime().module(notebook);
+const module = new Runtime().module(define);
 const value = await module.value("chart");
 document.querySelector("#chart").appendChild(value);
 ```
@@ -146,7 +145,7 @@ document.querySelector("#chart").appendChild(value);
 In addition to observing reactive values, your JavaScript program can assign reactive values, too, allowing bidirectional dataflow. For example, say you have a [bar chart](https://observablehq.com/@d3/bar-chart), and your application wants to update the displayed data dynamically. First, keep a reference to the main module for your notebook:
 
 ```js
-const main = new Runtime().module(notebook, name => {
+const main = new Runtime().module(define, name => {
   if (name === "chart") {
     return new Inspector(container);
   }
@@ -164,10 +163,10 @@ Because Observable uses dataflow, the chart will update automatically in respons
 Another way to alter the behavior of your running notebook is to override Observable’s [standard library](https://github.com/observablehq/stdlib). These built-in variables are provided to all notebooks. For example, for a fixed width of 640px instead of a responsive width, import [Library](https://github.com/observablehq/runtime/blob/main/README.md#Library), then re-assign the width value:
 
 ```js
-import {Runtime, Inspector, Library} from "https://cdn.jsdelivr.net/npmhttps://observablehq.com/@observablehq/runtime@4/dist/runtime.js";
+import {Runtime, Inspector, Library} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
 
 const runtime = new Runtime(Object.assign(new Library, {width: 640}));
-const main = runtime.module(notebook, …);
+const main = runtime.module(define, …);
 ```
 
 ## Notebooks as npm modules
@@ -181,7 +180,7 @@ https://api.observablehq.com/@jashkenas/my-neat-notebook.tgz?v=3
 Use this URL with **npm** or **Yarn** to install the latest version of your notebook in `node_modules` under its published name (`@jashkenas/my-neat-notebook`), along with a copy of the Observable runtime:
 
 ```sh
-npm install @observablehq/runtime@4
+npm install @observablehq/runtime@5
 npm install https://api.observablehq.com/@jashkenas/my-neat-notebook.tgz?v=3
 ```
 
@@ -204,7 +203,7 @@ As an fun, off-site example of an embedded notebook in action, see [Breakout!](h
 
 <figure>
   <img
-    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 70%"
+    class="screenshot w-70"
     src="/embedding/breakout.png" alt="Screen shot of a breakout game running in a browser, on a website that is not Observable"
   />
 </figure>
