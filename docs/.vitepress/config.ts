@@ -41,7 +41,8 @@ export default defineConfig({
            link: "/learn/index.md",
           items: [
            {text: "Overview", link: "/learn/learn-overview/learn-overview.md"},
-           {text: "Notebooks and cells", link: "/learn/learn-notebooks-cells/learn-notebooks-cells.md"}
+           {text: "Notebooks and cells", link: "/learn/learn-notebooks-cells/learn-notebooks-cells.md"},
+           {text: "Getting data into Observable", link: "learn/learn-getting-data/learn-getting-data.md"}
           ]
           },
           {text: "Enterprise and Pro team onboarding", link: "/"},
@@ -253,7 +254,6 @@ export default defineConfig({
               },
               {text: "Comments", link: "/collaborating/comments/comments.md"},
               {text: "Suggestions", link: "/collaborating/suggestions/suggestions.md"},
-              {text: "Suggestions", link: "/"},
               {text: "Following users and teams", link: "/collaborating/following/following-users-and-teams.md"},
               {text: "Tinker mode: temporary edits to a notebook", link: "/collaborating/tinker-mode/tinker-mode.md"}
             ]
