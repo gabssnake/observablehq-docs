@@ -1,6 +1,6 @@
 # Connecting to databases
 
-<span style="color: #fff; background-color: #A463F2; padding: 2px; padding-left: 4px; padding-right: 4px; border-radius: 4px; font-size: 14px; font-weight: 700; font-family: sans-serif;">Pro</span><a style="font-size: small; font-family: sans-serif; padding-left: 5px" href="/pricing">Learn more about Pro</a>
+<a class="probadge" href="https://observablehq.com/pricing">Learn more about Pro</a>
 
 Observable database clients allow secure and convenient querying of SQL databases from private notebooks. You can explore the contents of a database table using the [**Data table cell**](https://observablehq.com/@observablehq/data-table-cell?collection=@observablehq/getting-data-in-and-out), query the database using [the **SQL cell**](https://observablehq.com/@observablehq/sql-cell?collection=@observablehq/getting-data-in-and-out), or feed query results directly into visualizations.
 

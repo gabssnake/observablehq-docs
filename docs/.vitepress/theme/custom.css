@@ -6,9 +6,35 @@
   --vp-c-brand: var(--vp-c-purple);
   --vp-c-brand-dark: #8a4cd8;
   --vp-c-brand-darker: #7135be;
-  --vp-font-family-base: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, "avenir next",
+    avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif;
 }
 
+.vp-doc .probadge:before {
+  content: "Pro";
+  color: #fff;
+  background-color: #a463f2;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.vp-doc .probadge {
+  font-size: small; font-family: sans-serif;
+}
+
+.vp-doc figure img.screenshot {
+  border-radius: 2px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);
+  margin-left: 27px;
+  margin-bottom: 40px;
+  max-width: 90%;
+}
 .vp-doc figcaption {
   line-height: 20px;
   font-size: 12px;
