@@ -281,9 +281,9 @@ export default defineConfig({
             text: "Accounts and Workspaces",
             collapsed: true,
             items: [
-              {text: "Creating your account", link: "/"},
-              {text: "Deleting your account", link: "/"},
-              {text: "Workspace settings", link: "/"},
+              {text: "Creating your account", link: "/accounts-workspaces/create-account/create-account"},
+              {text: "Deleting your account", link: "/accounts-workspaces/delete-account/delete-account"},
+              {text: "Workspace settings", link: "/accounts-workspaces/workspace-settings/workspace-settings"},
               {text: "Advantages of team workspaces", link: "/"},
               {text: "Team creation and administration", link: "/"},
               {text: "Using transfer to move notebooks", link: "/"},
