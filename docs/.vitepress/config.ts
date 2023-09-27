@@ -45,7 +45,18 @@ export default defineConfig({
            {text: "Getting data into Observable", link: "learn/learn-getting-data/learn-getting-data.md"}
           ]
           },
-          {text: "Enterprise and Pro team onboarding", link: "/"},
+          {text: "Enterprise and Pro team onboarding",
+            link: "/enterprise-pro/introduction/introduction",
+            collapsed: true,
+            items: [
+              {text: "Introduction", link: "/enterprise-pro/introduction/introduction"},
+              {text: "Getting started", link: "/enterprise-pro/getting-started/getting-started"},
+              {text: "Securely connecting to data", link: "/enterprise-pro/connecting-to-data/connecting-to-data"},
+              {text: "Collaboration and sharing", link: "/enterprise-pro/collaboration-sharing/collaboration-sharing"},
+              {text: "Reusing content", link: "/enterprise-pro/reusing-content/reusing-content"},
+              {text: "Team and project management", link: "/enterprise-pro/team-project-management/team-project-management"},
+              {text: "Get help and stay informed", link: "/enterprise-pro/getting-help/getting-help"},
+            ]},
           {text: "Interactive tutorials", link: "/"},
           {text: "Quickguides", link: "/"}
         ]
