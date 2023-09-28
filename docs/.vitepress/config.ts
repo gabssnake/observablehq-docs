@@ -42,8 +42,9 @@ export default defineConfig({
           items: [
            {text: "Overview", link: "/learn/learn-overview/learn-overview.md"},
            {text: "Notebooks and cells", link: "/learn/learn-notebooks-cells/learn-notebooks-cells.md"},
-           {text: "Getting data into Observable", link: "/learn/learn-getting-data/learn-getting-data.md"},
-           {text: "Data visualization with Chart cell", link: "/learn/learn-viz-chart-cell/learn-viz-chart-cell.md"}
+           {text: "Getting data into Observable", link: "learn/learn-getting-data/learn-getting-data.md"},
+           {text: "Data visualization with Chart cell", link: "/learn/learn-viz-chart-cell/learn-viz-chart-cell.md"},
+           {text: "Observable Plot" , link: "learn/learn-plot/plot.md"}
           ]
           },
           {text: "Enterprise and Pro team onboarding",
