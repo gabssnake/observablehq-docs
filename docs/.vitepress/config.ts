@@ -159,11 +159,12 @@ export default defineConfig({
               text: "APIs",
               collapsed: true,
               items: [
-                {text: "AWS S3", link: "/"},
-                {text: "Figma", link: "/"},
-                {text: "GitHub", link: "/"},
-                {text: "Stripe", link: "/"},
-                {text: "Bitbucket", link: "/"}
+                {text: "AWS EC2", link: "https://observablehq.com/@observablehq/aws-ec2-api-starter"},
+                {text: "AWS S3", link: "https://observablehq.com/@observablehq/aws-s3-api-starter"},
+                {text: "Figma", link: "https://observablehq.com/@observablehq/figma-api-starter"},
+                {text: "GitHub", link: "https://observablehq.com/@observablehq/github-api-starter"},
+                {text: "Stripe", link: "https://observablehq.com/@observablehq/stripe-api-starter"},
+                // {text: "Bitbucket", link: "/"}
               ]
             },
             {
