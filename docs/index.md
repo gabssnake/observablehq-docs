@@ -14,7 +14,7 @@ hero:
       text: Sign Up!
       link: https://observablehq.com/login?screen=signup
     - theme: alt
-      text: Quickguides
+      text: Quick guides
     - theme: alt
       text: Interactive tutorials
 features:

@@ -27,7 +27,7 @@ export default defineConfig({
     },
     nav: [
       {text: "Sign up", link: "/"},
-      {text: "Quickguides", link: "/"}
+      {text: "Quick guides", link: "/"}
     ],
     sidebar: [
       {
@@ -42,7 +42,8 @@ export default defineConfig({
           items: [
            {text: "Overview", link: "/learn/learn-overview/learn-overview.md"},
            {text: "Notebooks and cells", link: "/learn/learn-notebooks-cells/learn-notebooks-cells.md"},
-           {text: "Getting data into Observable", link: "learn/learn-getting-data/learn-getting-data.md"}
+           {text: "Getting data into Observable", link: "/learn/learn-getting-data/learn-getting-data.md"},
+           {text: "Data visualization with Chart cell", link: "/learn/learn-viz-chart-cell/learn-viz-chart-cell.md"}
           ]
           },
           {text: "Enterprise and Pro team onboarding",
@@ -58,7 +59,7 @@ export default defineConfig({
               {text: "Get help and stay informed", link: "/enterprise-pro/getting-help/getting-help"},
             ]},
           {text: "Interactive tutorials", link: "/"},
-          {text: "Quickguides", link: "/"}
+          {text: "Quick guides", link: "/"}
         ]
       },
       {
