@@ -27,7 +27,7 @@ export default defineConfig({
     },
     nav: [
       {text: "Sign up", link: "/"},
-      {text: "Quick guides", link: "/"}
+      {text: "Quick guides", link: "https://observablehq.com/@observablehq/observable-quick-guides"}
     ],
     sidebar: [
       {
@@ -60,8 +60,8 @@ export default defineConfig({
               {text: "Team and project management", link: "/enterprise-pro/team-project-management/team-project-management"},
               {text: "Get help and stay informed", link: "/enterprise-pro/getting-help/getting-help"},
             ]},
-          {text: "Interactive tutorials", link: "/"},
-          {text: "Quick guides", link: "/"}
+          {text: "Interactive tutorials", link: "https://observablehq.com/@observablehq/hands-on-tutorials-overview"},
+          {text: "Quick guides", link: "https://observablehq.com/@observablehq/observable-quick-guides"}
         ]
       },
       {
@@ -210,6 +210,13 @@ export default defineConfig({
                  {text: "Form", link: "/inputs/inputs-overview/inputs-overview#and-more"}
                ]
               }
+            ]
+          },
+          {
+            text: "Collections",
+            collapsed: true,
+            items: [
+              {text: "Collections", link: "learn/collections"},
             ]
           },
           {
