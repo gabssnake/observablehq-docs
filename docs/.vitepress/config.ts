@@ -217,7 +217,7 @@ export default defineConfig({
             text: "Collections",
             collapsed: true,
             items: [
-              {text: "Collections", link: "learn/collections"},
+              {text: "Collections", link: "/collections/collections.md"},
             ]
           },
           {
