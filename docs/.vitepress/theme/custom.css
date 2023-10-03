@@ -11,7 +11,7 @@
     sans-serif;
 }
 
-.vp-doc .pro-label:before, .vp-doc .enterprise-label:before {
+.vp-doc .pro-label:before, .vp-doc .enterprise-label:before, .vp-doc .free-label:before {
   color: #fff;
   background-color: #a463f2;
   padding: 2px;
@@ -31,9 +31,19 @@
   content: "Enterprise";
 }
 
-.vp-doc .pro-label, .vp-doc .enterprise-label {
+.vp-doc .free-label:before {
+  content: "Free";
+  background-color: #2F9666;
+}
+
+.vp-doc .pro-label, .vp-doc .enterprise-label, .vp-doc .free-label {
   font-size: small; font-family: sans-serif;
 }
+
+.vp-doc .free-label {
+  color: #2F9666;
+}
+
 
 .vp-doc figure img.screenshot {
   border-radius: 2px;

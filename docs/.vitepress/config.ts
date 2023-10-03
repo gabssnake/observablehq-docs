@@ -289,12 +289,12 @@ export default defineConfig({
               {text: "Creating your account", link: "/accounts-workspaces/create-account/create-account"},
               {text: "Deleting your account", link: "/accounts-workspaces/delete-account/delete-account"},
               {text: "Workspace settings", link: "/accounts-workspaces/workspace-settings/workspace-settings"},
-              {text: "Advantages of team workspaces", link: "/"},
-              {text: "Team creation and administration", link: "/"},
-              {text: "Using transfer to move notebooks", link: "/"},
-              {text: "Custom SSO for Teams", link: "/"},
-              {text: "Workspace Audit Logs", link: "/"},
-              {text: "Microsoft Teams integration", link: "/"}
+              {text: "Advantages of team workspaces", link: "/accounts-workspaces/team-workspace-advantages/team-workspace-advantages"},
+              {text: "Team creation and administration", link: "/accounts-workspaces/team-creation-administration/team-creation-administration"},
+              {text: "Using transfer to move notebooks", link: "/accounts-workspaces/transfer-move-notebooks/transfer-move-notebooks"},
+              {text: "Custom SSO for Teams", link: "/accounts-workspaces/custom-sso-teams/custom-sso-teams"},
+              {text: "Workspace Audit Logs", link: "/accounts-workspaces/workspace-audit-logs/workspace-audit-logs"},
+              {text: "Microsoft Teams integration", link: "/accounts-workspaces/microsoft-teams-integration/microsoft-teams-integration"}
             ]
           },
           {
