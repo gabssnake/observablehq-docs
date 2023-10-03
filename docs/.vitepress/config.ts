@@ -312,7 +312,7 @@ export default defineConfig({
             text: "Misc",
             collapsed: true,
             items: [
-              {text: "Observable terminology", link: "/"},
+              {text: "Observable terminology", link: "/misc/observable-terminology/observable-terminology.md"},
               {text: "Observable FAQ", link: "/"},
               {text: "Standard library", link: "/"},
               {text: "Don't do this!", link: "/"},
