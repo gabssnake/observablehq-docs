@@ -279,7 +279,7 @@ export default defineConfig({
               {text: "Safe mode", link: "/debugging/safe-mode/safe-mode.md"},
               {text: "Minimap", link: "/debugging/minimap/minimap.md"},
               {text: "Module require debugger", link: "https://observablehq.com/@observablehq/module-require-debugger"},
-              {text: "How to require stubborn modules", link: "/"}
+              {text: "How to require stubborn modules", link: "/debugging/require-stubborn-modules/require-stubborn-modules.md"}
             ]
           },
           {
