@@ -76,7 +76,7 @@ export default defineConfig({
              {text: "Text", link: "/cells/cell-modes/text/text.md"},
              {text: "Data Table", link: "/cells/cell-modes/data-table/data-table.md"},
              {text: "Chart", link: "/cells/cell-modes/chart/chart-cell.md"},
-             {text: "HTML", link: "/"},
+             {text: "HTML", link: "/cells/cell-modes/html/html-cell.md"},
              {text: "SQL", link: "/cells/cell-modes/sql/sql-cell.md"},
              {text: "TeX", link: "/cells/cell-modes/tex/tex.md"}
            ]

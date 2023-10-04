@@ -1,6 +1,6 @@
 # SQL cell
 
-In addition to JavaScript, Markdown, and other [types of cells](https://observablehq.com/@observablehq/cell-modes), Observable's SQL cell type enables easy exploration of databases. You can connect a SQL cell to a [database](/data/databases/overview/overview), view [the schema of the database](/data/databases/databases-pane/databases-pane-schema-viewer#schema-viewer), write a SQL query directly in the cell, and view the results of that query as a table.
+Observable's SQL cell type enables easy exploration of databases. You can connect a SQL cell to a [database](/data/databases/overview/overview), view [the schema of the database](/data/databases/databases-pane/databases-pane-schema-viewer#schema-viewer), write a SQL query directly in the cell, and view the results of that query as a table.
 
 To use a SQL cell, you first need a database, which can either be an [external database](https://observablehq.com/@observablehq/databases), a [SQLite file](https://observablehq.com/@observablehq/sqlite), or a [custom database client](https://observablehq.com/@observablehq/database-client-specification). External databases are only allowed in private notebooks, but SQLite files and custom database clients can work in both public and private notebooks.
 
