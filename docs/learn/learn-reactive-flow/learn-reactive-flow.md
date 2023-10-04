@@ -1,4 +1,4 @@
-# Learning Observable: Reactive dataflow
+# Reactive dataflow
 
 ---
 

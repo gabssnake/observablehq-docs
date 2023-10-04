@@ -128,7 +128,7 @@ Cell names must also be unique. If two or more cells share the same name, they w
 Observable doesn't yet support destructuring assignment to declare multiple names, but we hope to add that soon.
 :::
 
-## Statements need curly braces, and `return` (or `yield`)
+## Statements need curly braces, and return or yeild
 
 A cell body can be a simple expression, such as a number or string literal, or a function call. But sometimes you want statements, such as for loops. For that you'll need curly braces, and a `return` statment to give the cell a value. Think of a cell as a function, except the function has no arguments.
 
@@ -213,7 +213,3 @@ Since everything in Observable is inherently dynamic, there's not really a need 
   />
   <figcaption>Importing lodash in one cell and using it in another.</figcaption>
 </figure>
-
-## `require` is AMD, not CommonJS
-
-[Observable's require](https://observablehq.com/@observablehq/introduction-to-require) looks a lot like CommonJS because cells implicitly await promises. But under the hood it uses the [Asynchronous Module Definition (AMD)](https://requirejs.org/docs/whyamd.html). This convention will eventually be replaced with modern ES modules and imports, but it's still useful for the present as many library authors are not yet shipping ES modules.

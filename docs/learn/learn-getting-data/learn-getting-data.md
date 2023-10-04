@@ -1,4 +1,4 @@
-# Learning Observable: Getting data into Observable
+# Getting data into Observable
 ---
 
 <figure>

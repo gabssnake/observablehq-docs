@@ -1,12 +1,12 @@
-# Connecting to databases
+# Databases
 
 <a class="pro-label" href="https://observablehq.com/pricing">Learn more about Pro</a>
 
-Observable database clients allow secure and convenient querying of SQL databases from private notebooks. You can explore the contents of a database table using the [**Data table cell**](https://observablehq.com/@observablehq/data-table-cell?collection=@observablehq/getting-data-in-and-out), query the database using [the **SQL cell**](https://observablehq.com/@observablehq/sql-cell?collection=@observablehq/getting-data-in-and-out), or feed query results directly into visualizations.
+Observable database clients allow secure and convenient querying of SQL databases from private notebooks. You can explore the contents of a database table using the [Data table cell](/cells/cell-modes/data-table/data-table), query the database using the [SQL cell](/cells/cell-modes/sql/sql-cell), or feed query results directly into visualizations.
 
   <video
-    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
-    src="/data/databases/connecting-to-databases/db-access-query.mp4" alt="Video showing an interactive SQL query connected to a text input. The user types different names into a text box, and the query results are automatically updated."
+    class="screenshot"
+    src="./db-access-query.mp4" alt="Video showing an interactive SQL query connected to a text input. The user types different names into a text box, and the query results are automatically updated."
     autoplay loop controls = "false">
   </video>
 
@@ -45,7 +45,7 @@ To get started, navigate to the **Databases tab** in the left margin of your Obs
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 40%"
-    src="/data/databases/connecting-to-databases/databases-tab.png" alt="Screen shot of the Databases tab on the Home page in an Observable account."
+    src="./databases-tab.png" alt="Screen shot of the Databases tab on the Home page in an Observable account."
   />
   <figcaption><b>Databases tab</b> access from your account <b>Home</b> or <b>Settings</b>.</figcaption>
 </figure>
@@ -55,7 +55,7 @@ This will take you to a Databases page where you can see existing databases conn
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 60%"
-    src="/data/databases/connecting-to-databases/db-setup.png" alt="Screen shot of database configuration window, where a user is prompted to input database name, type, host and port information, and user information."
+    src="./db-setup.png" alt="Screen shot of database configuration window, where a user is prompted to input database name, type, host and port information, and user information."
   />
   <figcaption>Setting up a new database client.</figcaption>
 </figure>
@@ -88,7 +88,7 @@ The [**Data table cell**](https://observablehq.com/@observablehq/data-table-cell
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
-    src="/data/databases/connecting-to-databases/dtc-database.png" alt="Screen shot of a new Data table cell, with a database selected but without a specific table selected."
+    src="./dtc-database.png" alt="Screen shot of a new Data table cell, with a database selected but without a specific table selected."
   />
   <figcaption>View and wrangle data from databases in the <b>Data table cell</b>.</figcaption>
 </figure>
@@ -99,7 +99,7 @@ The [**SQL cell**](https://observablehq.com/@observablehq/sql-cell?collection=@o
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
-    src="/data/databases/connecting-to-databases/sql-database.png" alt="Screen shot of a SQL cell, with code to query a selected database."
+    src="./sql-database.png" alt="Screen shot of a SQL cell, with code to query a selected database."
   />
   <figcaption>Query a database and view results in a <b>SQL cell</b>.</figcaption>
 </figure>

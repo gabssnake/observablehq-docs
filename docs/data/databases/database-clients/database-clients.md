@@ -2,15 +2,15 @@
 
 ## Amazon Redshift (PostgreSQL driver)
 
-See our standard instructions for [Connecting to databases](/data/databases/connecting-to-databases/connecting-to-databases), choosing PostgreSQL for the database Type where prompted.
+See our standard instructions for [Connecting to databases](/data/databases/overview/overview), choosing PostgreSQL for the database Type where prompted.
 
 ## BigQuery
 
-See our standard instructions for [Connecting to databases](/data/databases/connecting-to-databases/connecting-to-databases).
+See our standard instructions for [Connecting to databases](/data/databases/overview/overview).
 
 ## Databricks
 
-See our standard instructions for [Connecting to databases](/data/databases/connecting-to-databases/connecting-to-databases).
+See our standard instructions for [Connecting to databases](/data/databases/overview/overview).
 
 ## Datasette
 
@@ -425,15 +425,15 @@ HeavyAI = (await import("https://cdn.jsdelivr.net/npm/@heavyai/connector@7/+esm"
 
 ## MariaDB (MySQL driver)
 
-See our standard instructions for [Connecting to databases](/data/databases/connecting-to-databases/connecting-to-databases), choosing MySQL for the database Type where prompted.
+See our standard instructions for [Connecting to databases](/data/databases/overview/overview), choosing MySQL for the database Type where prompted.
 
 ## Mongo SQL
 
-See our standard instructions for [Connecting to databases](/data/databases/connecting-to-databases/connecting-to-databases).
+See our standard instructions for [Connecting to databases](/data/databases/overview/overview).
 
 ## MySQL
 
-See our standard instructions for [Connecting to databases](/data/databases/connecting-to-databases/connecting-to-databases).
+See our standard instructions for [Connecting to databases](/data/databases/overview/overview).
 
 ## Oracle
 
@@ -508,7 +508,7 @@ After the proxy is running, in one of your private notebooks, use `DatabaseClien
 
 ## PostgreSQL
 
-See our standard instructions for [Connecting to databases](/data/databases/connecting-to-databases/connecting-to-databases).
+See our standard instructions for [Connecting to databases](/data/databases/overview/overview).
 
 ## QuestDB
 
@@ -740,15 +740,15 @@ class SeafowlDatabase {
 
 ## Snowflake
 
-See our standard instructions for [Connecting to databases](/data/databases/connecting-to-databases/connecting-to-databases).
+See our standard instructions for [Connecting to databases](/data/databases/overview/overview).
 
 ## SQL Server
 
-See our standard instructions for [Connecting to databases](/data/databases/connecting-to-databases/connecting-to-databases).
+See our standard instructions for [Connecting to databases](/data/databases/overview/overview).
 
 ## SQLite
 
-See our documentation for attaching and working with [SQLite files in Observable](/data/files/file-types/sqlite/sqlite).
+See our documentation for attaching and working with [SQLite files in Observable](/data/files/file-attachments/file-attachments#sqlite).
 
 ## Trino/Presto
 

@@ -1,4 +1,4 @@
-# Learning Observable: Cell modes, reactive Markdown, and HTML
+# Cell modes, reactive Markdown, and HTML
 
 ---
 

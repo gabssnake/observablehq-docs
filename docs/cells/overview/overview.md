@@ -1,4 +1,4 @@
-# Adding cells
+# Cells
 
 All of Observable notebooks are made of **cells**. To build a notebook is to add cells to a notebook.
 
@@ -15,7 +15,7 @@ Cells can be added in a few different ways in Observable.
 The **Add cell menu** appears as the first thing you see upon opening a blank notebook. 
 
 <figure>
-  <img src="/cells/addingcells/blankNotebook.png" alt="The Add cell menu opened up as it would be by default in a new notebook." style="border-radius: 8px; overflow: hidden;"/>
+  <img src="./blankNotebook.png" alt="The Add cell menu opened up as it would be by default in a new notebook." style="border-radius: 8px; overflow: hidden;"/>
     <figcaption>The <b>Add cell menu</b>.</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ After the initial **Add cell menu** is closed, likely the first thing you will n
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
-    src="/cells/addingcells/addCellBar.png" alt="The Add bar showing the JavaScript, Text, Data, and Chart cell options."
+    src="./addCellBar.png" alt="The Add bar showing the JavaScript, Text, Data, and Chart cell options."
   />
   <figcaption>The <b>Add cell bar</b>.</figcaption>
 </figure>
@@ -58,7 +58,7 @@ The search bar is ready at the top of the **Add cell menu**. Selecting an option
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
-    src="/cells/addingcells/cellMenuSearch.png" alt="The Add cell menu search bar."
+    src="./cellMenuSearch.png" alt="The Add cell menu search bar."
   />
   <figcaption>The <b>Add cell menu</b> search bar. 
 </figcaption>
@@ -73,7 +73,7 @@ When you input freeform text into the search box that does not match any known m
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 400px"
-    src="/cells/addingcells/freeFormText.png" alt="The search bar with some JavaScript entered. Upon not finding a match, the user is suggested to insert as JavaScript, Markdown, or HTML. The Insert as JavaScript option is highlighted."
+    src="./freeFormText.png" alt="The search bar with some JavaScript entered. Upon not finding a match, the user is suggested to insert as JavaScript, Markdown, or HTML. The Insert as JavaScript option is highlighted."
   />
   <figcaption>An unmatched search query.
 </figcaption>
@@ -86,10 +86,27 @@ Cell suggestions are over to the right side of the space that the next cell's **
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
-    src="/cells/addingcells/dataTableCellMenuNextSteps.png" alt="A Data table cell with button suggestions, Create chart and Convert to SQL, together highlighted by a red rounded-edged rectangle."
+    src="./dataTableCellMenuNextSteps.png" alt="A Data table cell with button suggestions, Create chart and Convert to SQL, together highlighted by a red rounded-edged rectangle."
   />
   <figcaption>The <b>Create chart</b> button and <b>Convert to SQL</b> button.
 </figcaption>
 </figure>
 
 Some suggestions create a new cell below in an effort to keep you moving to the next logical step in the analysis process (e.g. the **Create chart** suggestion in the screenshot above). Suggestions that show an arrow indicate that the focused cell will be non-destructively transformed into another cell (e.g. the **Convert to SQL** suggestion in the screenshot above).
+
+## Anchor links
+
+You can link directly to a section of the notebook with an auto-generated anchor link using the "Copy Link" action in the cell menu. This will copy a special URL to the clipboard like: 
+
+```
+https://observablehq.com/@observablehq/a-taste-of-observable#cell-0
+
+```
+
+<figure>
+  <img
+    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
+    src="./linkCell.png" alt="A notebook titled 'Linking to a cell' with the first cell's cell menu opened showing a set of dropdown options. The fourth option down 'Copy Link' is highlighted light blue with a tooltip that says 'Copy a link to this cell'."
+  />
+  <figcaption>Using the cell menu to select the "Copy Link" option.</figcaption>
+</figure>

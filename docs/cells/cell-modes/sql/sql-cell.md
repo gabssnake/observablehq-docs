@@ -1,6 +1,6 @@
 # SQL cell
 
-In addition to JavaScript, Markdown, and other [types of cells](https://observablehq.com/@observablehq/cell-modes), Observable's SQL cell type enables easy exploration of databases. You can connect a SQL cell to a database, view the schema of the database, write a SQL query directly in the cell, and view the results of that query as a table.
+In addition to JavaScript, Markdown, and other [types of cells](https://observablehq.com/@observablehq/cell-modes), Observable's SQL cell type enables easy exploration of databases. You can connect a SQL cell to a [database](/data/databases/overview/overview), view [the schema of the database](/data/databases/databases-pane/databases-pane-schema-viewer#schema-viewer), write a SQL query directly in the cell, and view the results of that query as a table.
 
 To use a SQL cell, you first need a database, which can either be an [external database](https://observablehq.com/@observablehq/databases), a [SQLite file](https://observablehq.com/@observablehq/sqlite), or a [custom database client](https://observablehq.com/@observablehq/database-client-specification). External databases are only allowed in private notebooks, but SQLite files and custom database clients can work in both public and private notebooks.
 
@@ -17,23 +17,6 @@ Below, we show what's possible with SQL cells using a sample SQLite database cli
   />
   <figcaption>The Chinook sample database as it appears in a SQL cell.</figcaption>
 </figure>
-
-## Schema browser
-
-The schema browser shows the structure of a database. It helps you compose a SQL query by showing which tables are available, which columns each table has, and the associated column types.
-
-<figure>
-  <img
-    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 300px"
-    src="/cells/cell-modes/sql/schemaBrowser.png" alt="An open databases pane reveals the schema browser."
-  />
-  <figcaption>The schema browser in the databases pane.</figcaption>
-</figure>
-
-
-To view the tables in a particular database, click on the database to expand it. You can click on the database again to collapse it. Likewise, to show or hide the columns in a particular table, click on the table to expand or collapse it. The names of the columns are shown on the left; the types are shown on the right in gray.
-
-For convenience, you can click on the <svg style="position: relative; top: 0.1em; display: inline !important;" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"><path d="M10.2929 8.29291L11.7071 9.70712L9.4142 12L11.7071 14.2929L10.2929 15.7071L6.58577 12L10.2929 8.29291Z"></path><path d="M8 11L14 11L14 13L8 13L8 11Z"></path><path d="M2 3C2 1.89543 2.89543 1 4 1H10L14 5V8H12V6H9V3H4V13H6V15H4C2.89543 15 2 14.1046 2 13V3Z"></path></svg> button to quickly insert a SQL cell already connected to the given database.
 
 ## Example SQL queries
 

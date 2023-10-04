@@ -1,4 +1,4 @@
-# Using inputs in Observable
+# Observable Inputs
 
 These lightweight interface components—buttons, sliders, dropdowns, tables, and the like—help you explore data and build interactive displays. For a walkthrough of how you might use these to support data analysis, see [Hello, Inputs!](https://observablehq.com/@observablehq/hello-inputs). 
 

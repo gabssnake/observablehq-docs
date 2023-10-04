@@ -1,4 +1,4 @@
-# Learning Observable: Notebooks and cells
+# Notebooks & cells
 
 ---
 

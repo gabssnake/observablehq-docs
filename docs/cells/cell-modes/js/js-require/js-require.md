@@ -1,4 +1,4 @@
-# `require` in Observable
+# Require
 
 Observable's [`require`](https://github.com/observablehq/stdlib/blob/master/README.md#require) lets you use thousands of open-source JavaScript modules in your notebooks. If you can think of a task—say date manipulation, math, or music—there's probably already a module that can help. Just as you can [reuse code from other notebooks using imports](https://observablehq.com/@observablehq/introduction-to-imports), you can load JavaScript modules using `require`.
 
@@ -12,7 +12,7 @@ Here's an example requiring [Simple Statistics](https://www.npmjs.com/package/si
   <figcaption>Loading the JavaScript module Simple Statistics and using it to calculate standard deviation.</figcaption>
 </figure>
 
-## How to use `require`
+## How to use require
 
 The argument to the `require` function can be any of the following:
 
@@ -86,7 +86,7 @@ Specifying multiple inputs—multiple module names, or URLs, or module names wit
   <figcaption>Loading in two different D3 libraries that work together.</figcaption>
 </figure>
 
-## `require`'s return value
+## Require's return value
 
 `require` returns a promise with the module's contents, or, if the module can't be loaded, a promise rejection.
 
@@ -112,7 +112,7 @@ In some cases, `require` won't find a module or won't be able to load it, and wi
   <figcaption>Using `require` but unable to resolve the promise.</figcaption>
 </figure>
 
-## `require`'s behavior
+## Require's behavior
 
 By default, require uses modules published on [npm](https://www.npmjs.com/), a service that hosts over 1&nbsp;million different modules<a href='http://www.modulecounts.com/'>*</a> created by thousands of individual developers. Because notebooks run in a web environment, we use another service, [jsDelivr](https://www.jsdelivr.com/), that takes npm's modules and makes them accessible to browsers.
 
@@ -134,7 +134,7 @@ If you're using `require` with a URL, be sure to follow these requirements for t
   - Use a file with a correct Content-Type header to be used as JavaScript. For example, `raw.githubusercontent.com` serves JavaScript files as `text/plain`, which your browser cannot execute as JavaScript - which is why we often use `jsDelivr` instead.
 :::
 
-### Requirements for `require`
+### Requirements for require
 
 The `require` function works with modules that include AMD distributions and that point to them in the `jsdelivr`, `unpkg` or `main` fields of their `package.json` files.<a href='#amdNotes'>*</a> Unfortunately, not all modules are compatible: some rely on the built-in functions in Node.js that have no equivalent in the browser, and others don't include an AMD file that `require` can use.
 
@@ -142,11 +142,11 @@ The `require` function works with modules that include AMD distributions and tha
 `require` works with a _subset_ of AMD modules that includes the vast majority of such modules: the strict specification is [documented by d3-require](https://github.com/d3/d3-require#d3-require), the module that powers Observable's `require`.
 :::
 
-## `import`: a way to require ES6 modules
+## Import: a way to require ES6 modules
 
 In addition to `require`, which uses the widely-supported [AMD](https://github.com/amdjs/amdjs-api/blob/master/AMD.md) standard, we also support [dynamic import](https://developers.google.com/web/updates/2017/11/dynamic-import), a new way of requiring modules that aims to replace custom module loaders such as `require`.
 
-import is a native browser feature that's just now gaining adoption. It only works in the newest versions of Chrome, Safari, Firefox, and Edge. It also requires modules to be published in the [ES6 module specification](http://exploringjs.com/es6/ch_modules.html), which is still gaining adoption.
+`import` is a native browser feature that's just now gaining adoption. It only works in the newest versions of Chrome, Safari, Firefox, and Edge. It also requires modules to be published in the [ES6 module specification](http://exploringjs.com/es6/ch_modules.html), which is still gaining adoption.
 
 If the library is also published to npm, [Skypack](https://www.skypack.dev) provides a fast CDN; otherwise, consider [attaching a file](https://observablehq.com/@observablehq/file-attachments).
 
@@ -157,10 +157,3 @@ If the library is also published to npm, [Skypack](https://www.skypack.dev) prov
   />
   <figcaption>Using `import` to dynamically import D3 via Skypack CDN.</figcaption>
 </figure>
-
-## Additional resources
-
-- [A debugger for require](https://observablehq.com/@observablehq/module-require-debugger?collection=@observablehq/visualizing-debugging-notebooks)
-- [A guide to troubleshooting require](https://observablehq.com/@observablehq/how-to-require-stubborn-modules?collection=@observablehq/visualizing-debugging-notebooks)
-- [An introduction to imports](https://observablehq.com/@observablehq/import?collection=@observablehq/notebook-fundamentals) (like require, but across notebooks)
-- [d3-require, the module that powers Observable’s require](https://github.com/d3/d3-require)

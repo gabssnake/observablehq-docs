@@ -33,52 +33,43 @@ export default defineConfig({
       {
         text: "Getting Started",
         items: [
-          {text: "Why Observable", link: "/"},
-          {text: "A taste of Observable", link: "https://observablehq.com/@observablehq/a-taste-of-observable"},
-
-          {text: "Learning Observable", 
+          {text: "Why Observable?", link: "/"},
+          {text: "Observable overview", 
           collapsed: true,
-           link: "/learn/index.md",
+           link: "/learn/learn-overview/learn-overview.md",
           items: [
-           {text: "Overview", link: "/learn/learn-overview/learn-overview.md"},
-           {text: "Notebooks and cells", link: "/learn/learn-notebooks-cells/learn-notebooks-cells.md"},
-           {text: "Getting data into Observable", link: "learn/learn-getting-data/learn-getting-data.md"},
-           {text: "Data visualization with Chart cell", link: "/learn/learn-viz-chart-cell/learn-viz-chart-cell.md"},
+           {text: "Notebooks & cells", link: "/learn/learn-notebooks-cells/learn-notebooks-cells.md"},
+           {text: "Getting data in", link: "learn/learn-getting-data/learn-getting-data.md"},
+           {text: "Chart cell", link: "/learn/learn-viz-chart-cell/learn-viz-chart-cell.md"},
            {text: "Observable Plot" , link: "learn/learn-plot/plot.md"},
-           {text: "Cell modes, reactive Markdown, and HTML", link: "learn/learn-cell-modes/learn-cell-modes.md"},
+           {text: "Cell modes", link: "learn/learn-cell-modes/learn-cell-modes.md"},
            {text: "Reactive dataflow", link: "/learn/learn-reactive-flow/learn-reactive-flow.md"}
           ]
           },
-          {text: "Enterprise and Pro team onboarding",
-            link: "/enterprise-pro/introduction/introduction",
+          {text: "Enterprise and Pro",
             collapsed: true,
             items: [
-              {text: "Introduction", link: "/enterprise-pro/introduction/introduction"},
-              {text: "Getting started", link: "/enterprise-pro/getting-started/getting-started"},
               {text: "Securely connecting to data", link: "/enterprise-pro/connecting-to-data/connecting-to-data"},
               {text: "Collaboration and sharing", link: "/enterprise-pro/collaboration-sharing/collaboration-sharing"},
               {text: "Reusing content", link: "/enterprise-pro/reusing-content/reusing-content"},
               {text: "Team and project management", link: "/enterprise-pro/team-project-management/team-project-management"},
               {text: "Get help and stay informed", link: "/enterprise-pro/getting-help/getting-help"},
             ]},
-          {text: "Interactive tutorials", link: "https://observablehq.com/@observablehq/hands-on-tutorials-overview"},
+          {text: "Hands-on tutorials", link: "https://observablehq.com/@observablehq/hands-on-tutorials-overview"},
           {text: "Quick guides", link: "https://observablehq.com/@observablehq/observable-quick-guides"}
         ]
       },
       {
         text: "Cells",
         collapsed: true,
+        link: "/cells/overview/overview.md",
         items: [
-          {text: "Adding cells", link: "/cells/addingcells/addingcells.md"},
-          {text: "Cell Modes",
-          collapsed: true,
-           items: [
              {text: "JavaScript",
+             link: "/cells/cell-modes/js/js-cells/js-code.md",
              collapsed: true,
               items: [
-                {text: "JavaScript code in Observable", link: "/cells/cell-modes/js/js-cells/js-code.md"},
                 {text: "Observable JavaScript", link: "/cells/cell-modes/js/observable-js/observable-js.md"},
-                {text: "Require in Observable", link: "/cells/cell-modes/js/js-require/js-require.md"}
+                {text: "Require", link: "/cells/cell-modes/js/js-require/js-require.md"}
               ]
              },
              {text: "Text", link: "/cells/cell-modes/text/text.md"},
@@ -86,10 +77,8 @@ export default defineConfig({
              {text: "Chart", link: "/cells/cell-modes/chart/chart-cell.md"},
              {text: "HTML", link: "/"},
              {text: "SQL", link: "/cells/cell-modes/sql/sql-cell.md"},
-             {text: "Mathematical", link: "/cells/cell-modes/math/math.md"}
+             {text: "TeX", link: "/cells/cell-modes/tex/tex.md"}
            ]
-          }
-         ]
         },
         {
             text: "Data",
@@ -99,41 +88,40 @@ export default defineConfig({
               text: "Files",
               collapsed: true,
               items: [
-                {text: "File attachments", link: "/data/files/file-attachments/file-attachments.md"},
-                {text: "Supported file types",
+                {text: "File attachments", link: "/data/files/file-attachments/file-attachments.md",
                 collapsed: true,
                  items: [
-                  {text: "XLSX", link: "/data/files/file-attachments/file-attachments#xlsx-files"},
-                  {text: "JSON", link: "/data/files/file-attachments/file-attachments#json-files"},
+                  {text: "Apache Arrow", link: "/data/files/file-attachments/file-attachments#apache-arrow-files"},
+                  {text: "Apache Parquet", link: "/data/files/file-attachments/file-attachments#apache-parquet-files"},
+                  {text: "Binary", link: "/data/files/file-attachments/file-attachments#binary-files"},
                   {text: "CSV", link: "/data/files/file-attachments/file-attachments#csv-files"},
+                  {text: "Image", link: "/data/files/file-attachments/file-attachments#image-files"},
+                  {text: "JSON", link: "/data/files/file-attachments/file-attachments#json-files"},
+                  {text: "SQLite", link: "/data/files/file-attachments/file-attachments#sqlite"},
+                  {text: "TSV", link: "/data/files/file-attachments/file-attachments#tsv-files"},
+                  {text: "Video", link: "/data/files/file-attachments/file-attachments#video-files"},
+                  {text: "XLSX", link: "/data/files/file-attachments/file-attachments#xlsx-files"},
                   {text: "ZIP", link: "/data/files/file-attachments/file-attachments#zip-files"},
-                  {text: "SQLite", link: "/data/files/file-types/sqlite/sqlite.md"},
-                  {text: "DuckDB", link: "/data/files/file-types/duckdb/duckdb.md"},
-                  {text: "Apache Arrow", link: "/data/files/file-attachments/file-attachments#arrow-files"},
-                  {text: "Apache Parquet", link: "/data/files/file-attachments/file-attachments#parquet-files"}
                  ]
                 },
-                {text: "Cloud files", link: "/data/files/cloud-files/cloud-files.md"},
-                {text: "Supported integrations",
+                {text: "Cloud files", link: "/data/files/cloud-files/cloud-files.md",
                 collapsed: true,
                  items: [
-                  {text: "Microsoft Teams", link: "/data/files/supported-integrations/microsoft-teams/microsoft-teams.md"},
-                  {text: "Google Drive", link: "/"}
-
-                 ]
-                }
+                    {text: "Microsoft Teams", link: "/data/files/cloud-files/microsoft-teams/microsoft-teams.md"},
+                    {text: "Google Drive", link: "/"}
+                  ]
+                },
               ]
 
             },
             {
               text: "Databases",
               collapsed: true,
+              link: "/data/databases/overview/overview.md",
               items: [
-                {text: "Connecting to databases", link: "/data/databases/connecting-to-databases/connecting-to-databases.md"},
-                {text: "Database pane and schema viewer", link: "/data/databases/databases-pane/databases-pane-schema-viewer.md"},
+                {text: "Database pane", link: "/data/databases/databases-pane/databases-pane-schema-viewer.md"},
                 {text: "Self-hosted proxies", link: "/data/databases/self-hosted-proxies/self-hosted-proxies.md"},
-                {text: "DatabaseClient specification", link: "/data/databases/databaseclient-specification/databaseclient-specification.md"},
-                {text: "Database clients",
+               {text: "Database clients",
                 collapsed: true,
                  items: [
                   {text: "Amazon Red Shift", link: "/data/databases/database-clients/database-clients#amazon-redshift-postgresql-driver"},
@@ -154,7 +142,9 @@ export default defineConfig({
                   {text: "SQL Server", link: "/data/databases/database-clients/database-clients#sql-server"},
                   {text: "SQLite", link: "/data/databases/database-clients/database-clients#sqlite"},
                   {text: "Trino/Presto", link: "/data/databases/database-clients/database-clients#trino-presto"},
-                 ]}
+                 ]},
+                 {text: "Custom Database Clients", link: "/data/databases/databaseclient-specification/databaseclient-specification.md"},
+                
               ]
             },
             {
@@ -190,27 +180,22 @@ export default defineConfig({
           {
             text: "Inputs",
             collapsed: true,
+            link: "/inputs/inputs-overview/inputs-overview.md",
             items: [
-              {text: "Using inputs in Observable", link: "/inputs/inputs-overview/inputs-overview.md"},
-              {text: "Input types",
-              collapsed: true,
-               items: [
-                 {text: "Button", link: "/inputs/inputs-overview/inputs-overview#button"},
-                 {text: "Toggle", link: "/inputs/inputs-overview/inputs-overview#toggle"},
-                 {text: "Checkbox", link: "/inputs/inputs-overview/inputs-overview#checkbox"},
-                 {text: "Radio", link: "/inputs/inputs-overview/inputs-overview#radio"},
-                 {text: "Range", link: "/inputs/inputs-overview/inputs-overview#range"},
-                 {text: "Select", link: "/inputs/inputs-overview/inputs-overview#select"},
-                 {text: "Text", link: "/inputs/inputs-overview/inputs-overview#text"},
-                 {text: "Textarea", link: "/inputs/inputs-overview/inputs-overview#textarea"},
-                 {text: "Date/Datetime", link: "/inputs/inputs-overview/inputs-overview#date"},
-                 {text: "Color", link: "/inputs/inputs-overview/inputs-overview#color"},
-                 {text: "Search", link: "/inputs/inputs-overview/inputs-overview#search"},
-                 {text: "Table", link: "/inputs/inputs-overview/inputs-overview#table"},
-                 {text: "File", link: "/inputs/inputs-overview/inputs-overview#file"},
-                 {text: "Form", link: "/inputs/inputs-overview/inputs-overview#and-more"}
-               ]
-              }
+              {text: "Button", link: "/inputs/inputs-overview/inputs-overview#button"},
+              {text: "Toggle", link: "/inputs/inputs-overview/inputs-overview#toggle"},
+              {text: "Checkbox", link: "/inputs/inputs-overview/inputs-overview#checkbox"},
+              {text: "Radio", link: "/inputs/inputs-overview/inputs-overview#radio"},
+              {text: "Range", link: "/inputs/inputs-overview/inputs-overview#range"},
+              {text: "Select", link: "/inputs/inputs-overview/inputs-overview#select"},
+              {text: "Text", link: "/inputs/inputs-overview/inputs-overview#text"},
+              {text: "Textarea", link: "/inputs/inputs-overview/inputs-overview#textarea"},
+              {text: "Date/Datetime", link: "/inputs/inputs-overview/inputs-overview#date"},
+              {text: "Color", link: "/inputs/inputs-overview/inputs-overview#color"},
+              {text: "Search", link: "/inputs/inputs-overview/inputs-overview#search"},
+              {text: "Table", link: "/inputs/inputs-overview/inputs-overview#table"},
+              {text: "File", link: "/inputs/inputs-overview/inputs-overview#file"},
+              {text: "Form", link: "/inputs/inputs-overview/inputs-overview#and-more"}
             ]
           },
           {

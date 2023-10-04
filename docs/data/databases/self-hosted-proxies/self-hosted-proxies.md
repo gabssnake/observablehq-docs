@@ -8,7 +8,7 @@ So we also provide a small [open-source](https://github.com/observablehq/databas
 
 ## Setup
 
-### Install `observablehq/database-proxy` with npm or Yarn
+### Install `observablehq/database-proxy` with npm or yarn
 
 ```
 $ npm install -g @observablehq/database-proxy

@@ -1,4 +1,4 @@
-# Learning Observable: Data visualization with Chart cell
+# Data visualization with Chart cell
 
 ---
 

@@ -1,4 +1,4 @@
-# Learning Observable: Observable overview
+# Observable overview
 
 ---
 
