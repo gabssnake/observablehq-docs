@@ -31,6 +31,21 @@ Besides providing options to add any of the top four cell types - *JavaScript*, 
 - Import a notebook cell or library
 - Browse sample data sets
 
+### Searching the Add cell menu
+
+The search bar is ready at the top of the **Add cell menu**. Selecting an option will insert the corresponding type of cell into your notebook. 
+
+<figure>
+  <img
+    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
+    src="./cellMenuSearch.png" alt="The Add cell menu search bar."
+  />
+  <figcaption>The <b>Add cell menu</b> search bar. 
+</figcaption>
+</figure>
+
+All of the components and code snippets are immediately executable, so you can quickly preview them with some included sample data. Just replace the sample references to see your own data represented.
+
 ## Add cell bar
 
 After the initial **Add cell menu** is closed, likely the first thing you will notice in a blank notebook, is the **Add cell bar**:
@@ -51,20 +66,6 @@ Like the **Add cell menu**, the **Add cell bar** highlights the most commonly us
 
 The bar appears below _the currently focused cell_. 
 
-## Searching the Add cell menu
-
-The search bar is ready at the top of the **Add cell menu**. Selecting an option will insert the corresponding type of cell into your notebook. 
-
-<figure>
-  <img
-    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
-    src="./cellMenuSearch.png" alt="The Add cell menu search bar."
-  />
-  <figcaption>The <b>Add cell menu</b> search bar. 
-</figcaption>
-</figure>
-
-All of the components and code snippets are immediately executable, so you can quickly preview them with some included sample data. Just replace the sample references to see your own data represented.
 
 ### Freeform text input
 
@@ -79,7 +80,7 @@ When you input freeform text into the search box that does not match any known m
 </figcaption>
 </figure>
 
-## Cell Suggestions
+## Cell suggestions
 
 Cell suggestions are over to the right side of the space that the next cell's **Add cell bar** occupies:
 

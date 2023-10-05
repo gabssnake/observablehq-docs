@@ -1,4 +1,4 @@
-# Learning Observable: User inputs and interactivity
+# Inputs & interactivity
 
 ---
 
@@ -9,7 +9,7 @@
   />
 </figure>
 
-Notebooks on Observable are reactive, and with [Observable Inputs](https://observablehq.com/@observablehq/inputs) you can quickly create interface components (e.g. buttons, sliders, text boxes, etc.) that allow users to interact with data. 
+Notebooks on Observable are reactive, and with [Observable Inputs](/inputs/inputs-overview/inputs-overview) you can quickly create interface components (e.g. buttons, sliders, text boxes, etc.) that allow users to interact with data. 
 
 For example, a histogram of Olympic athlete weights is shown below. The drop-down selector at the top lets you pick the sport you're interested in. 
 
@@ -23,7 +23,7 @@ For example, a histogram of Olympic athlete weights is shown below. The drop-dow
   <figcaption>The dropdown created in the top cell determines the sport being evaluated in the chart below.</figcaption>
 </figure>
 
-The drop-down selector is one of the built-in [Observable Inputs](https://observablehq.com/@observablehq/inputs?collection=@observablehq/inputs). Inputs are part of the Observable standard library that helps create notebooks by providing commonly-used components. An input by itself simply creates the HTML and JavaScript code to display a component, like a slider:
+The drop-down selector is one of the built-in Observable Inputs. Inputs are part of the Observable standard library that helps create notebooks by providing commonly-used components. An input by itself simply creates the HTML and JavaScript code to display a component, like a slider:
 
 <figure>
   <img
@@ -211,23 +211,6 @@ We will cover this way of writing little functions in greater detail in later se
 
 Learn more about Observable Inputs and creating interactive charts and tables: 
 
-- [Introduction to Inputs](https://observablehq.com/@observablehq/inputs)
 - [Hello, Inputs!](https://observablehq.com/@observablehq/hello-inputs)
 - Quick Guides: [Exploring Olympic athletes data](https://observablehq.com/guide/athletes) and
 [Electricity use vs. temperature](https://observablehq.com/guide/electricity)
-
-## Next Steps
-
-Next, let's dive into the way [Observable uses JavaScript](https://observablehq.com/@observablehq/learning-observable-javascript-and-observable?collection=@observablehq/intro-to-observable).
-
-
-<figure>
-  <img
-    class="screenshot w-40"
-    src="/learn/learn-inputs/new-users-course-sm-inputs.png" alt="A small illustration of some input related graphics and a hand pointing to one of them."
-  />
-</figure>
-
-
-
-

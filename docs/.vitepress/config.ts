@@ -44,7 +44,7 @@ export default defineConfig({
            {text: "Observable Plot" , link: "learn/learn-plot/plot.md"},
            {text: "Cell modes", link: "learn/learn-cell-modes/learn-cell-modes.md"},
            {text: "Reactive dataflow", link: "/learn/learn-reactive-flow/learn-reactive-flow.md"},
-           {text: "User inputs and interactivity", link: "/learn/learn-inputs/learn-inputs.md"}
+           {text: "Inputs and interactivity", link: "/learn/learn-inputs/learn-inputs.md"}
           ]
           },
           {text: "Enterprise and Pro",
@@ -78,7 +78,8 @@ export default defineConfig({
              {text: "Chart", link: "/cells/cell-modes/chart/chart-cell.md"},
              {text: "HTML", link: "/cells/cell-modes/html/html-cell.md"},
              {text: "SQL", link: "/cells/cell-modes/sql/sql-cell.md"},
-             {text: "TeX", link: "/cells/cell-modes/tex/tex.md"}
+             {text: "TeX", link: "/cells/cell-modes/tex/tex.md"},
+             {text: "AI Assist", link: ""}
            ]
         },
         {
@@ -172,109 +173,89 @@ export default defineConfig({
            ],
           },
           {
-            text: "AI Assist",
-            collapsed: true,
-            items: [
-              {text: "Developing with AI Assist", link: "/"}
-            ]
-          },
-          {
             text: "Inputs",
             collapsed: true,
             link: "/inputs/inputs-overview/inputs-overview.md",
             items: [
               {text: "Button", link: "/inputs/inputs-overview/inputs-overview#button"},
-              {text: "Toggle", link: "/inputs/inputs-overview/inputs-overview#toggle"},
               {text: "Checkbox", link: "/inputs/inputs-overview/inputs-overview#checkbox"},
+              {text: "Color", link: "/inputs/inputs-overview/inputs-overview#color"},
+              {text: "Date/Datetime", link: "/inputs/inputs-overview/inputs-overview#date"},
+              {text: "File", link: "/inputs/inputs-overview/inputs-overview#file"},
+              {text: "Form", link: "/inputs/inputs-overview/inputs-overview#and-more"},
               {text: "Radio", link: "/inputs/inputs-overview/inputs-overview#radio"},
               {text: "Range", link: "/inputs/inputs-overview/inputs-overview#range"},
+              {text: "Search", link: "/inputs/inputs-overview/inputs-overview#search"},
               {text: "Select", link: "/inputs/inputs-overview/inputs-overview#select"},
+              {text: "Table", link: "/inputs/inputs-overview/inputs-overview#table"},
               {text: "Text", link: "/inputs/inputs-overview/inputs-overview#text"},
               {text: "Textarea", link: "/inputs/inputs-overview/inputs-overview#textarea"},
-              {text: "Date/Datetime", link: "/inputs/inputs-overview/inputs-overview#date"},
-              {text: "Color", link: "/inputs/inputs-overview/inputs-overview#color"},
-              {text: "Search", link: "/inputs/inputs-overview/inputs-overview#search"},
-              {text: "Table", link: "/inputs/inputs-overview/inputs-overview#table"},
-              {text: "File", link: "/inputs/inputs-overview/inputs-overview#file"},
-              {text: "Form", link: "/inputs/inputs-overview/inputs-overview#and-more"}
+              {text: "Toggle", link: "/inputs/inputs-overview/inputs-overview#toggle"},
             ]
           },
           {
-            text: "Collections",
+            text: "Notebooks",
             collapsed: true,
             items: [
               {text: "Collections", link: "/collections/collections.md"},
-            ]
-          },
-          {
-            text: "Reusing Work",
-            collapsed: true,
-            items: [
+              {
+                text: "Debugging",
+                collapsed: true,
+                items: [
+                  {text: "Safe mode", link: "/debugging/safe-mode/safe-mode.md"},
+                  {text: "Minimap", link: "/debugging/minimap/minimap.md"},
+                  {text: "Module require debugger", link: "https://observablehq.com/@observablehq/module-require-debugger"},
+                  {text: "How to require stubborn modules", link: "/debugging/require-stubborn-modules/require-stubborn-modules.md"}
+                ]
+              },
               {text: "Forking", link: "/"},
-              {text: "Importing",
+              {text: "History", link: "/saving-and-history/notebook-history/notebook-history.md"},
+              {text: "Imports",
               collapsed: true,
                items: [
                 {text: "Imports", link: "/reusing/imports/introduction-to-imports#imports"},
                 {text: "Version locking for imports", link: "/"},
                ]
               },
+              {text: "Saving", link: "/saving-and-history/how-saving-works/how-saving-works.md"},
               {text: "Templates",
               collapsed: true,
                items: [
                 {text: "Using templates", link: "/reusing/templates/templates#existing-templates"},
                 {text: "Custom templates", link: "/reusing/templates/templates#custom-templates"}
                ]
-              }
+              },
             ]
           },
           {
-            text: "Embedding",
+            text: "Embeds",
+            link: "/embedding/basic",
             collapsed: true,
             items: [
-              {text: "Basic Embedding", link: "/embedding/basic"},
-              {text: "Advanced Embedding and downloading", link: "/embedding/advanced"},
-              {text: "Embed a notebook in a React app", link: "/embedding/how-to-embed-a-notebook-in-a-react-app"},
-              {text: "Auto-resizing embed", link: "/"},
+              {text: "Advanced embeds", link: "/embedding/advanced"},
               {text: "API and notebook keys", link: "/embedding/api-keys"},
-              {text: "Troubleshooting embedding", link: "/embedding/troubleshooting"}
+              {text: "Embed in a React app", link: "/embedding/how-to-embed-a-notebook-in-a-react-app"},
+              {text: "Troubleshooting", link: "/embedding/troubleshooting"}
             ]
           },
           {
-            text: "Saving and History",
+            text: "Collaboration",
             collapsed: true,
             items: [
-              {text: "How saving works", link: "/saving-and-history/how-saving-works/how-saving-works.md"},
-              {text: "Notebook history", link: "/saving-and-history/notebook-history/notebook-history.md"}
-            ]
-          },
-          {
-            text: "Collaborating",
-            collapsed: true,
-            items: [
+              {text: "Comments", link: "/collaborating/comments/comments.md"},
+              {text: "Following", link: "/collaborating/following/following-users-and-teams.md"},
               {text: "Sharing work",
               collapsed: true,
                items: [
+                {text: "Licenses", link: "/collaborating/sharing-work/licenses/licenses.md"},
+                {text: "Pause live edits", link: "/collaborating/sharing-work/pause-live-edits/pause-live-edits.md"},
+                {text: "Search", link: "/collaborating/sharing-work/search/search.md"},
                 {text: "Sharing", link: "/collaborating/sharing-work/sharing/sharing.md"},
-                {text: "Searching", link: "/collaborating/sharing-work/search/search.md"},
-                {text: "Pausing live edits in public notebooks", link: "/collaborating/sharing-work/pause-live-edits/pause-live-edits.md"},
-                {text: "Tags: Organizing work", link: "/collaborating/sharing-work/tags/tags.md"},
-                {text: "Licenses", link: "/collaborating/sharing-work/licenses/licenses.md"}
+                {text: "Tags", link: "/collaborating/sharing-work/tags/tags.md"},
                ]
               },
-              {text: "Comments", link: "/collaborating/comments/comments.md"},
               {text: "Suggestions", link: "/collaborating/suggestions/suggestions.md"},
-              {text: "Following users and teams", link: "/collaborating/following/following-users-and-teams.md"},
-              {text: "Tinker mode: temporary edits to a notebook", link: "/collaborating/tinker-mode/tinker-mode.md"}
-            ]
-          },
-          {
-            text: "Debugging",
-            collapsed: true,
-            items: [
-              {text: "Safe mode", link: "/debugging/safe-mode/safe-mode.md"},
-              {text: "Minimap", link: "/debugging/minimap/minimap.md"},
-              {text: "Module require debugger", link: "https://observablehq.com/@observablehq/module-require-debugger"},
-              {text: "How to require stubborn modules", link: "/debugging/require-stubborn-modules/require-stubborn-modules.md"}
+              {text: "Tinker mode", link: "/collaborating/tinker-mode/tinker-mode.md"}
             ]
           },
           {

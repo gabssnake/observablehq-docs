@@ -135,9 +135,3 @@ To create a new notebook, scroll to the top of any page on Observable and you wi
 </div>
 
 You can share notebooks with others to edit together, or keep them to yourself. Notebooks can connect to a variety of data sources including local files, spreadsheets, APIs and for Enterprise and Pro accounts, cloud files and databases.
-
-We'll go into more details on notebooks later in this series, however.
-
-## Next steps
-
-Now it's time to [load in some data](https://observablehq.com/@observablehq/learning-observable-getting-data-into-observable?collection=@observablehq/intro-to-observable)!

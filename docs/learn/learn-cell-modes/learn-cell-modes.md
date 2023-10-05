@@ -91,14 +91,3 @@ The mode of a cell can be changed at any time by clicking the menu on the left o
 [//]: # (The following is written in HTML so as to make possible the highlighting of backticks in code styling that occurs in this text)
 
 <p>JavaScript cells can also contain Markdown and HTML content. In fact, this is how Observable's cell modes used to work. You might still see notebooks where a cell begins with a cryptic-looking <code>md&#96;</code> or <code>html&#96;</code>. This lets you include Markdown or HTML inside of a JavaScript cell, which can still be useful, but it is much easier now to just change the cell mode using the menu on the left side of the cell.</p>
-
-## Next Steps
-
-Now that you're familiar with cell types on Observable, learn about its [reactive data flow model](https://observablehq.com/@observablehq/learning-observable-reactive-dataflow?collection=@observablehq/intro-to-observable).
-
-<figure>
-  <img
-    class="screenshot w-50"
-    src="/learn/learn-cell-modes/new-users-course-sm-cell-modes@1.png" alt="An illustration of some data and software related items."
-  />
-</figure>

@@ -9,7 +9,7 @@ Embedding lets you put a working version of your notebooks inside another websit
 
 It shows two cells in one: one to control the sort order, and one to show the chart. And this isn’t an [import](https://observablehq.com/@observablehq/introduction-to-imports) — it’s just HTML, which means it can go anywhere on the web.
 
-## How to embed notebooks
+## How to embed
 
 Embedding is done with the Embed tool, which you can find it in the cell menu (to the left of every cell) and in the notebook menu (in the top right of the page):
 
@@ -51,20 +51,16 @@ If you have an Enterprise account, you have the option to remove the Observable 
 </figure>
 
 
-## Embedding Private Notebooks
+## Embed private notebooks
 
 Private notebooks are not embeddable by default. To embed a private notebook, you can use a notebook key or API key with the embed code.
 
 See [API and Notebook Keys](https://observablehq.com/@observablehq/api-keys) for more details.
 
-## Embed Environment
+## Embed environment
 
 The Runtime-based embedding methods are limited to environments where you can run your own scripts. But since the Iframe isolates that in a different document, it can go in more controlled WordPress blogs, content management systems like Gatsby, and note-taking software like Notion or Roam. Closer to home, you can now embed cells in posts on the Observable forum. It even makes embedding easier on Observable itself, since the Iframe can go directly in an \`html\` template literal! (If you want to pass data in and out of the cells, you’re still better off using [imports](https://observablehq.com/@observablehq/imports).)
 
 Some sites like Medium and Reddit that don’t allow arbitrary HTML still “unfurl” certain links you paste to interactive versions, using a standard called [oEmbed](https://oembed.com/). Under the Iframe code, click “Copy URL only” and paste it elsewhere; depending on the site, it will expand to the full interactive embed. If the site uses Embedly, the Iframe can automatically resize to match the height of your content.
 
 “Embed” means different things to different people, and this only covers a small fraction of the ways you can take the work you do here elsewhere. It doesn’t help you embed in Slack, Facebook, Twitter, or LinkedIn, which don’t support arbitrary interactive embeds; we still use the notebook thumbnail for those. To share your work in an email, presentation, or other document, you might try “Download PNG” in the cell menu for SVG or canvas cells. To capture something dynamic, you can use Shift-Command-5 (⇧⌘5) to record part of the screen. 
-
-## Auto-resizing embeds
-
-It is possible to create embeds that respond to the size of the browser window. [This notebook describes how it works](https://observablehq.com/@observablehq/auto-resizing-embed?collection=@observablehq/embedding-notebooks) and offers a simple function that can be imported into your own notebooks.

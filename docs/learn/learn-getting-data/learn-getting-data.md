@@ -132,6 +132,4 @@ While the existing features in a Data Table cell cover some common data wranglin
 
 You can switch over to SQL code using the 'Convert to SQL mode' button, which will convert your current query to SQL and keep adding or editing custom SQL code.
 
-To dive deeper on Data table cell, check out our [official documentation](https://observablehq.com/@observablehq/data-table-cell).
-
-Next up, learn about how to visualize data with [Observable's Chart cell](https://observablehq.com/@observablehq/learning-observable-data-visualization-with-chart-cell)
+To dive deeper on Data table cell, check out our [official documentation](/cells/cell-modes/data-table/data-table).

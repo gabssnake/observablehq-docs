@@ -1,4 +1,4 @@
-# Advanced embedding and downloading
+# Advanced embeds
 
 So, you’ve written your magnum opus: a notebook full of splendor and delight. Maybe you’ve embedded it on your blog for all to see. Now, the problem is — How do you integrate its nifty charts into your web app? How do you save it to your hard drive, to file away for posterity alongside your old Word documents and vacation photos?
 
@@ -6,9 +6,9 @@ As you’ve probably noticed by now, Observable notebooks are a little different
 
 Luckily, Observable provides an [open-source runtime](https://github.com/observablehq/runtime) which stitches together a notebook’s cells into a dependency graph and brings them to life through evaluation; a [standard library](https://github.com/observablehq/stdlib), which provides helpful functions for working with HTML, SVG, generators, files and promises among [other useful sundries](https://observablehq.com/@observablehq/standard-library); and an [inspector](https://github.com/observablehq/inspector), which implements the default strategy for rendering DOM and JavaScript values into a live web page — although you’re free to write your own.
 
-## Embedding a cell on a web page
+## Embed a cell
 
-In the [introduction to embedding](/embedding/basic), you saw how named cells from any published or shared notebook — a chart, a visualization, a widget — are quick and easy to embed.
+[Previously](/embedding/basic), you saw how named cells from any published or shared notebook — a chart, a visualization, a widget — are quick and easy to embed.
 
 Click **Embed** in the menu to the left of the cell below to open the Embed tool. The default Iframe method is fairly self-contained; this time, select **Runtime with JavaScript** from the dropdown so we can dive into it.
 
@@ -209,4 +209,4 @@ As an fun, off-site example of an embedded notebook in action, see [Breakout!](h
 </figure>
 
 
-[This CodePen](https://codepen.io/jashkenas/pen/gzZXPG) embeds a [simple notebook](https://observablehq.com/@jashkenas/tick) that ticks once a second. [Philippe Rivière](https://observablehq.com/@fil) wrote [a brief tutorial](https://visionscarto.net/observable-jekyll/) that demonstrates embedding [Tissot’s indicatrix](https://observablehq.com/@fil/tissots-indicatrix) into a blog. And as an arcane demonstration of the dark arts of recursive embedding, here is [a notebook embedding *itself!*](https://observablehq.com/@jashkenas/ouroboros-a-notebook-embeds-itself) 🤯
+[This CodePen](https://codepen.io/jashkenas/pen/gzZXPG) embeds a [simple notebook](https://observablehq.com/@jashkenas/tick) that ticks once a second. [Philippe Rivière](https://observablehq.com/@fil) wrote [a brief tutorial](https://visionscarto.net/observable-jekyll/) that demonstrates embedding [Tissot’s indicatrix](https://observablehq.com/@fil/tissots-indicatrix) into a blog. And as an arcane demonstration of the dark arts of recursive embedding, here is [a notebook embedding *itself!*](https://observablehq.com/@jashkenas/ouroboros-a-notebook-embeds-itself)

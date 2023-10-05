@@ -120,14 +120,3 @@ Our interactive documentation covers all of the core concepts and functions you'
 [Electricity use vs. temperature](https://observablehq.com/guide/electricity)
 
 With Observable's Data Table cells, SQL cells, and Plot in your toolkit, you can quickly get up-and-running with interactive data exploration and visualization.
-
-In our next tutorial, we'll go through [cell modes, reactive Markdown and HTML](https://observablehq.com/@observablehq/learning-observable-cell-modes-reactive-markdown-and-html?collection=@observablehq/intro-to-observable).
-
-<figure>
-  <img
-    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:2px;margin-bottom:40px;max-width: 300px"
-    src="/learn/learn-plot/new-users-course-sm-plot.png" alt="An illustration of seemingly data related items."
-  />
-  <figcaption></figcaption>
-</figure>
-

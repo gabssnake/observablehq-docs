@@ -68,7 +68,3 @@ The Minimap also provides another way of reordering cells in a notebook. You can
 Reactive code might seem unusual at first, and it is best understood by just trying it out. Once you're used to this way of working, you will likely miss it in other environments. Not having to worry about the order in which values are defined, and not having to re-run computations when things change, eliminates many sources of bugs and lets you build much more readable and better structured code.
 
 The reactive model also gives you more control over how your code is organized and presented. In longer notebooks, it is common to move computations, data preparation, etc., into an appendix at the end of the notebook (or perhaps in an entirely separate notebook — see [importing](https://observablehq.com/d/3455fc643fe664d7?collection=@observablehq/intro-to-observable)) without having to call those data prep functions before creating the charts or running an analysis. 
-
-## Next steps
-
-Next, let's look at how Observable's reactive data flow works with [user inputs and interactivity](https://observablehq.com/@observablehq/learning-observable-user-inputs-and-interactivity?collection=@observablehq/intro-to-observable).
