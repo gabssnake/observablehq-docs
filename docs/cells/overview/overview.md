@@ -111,3 +111,55 @@ https://observablehq.com/@observablehq/a-taste-of-observable#cell-0
   />
   <figcaption>Using the cell menu to select the "Copy Link" option.</figcaption>
 </figure>
+
+## Naming cells
+
+Naming cells allows you to call the cell elsewhere in a notebook, or import cell contents for reuse in another notebook. 
+
+Name a **JavaScript cell** in one of four ways: 
+
+- Name a cell expression:
+
+```js
+expressionName = 8
+```
+
+- Name a block:
+
+```js
+blockName = {return 80;}
+```
+
+- Name a function declaration: 
+
+```js
+function functionName() {return 800;}
+```
+
+- Name a class:
+
+```js
+class className {}
+```
+
+Name a **Markdown cell** by entering the name of the cell in the following area (visible at the bottom of your browser window when you are editing the cell):
+
+<figure>
+  <img
+    class="screenshot"
+    src="./name-markdown-cell.png"
+    alt="Menu bar that appears in the bottom of the browser window when editing a Markdown cell, with a blank text box on the left where a user can enter a cell name."
+  />
+</figure>
+
+For specialty cells like the Data Table, SQL and Chart cell, you can either edit the cell name from the menu in the bottom of the browser as shown above, or you can update the cell name in the top left of the cell: 
+
+<figure>
+  <img
+    class="screenshot"
+    src="./dtc-cell-name.png"
+    alt="Screen shot of a Data table cell, with a text box in the upper left reading 'addCellNameHere'."
+  />
+</figure>
+
+
