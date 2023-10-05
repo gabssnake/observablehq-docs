@@ -58,7 +58,7 @@ With imports, teams can create their own component libraries. Notebooks in your 
 
 1. In your account, create a new collection named **Templates** (learn more about [How to create a new collection](https://observablehq.com/@observablehq/collections?collection=@observablehq/editing-publishing-collaborating)).
 2. Create the new custom template, either from scratch or by [forking](https://observablehq.com/@observablehq/fork-share-merge) one of the pre-defined [Observable Templates](https://observablehq.com/templates).
-3. Add the new custom template to your **Templates** collection by clicking **Add to collection** from the notebook menu (<svg style="margin: 0 .25rem;display:inline;" viewBox="0 0 16 16" fill="currentColor" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><circle r="2" cy="8" cx="2"></circle><circle r="2" cy="8" cx="8"></circle><circle r="2" cy="8" cx="14"></circle></svg>). 
+3. Add the new custom template to your **Templates** collection by clicking **Add to collection** from the notebook menu (<Icon name="threeHorizDots" />). 
 
 Now that you've learned some strategies for collaborating and reusing content within your team, continue to the next section to learn some essentials for [team and project management](/enterprise-pro/team-project-management/team-project-management) when working in Observable.
 

@@ -37,8 +37,7 @@ Then copy the **Iframe** code at the bottom and paste it into just about anywher
 In many cases, you’re done! But if you want more control or a deeper integration, you can try the other embedding methods, **Runtime with JavaScript** or **Runtime with React**, which generate code that uses the [Runtime API](https://observablehq.com/@observablehq/downloading-and-embedding-notebooks) to render your cells. Since the code is running directly on your site, and the cells are inserted directly into your document, you can rearrange the cells and style them with CSS; they do not have our site styles. Since the appearance will depend on the site into which you’re embedding, our preview here is only a rough indication of how your embed will look.
 
 ### Iframe embeds without the Observable attribution banner
-
-<a class="enterprise-label" href="https://observablehq.com/pricing">Learn more about Enterprise</a>
+<PricingBadge level="enterprise" />
 
 If you have an Enterprise account, you have the option to remove the Observable brand attribution banner by checking the box next to **Remove attribution banner**:
 

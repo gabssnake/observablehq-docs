@@ -1,6 +1,5 @@
 # Using secrets with Observable
-
-<span style="color: #fff; background-color: #A463F2; padding: 2px; padding-left: 4px; padding-right: 4px; border-radius: 4px; font-size: 14px; font-weight: 700; font-family: sans-serif;">Pro</span><a style="font-size: small; font-family: sans-serif; padding-left: 5px" href="/pricing">Learn more about Pro</a>
+<PricingBadge level="pro" />
 
 Observable is a collaborative programming environment—for reading, sharing, forking, importing—but it’s also for private work. The **Secrets** feature makes it easier to securely access private data and APIs on Observable. This feature lets you analyze or visualize private data while keeping your secrets, well, *secret*.
 

@@ -53,7 +53,7 @@ Importing a dataset works just like importing any other cell: copy the import st
 
 ## File attachments
 
-You can attach files to notebooks by clicking on the paper clip in the toolbar on the right <svg style="display: inline !important" width="16" height="16" viewBox="0 0 16 16" fill="" stroke-width="2"><path d="M7.19855 2.52175L7.88131 1.79111L7.19855 2.52175ZM12.6 11.7764L13.2581 11.0234L12.6 11.7764ZM5.34191 6.76078L11.9419 12.5293L13.2581 11.0234L6.65809 5.2549L5.34191 6.76078ZM10.8958 13.6864L3.35462 6.63385L1.98852 8.09459L9.52965 15.1472L10.8958 13.6864ZM6.51578 3.25238L13.8172 10.0755L15.1828 8.61419L7.88131 1.79111L6.51578 3.25238ZM3.08395 3.55474C3.91017 2.45311 5.50967 2.31219 6.51578 3.25238L7.88131 1.79111C6.0058 0.0384695 3.02413 0.301162 1.48395 2.35474L3.08395 3.55474ZM3.35462 6.63385C2.49183 5.82695 2.37516 4.49978 3.08395 3.55474L1.48395 2.35474C0.162683 4.11642 0.380169 6.59044 1.98852 8.09459L3.35462 6.63385ZM11.993 13.6551C11.6977 13.9647 11.2082 13.9786 10.8958 13.6864L9.52965 15.1472C10.6432 16.1886 12.3878 16.1388 13.4402 15.0356L11.993 13.6551ZM11.9419 12.5293C12.2764 12.8216 12.2996 13.3337 11.993 13.6551L13.4402 15.0356C14.5328 13.8903 14.4499 12.0651 13.2581 11.0234L11.9419 12.5293Z"></path></svg>, which opens the files pane. Then, either click on the plus sign or drag and drop files straight onto the pane to upload files for use. Attached files can be easily accessed by using the _insert into notebook_ function to insert a new cell with a code snippet like the one below.
+You can attach files to notebooks by clicking on the paper clip in the toolbar on the right <Icon name="paperclip" />, which opens the files pane. Then, either click on the plus sign or drag and drop files straight onto the pane to upload files for use. Attached files can be easily accessed by using the _insert into notebook_ function to insert a new cell with a code snippet like the one below.
 
 <figure>
   <img
@@ -68,10 +68,9 @@ The `Laser_Report_2020.xlsx` file, which contains data that the laser strikes ta
 Learn more about Observable's [File Attachments](https://observablehq.com/@observablehq/file-attachments). 
 
 ## Cloud files
+<PricingBadge level="pro" />
 
-<span style="color: #fff; background-color: #A463F2; padding: 2px; padding-left: 4px; padding-right: 4px; border-radius: 4px; font-size: 14px; font-weight: 700; font-family: sans-serif;">Pro</span><a style="font-size: small; font-family: sans-serif; padding-left: 5px" href="/pricing">Learn more about Pro</a>
-
-For Pro and Enterprise workspaces, Observable supports access to [cloud files](https://observablehq.com/@observablehq/cloud-files) hosted on Google or Microsoft. To connect, open up the files pane by clicking the <svg style="display: inline !important" width="16" height="16" viewBox="0 0 16 16" fill="" stroke-width="2"><path d="M7.19855 2.52175L7.88131 1.79111L7.19855 2.52175ZM12.6 11.7764L13.2581 11.0234L12.6 11.7764ZM5.34191 6.76078L11.9419 12.5293L13.2581 11.0234L6.65809 5.2549L5.34191 6.76078ZM10.8958 13.6864L3.35462 6.63385L1.98852 8.09459L9.52965 15.1472L10.8958 13.6864ZM6.51578 3.25238L13.8172 10.0755L15.1828 8.61419L7.88131 1.79111L6.51578 3.25238ZM3.08395 3.55474C3.91017 2.45311 5.50967 2.31219 6.51578 3.25238L7.88131 1.79111C6.0058 0.0384695 3.02413 0.301162 1.48395 2.35474L3.08395 3.55474ZM3.35462 6.63385C2.49183 5.82695 2.37516 4.49978 3.08395 3.55474L1.48395 2.35474C0.162683 4.11642 0.380169 6.59044 1.98852 8.09459L3.35462 6.63385ZM11.993 13.6551C11.6977 13.9647 11.2082 13.9786 10.8958 13.6864L9.52965 15.1472C10.6432 16.1886 12.3878 16.1388 13.4402 15.0356L11.993 13.6551ZM11.9419 12.5293C12.2764 12.8216 12.2996 13.3337 11.993 13.6551L13.4402 15.0356C14.5328 13.8903 14.4499 12.0651 13.2581 11.0234L11.9419 12.5293Z"></path></svg> icon, then click on "Cloud Files." You'll be directed to authenticate and grant access to Observable.
+For Pro and Enterprise workspaces, Observable supports access to [cloud files](https://observablehq.com/@observablehq/cloud-files) hosted on Google or Microsoft. To connect, open up the files pane by clicking the <Icon name="paperclip" /> icon, then click on "Cloud Files." You'll be directed to authenticate and grant access to Observable.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
     <video src="/learn/learn-getting-data/cloud.mov" alt="Screen capture of an Observable notebook showing a user choosing Cloud files from the files pane, selecting to connect to Google cloud files, then being prompted to input authentication information." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
@@ -80,8 +79,7 @@ For Pro and Enterprise workspaces, Observable supports access to [cloud files](h
 Once you've authenticated, you'll see all your cloud files available to import directly into a notebook, just like you would with file attachments. To learn more, read our walk through on [cloud files](https://observablehq.com/@observablehq/cloud-files).
 
 ## Database access
-
-<span style="color: #fff; background-color: #A463F2; padding: 2px; padding-left: 4px; padding-right: 4px; border-radius: 4px; font-size: 14px; font-weight: 700; font-family: sans-serif;">Pro</span><a style="font-size: small; font-family: sans-serif; padding-left: 5px" href="/pricing">Learn more about Pro</a>
+<PricingBadge level="pro" />
 
 Connecting to secure databases is available for [Enterprise and Pro Teams](https://observablehq.com/pricing) on Observable. But anyone can work with databases in Observable, for example by uploading one, or creating a new one right in Observable from existing files (CSV, parquet, arrow, XLSX, txt, and more!) using an in-browser database client like [DuckDB](https://observablehq.com/@observablehq/duckdb).
 

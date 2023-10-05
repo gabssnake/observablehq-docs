@@ -2,7 +2,7 @@
 
 Observable keeps a history of all edits made to a notebook, allowing you to undo (and redo) changes whenever needed. Notebook history lets authors edit fearlessly with the knowledge that they can always go back to a previous version of their notebook. It also allows teams to better understand how their notebooks have changed over time, and who edited them.
 
-To access a notebook's history, click the <svg style="display: inline !important;" width="16" height="16" viewBox="0 0 16 16" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"><path d="M8 14C11.3137 14 14 11.3137 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14ZM8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16Z"></path><path d="M7 3H9V7.58579L11.2071 9.79289L9.79289 11.2071L7 8.41421V3Z"></path></svg> in the right sidebar. The History pane will open to show all history states visible to you.
+To access a notebook's history, click the <Icon name="clock" /> in the right sidebar. The History pane will open to show all history states visible to you.
 
 ## Comparing versions
 

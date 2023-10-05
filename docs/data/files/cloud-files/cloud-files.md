@@ -1,6 +1,5 @@
 # Cloud files
-
-<span style="color: #fff; background-color: #A463F2; padding: 2px; padding-left: 4px; padding-right: 4px; border-radius: 4px; font-size: 14px; font-weight: 700; font-family: sans-serif;">Pro</span><a style="font-size: small; font-family: sans-serif; padding-left: 5px" href="/pricing">Learn more about Pro</a>
+<PricingBadge level="pro" />
 
 In Observable, you can currently access cloud files in *Microsoft Office 365, Microsoft OneDrive* as well as *Google Drive*. Support for more cloud providers will be added over time, based on user requests.
 

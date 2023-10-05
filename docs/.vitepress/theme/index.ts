@@ -2,11 +2,15 @@ import DefaultTheme from "vitepress/theme-without-fonts";
 import {useData} from "vitepress";
 import {watch} from "vue";
 import "./custom.css";
+import PricingBadge from "./PricingBadge.vue";
+import Icon from "./Icon.vue";
 
 export default {
   extends: DefaultTheme,
   enhanceApp({app, router}) {
     Object.defineProperty(app.config.globalProperties, "$dark", {get: () => useData().isDark.value});
+    app.component('PricingBadge', PricingBadge);
+    app.component('Icon', Icon);
     enableAnalytics(router);
   }
 };

@@ -4,7 +4,7 @@ The **Databases pane** provides quick access to and exploration of database conn
 
 ## Databases pane
 
-Open the **Databases pane** by clicking on the database icon (<svg style="margin-bottom: -0.15em; display: inline !important;" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13 4c0 .246-.225.737-1.205 1.227C10.875 5.687 9.535 6 8 6c-1.535 0-2.876-.313-3.795-.773C3.225 4.737 3 4.246 3 4c0-.246.225-.737 1.205-1.227C5.125 2.313 6.465 2 8 2c1.535 0 2.876.313 3.795.773C12.775 3.263 13 3.754 13 4z" stroke="currentColor" stroke-width="2"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.236c1.227-.55 2-1.348 2-2.236v4.25C14 10.045 11.314 11 8 11s-6-.955-6-2.75V4c0 .888.772 1.687 2 2.236V8.147c.065.063.216.173.542.312C5.291 8.778 6.496 9 8 9c1.504 0 2.709-.222 3.458-.542.326-.139.477-.25.542-.312V6.236zm.042 1.853c.003 0-.002.014-.023.037.01-.026.02-.037.023-.037zm-8.084 0c.003 0 .013.011.023.037-.02-.023-.026-.036-.023-.037z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.236c1.227-.55 2-1.348 2-2.236v8c0 1.795-2.686 3-6 3s-6-1.205-6-3V4c0 .888.772 1.687 2 2.236V11.934c.046.068.196.23.629.439C5.37 12.733 6.553 13 8 13s2.63-.268 3.371-.627c.433-.21.583-.37.629-.439V6.236zm.018 5.663s-.001.008-.01.021c.005-.014.009-.021.01-.021zm-8.036 0c.001 0 .005.007.01.021-.009-.014-.01-.021-.01-.021z" fill="currentColor"></path></svg>) in the right margin of your browser window:
+Open the **Databases pane** by clicking on the database icon (<Icon name="database" />) in the right margin of your browser window:
 
 <figure>
   <img

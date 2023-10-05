@@ -11,40 +11,6 @@
     sans-serif;
 }
 
-.vp-doc .pro-label:before, .vp-doc .enterprise-label:before, .vp-doc .free-label:before {
-  color: #fff;
-  background-color: #a463f2;
-  padding: 2px;
-  padding-left: 4px;
-  padding-right: 4px;
-  border-radius: 4px;
-  font-size: 14px;
-  font-weight: 700;
-  margin-right: 5px;
-}
-
-.vp-doc .pro-label:before {
-  content: "Pro";
-}
-
-.vp-doc .enterprise-label:before {
-  content: "Enterprise";
-}
-
-.vp-doc .free-label:before {
-  content: "Free";
-  background-color: #2F9666;
-}
-
-.vp-doc .pro-label, .vp-doc .enterprise-label, .vp-doc .free-label {
-  font-size: small; font-family: sans-serif;
-}
-
-.vp-doc .free-label {
-  color: #2F9666;
-}
-
-
 .vp-doc figure img.screenshot {
   border-radius: 2px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);

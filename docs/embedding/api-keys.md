@@ -1,5 +1,5 @@
 # API and notebook keys
-<a class="pro-label" href="https://observablehq.com/pricing">Learn more about Pro</a>
+<PricingBadge level="pro" />
 
 **API keys** allow you to [download and embed](https://observablehq.com/@observablehq/embeds?collection=@observablehq/embedding-notebooks) any of your _private_ notebooks with a single secure key. For example, you can use these keys to embed a visualization from any private notebook in your workspace into your internal dashboard connected to private data from your intranet, or download a tarball of your private notebook and bundle it into an app.
 

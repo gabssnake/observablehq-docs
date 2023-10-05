@@ -10,7 +10,7 @@ To suggest changes to a notebook:
 
 1. **Fork the notebook** to create your own copy
 2. In your forked copy, make your changes—add cells, delete cells, make edits, or leave a comment
-3. Send your changes to the original author using **Suggest** from the notebook menu (<svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="display: inline !important;"><path fillRule="evenodd" clipRule="evenodd" d="M4.5 8C4.5 8.82843 3.82843 9.5 3 9.5C2.17157 9.5 1.5 8.82843 1.5 8C1.5 7.17157 2.17157 6.5 3 6.5C3.82843 6.5 4.5 7.17157 4.5 8ZM9.5 8C9.5 8.82843 8.82843 9.5 8 9.5C7.17157 9.5 6.5 8.82843 6.5 8C6.5 7.17157 7.17157 6.5 8 6.5C8.82843 6.5 9.5 7.17157 9.5 8ZM14.5 8C14.5 8.82843 13.8284 9.5 13 9.5C12.1716 9.5 11.5 8.82843 11.5 8C11.5 7.17157 12.1716 6.5 13 6.5C13.8284 6.5 14.5 7.17157 14.5 8Z" fill="currentColor"/></svg>) in the top right of your forked copy
+3. Send your changes to the original author using **Suggest** from the notebook menu (<Icon name="threeHorizDots" />) in the top right of your forked copy
 
 <figure>
   <img

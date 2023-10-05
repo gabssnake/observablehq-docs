@@ -4,7 +4,7 @@ The **Chart cell** provides a no-code option for building, exploring, and custom
 
 ## Adding a Chart cell
 
-To add a Chart cell, open the add cell menu by clicking the gray plus sign (<svg width="17" height="15" viewBox="-8.5 -7.5 17 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" style="position: relative; top: 2px; display: inline !important;"><path d="M0,-4.5V4.5M-4.5,0H4.5" class="jsx-7869de80898f8af0 "></path></svg>) in the left margin of a notebook. From there, two things can happen: 
+To add a Chart cell, open the add cell menu by clicking the gray plus sign (<Icon name="plus" />) in the left margin of a notebook. From there, two things can happen: 
 
 1. If the previous cell in your notebook contains data (including in a JavaScript, data table, or SQL cell), you will see a suggestion to "Create chart" in gold in the add cell menu. Click to insert a new Chart cell using the previous cell's data.
 
@@ -217,7 +217,7 @@ One way to enact the conversion is to hit the 'Convert to JavaScript' button at 
   <figcaption>The Convert to JavaScript button in a focused chart cell.</figcaption>
 </figure>
 
-You can also select the <svg width="17" height="15" viewBox="-8.5 -7.5 17 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" style="position: relative; top: 2px; display: inline !important;"><path d="M0,-4.5V4.5M-4.5,0H4.5" class="jsx-7869de80898f8af0 "></path></svg> add cell button below a Chart cell and you'll see this suggestion:
+You can also select the <Icon name="plus" /> add cell button below a Chart cell and you'll see this suggestion:
 
 <figure>
   <img

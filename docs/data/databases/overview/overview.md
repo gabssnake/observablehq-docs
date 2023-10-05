@@ -1,6 +1,5 @@
-# Databases
-
-<a class="pro-label" href="https://observablehq.com/pricing">Learn more about Pro</a>
+# Connecting to databases
+<PricingBadge level="pro" />
 
 Observable database clients allow secure and convenient querying of SQL databases from private notebooks. You can explore the contents of a database table using the [Data table cell](/cells/cell-modes/data-table/data-table), query the database using the [SQL cell](/cells/cell-modes/sql/sql-cell), or feed query results directly into visualizations.
 

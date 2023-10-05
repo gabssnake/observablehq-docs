@@ -5,7 +5,7 @@ Here's a quick explanation of how Observable saves your work.
 ## Editing your own notebooks
 
 Changes you make to a notebook are saved automatically as soon as you do any of the following:
-- Clicking the Play button (<svg style="display: inline !important;" width="16" height="16" class="db bump" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" fill="none"><path d="M4 3L12 8L4 13Z"></path></svg>)
+- Clicking the Play button (<Icon name="playButton" />)
 - Typing "Shift-Enter"
 - Focusing a different cell
 - Opening your notebook in another window (this is useful with [safe mode](https://observablehq.com/@observablehq/safe-mode?collection=@observablehq/visualizing-debugging-notebooks))

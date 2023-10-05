@@ -42,6 +42,15 @@ Here are a few alternate methods to attach files in a notebook:
 - Create a JavaScript cell, then copy a file type that `FileAttachment` knows how to interpret (the ones mentioned in this notebook) to your clipboard. Paste the file into the JavaScript cell, and Observable will automatically upload the file and create the proper `FileAttachment` call.
 - Press Shift-Command-U (⇧⌘U) while editing a cell. This will display a modal for selecting files. Once you have selected and uploaded the file, Observable automatically inserts the proper `FileAttachment` call for the file.
 
+## Private file storage
+<PricingBadge level="enterprise" />
+
+Private file storage allows Enterprise users the ability to use their own organization-managed s3 bucket for the purposes of storing file attachments. This is different from the default file attachment experience, which is to store them in an Observable-managed bucket. If you have more stringent data security practices in your Enterprise organization that require you to store data on organization controlled infrastructure, this is the right option for storing your notebooks’ file attachments.
+
+If you are a workspace admin for your organizations’ Enterprise account and want to utilize this feature, follow our [instructions to enable Private file storage](https://observablehq.com/@observablehq/private-file-storage-setup).
+
+For more technical details regarding how the Private file storage experience compares with the default experience and how the two will interact, see our [FAQ reference notebook](https://observablehq.com/@observablehq/private-file-storage-faq).
+
 ## Using files
 
 
