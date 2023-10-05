@@ -108,15 +108,8 @@ export default defineConfig({
                   {text: "ZIP", link: "/data/files/file-attachments/file-attachments#zip-files"},
                  ]
                 },
-                {text: "Cloud files", link: "/data/files/cloud-files/cloud-files.md",
-                collapsed: true,
-                 items: [
-                    {text: "Microsoft Teams", link: "/data/files/cloud-files/microsoft-teams/microsoft-teams.md"},
-                    {text: "Google Drive", link: "/"}
-                  ]
-                },
+              {text: "Cloud files", link: "/data/files/cloud-files/cloud-files.md"}
               ]
-
             },
             {
               text: "Databases",
