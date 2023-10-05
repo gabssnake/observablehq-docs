@@ -138,7 +138,7 @@ export default defineConfig({
                   {text: "Oracle", link: "/data/databases/database-clients/database-clients#oracle"},
                   {text: "PostgreSQL", link: "/data/databases/database-clients/database-clients#postgresql"},
                   {text: "QuestDB", link: "/data/databases/database-clients/database-clients#questdb"},
-                  {text: "Seafowl", link: "/data/databases/database-clients/database-clients#seafowl"},
+                  // {text: "Seafowl", link: "/data/databases/database-clients/database-clients#seafowl"},
                   {text: "Snowflake", link: "/data/databases/database-clients/database-clients#snowflake"},
                   {text: "SQL Server", link: "/data/databases/database-clients/database-clients#sql-server"},
                   {text: "SQLite", link: "/data/databases/database-clients/database-clients#sqlite"},
@@ -214,7 +214,7 @@ export default defineConfig({
               {text: "Importing",
               collapsed: true,
                items: [
-                {text: "Imports", link: "/"},
+                {text: "Imports", link: "/reusing/imports/introduction-to-imports#imports"},
                 {text: "Version locking for imports", link: "/"},
                ]
               },
