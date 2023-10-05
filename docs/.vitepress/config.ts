@@ -210,7 +210,7 @@ export default defineConfig({
                   {text: "How to require stubborn modules", link: "/debugging/require-stubborn-modules/require-stubborn-modules.md"}
                 ]
               },
-              {text: "Forking", link: "/"},
+              {text: "Forking", link: "/reusing/forking/forking"},
               {text: "History", link: "/saving-and-history/notebook-history/notebook-history.md"},
               {text: "Imports", link: "/reusing/imports/imports.md"},
               {text: "Saving", link: "/saving-and-history/how-saving-works/how-saving-works.md"},
@@ -263,6 +263,7 @@ export default defineConfig({
               {text: "Workspace settings", link: "/accounts-workspaces/workspace-settings/workspace-settings"},
               {text: "Advantages of team workspaces", link: "/accounts-workspaces/team-workspace-advantages/team-workspace-advantages"},
               {text: "Team creation and administration", link: "/accounts-workspaces/team-creation-administration/team-creation-administration"},
+              {text: "Team notebook permissions", link: "/accounts-workspaces/permissions/permissions"},
               {text: "Using transfer to move notebooks", link: "/accounts-workspaces/transfer-move-notebooks/transfer-move-notebooks"},
               {text: "Custom SSO for Teams", link: "/accounts-workspaces/custom-sso-teams/custom-sso-teams"},
               {text: "Workspace Audit Logs", link: "/accounts-workspaces/workspace-audit-logs/workspace-audit-logs"},
