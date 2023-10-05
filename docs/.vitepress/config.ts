@@ -221,8 +221,8 @@ export default defineConfig({
               {text: "Templates",
               collapsed: true,
                items: [
-                {text: "Using templates", link: "/"},
-                {text: "Custom templates", link: "/"}
+                {text: "Using templates", link: "/reusing/templates/templates#existing-templates"},
+                {text: "Custom templates", link: "/reusing/templates/templates#custom-templates"}
                ]
               }
             ]
