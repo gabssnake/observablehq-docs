@@ -211,13 +211,7 @@ export default defineConfig({
               },
               {text: "Forking", link: "/"},
               {text: "History", link: "/saving-and-history/notebook-history/notebook-history.md"},
-              {text: "Imports",
-              collapsed: true,
-               items: [
-                {text: "Imports", link: "/reusing/imports/introduction-to-imports#imports"},
-                {text: "Version locking for imports", link: "/"},
-               ]
-              },
+              {text: "Imports", link: "/reusing/imports/imports.md"},
               {text: "Saving", link: "/saving-and-history/how-saving-works/how-saving-works.md"},
               {text: "Templates",
               collapsed: true,
