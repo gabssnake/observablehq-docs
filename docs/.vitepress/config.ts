@@ -290,7 +290,9 @@ export default defineConfig({
               {text: "Custom SSO for Teams", link: "/accounts-workspaces/custom-sso-teams/custom-sso-teams"},
               {text: "Workspace Audit Logs", link: "/accounts-workspaces/workspace-audit-logs/workspace-audit-logs"},
               {text: "Microsoft Teams integration", link: "/accounts-workspaces/microsoft-teams-integration/microsoft-teams-integration"},
+              {text: "Profile", link: "/accounts-workspaces/profile/profile"},
               {text: "Trash", link: "/accounts-workspaces/trash/trash"}
+
             ]
           },
           {
