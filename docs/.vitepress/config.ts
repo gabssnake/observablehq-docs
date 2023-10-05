@@ -44,7 +44,8 @@ export default defineConfig({
            {text: "Observable Plot" , link: "learn/learn-plot/plot.md"},
            {text: "Cell modes", link: "learn/learn-cell-modes/learn-cell-modes.md"},
            {text: "Reactive dataflow", link: "/learn/learn-reactive-flow/learn-reactive-flow.md"},
-           {text: "Inputs and interactivity", link: "/learn/learn-inputs/learn-inputs.md"}
+           {text: "Inputs and interactivity", link: "/learn/learn-inputs/learn-inputs.md"},
+           {text: "JavaScript and Observable", link: "/learn/learn-js/learn-js.md"}
           ]
           },
           {text: "Enterprise and Pro",
