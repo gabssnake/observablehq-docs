@@ -16,7 +16,7 @@ Embedding is done with the Embed tool, which you can find it in the cell menu (t
 <figure>
   <img
     class="screenshot w-70"
-    src="/embedding/embed_and_embed_cells_v2.png" alt="Screen shot of open sidebar showing the Embed option, next to the notebook menu in the top right also showing the Export->Embed cells option highlighted"
+    src="/embedding/assets/embed_and_embed_cells_v2.png" alt="Screen shot of open sidebar showing the Embed option, next to the notebook menu in the top right also showing the Export->Embed cells option highlighted"
   />
   <figcaption>Cell menu on left; notebook menu on right.</figcaption>
 </figure>
@@ -28,7 +28,7 @@ Then copy the **Iframe** code at the bottom and paste it into just about anywher
 <figure>
   <img
     class="screenshot w-70"
-    src="/embedding/embed_with_preview_bar_chart_new.png" alt="Screen shot of embed dialog with options shown on the left and the preview of the embedded content on the right"
+    src="/embedding/assets/embed_with_preview_bar_chart_new.png" alt="Screen shot of embed dialog with options shown on the left and the preview of the embedded content on the right"
   />
   <figcaption>Note that the <strong>Preview</strong> may not appear if the window is insufficiently wide.
 </figcaption>
@@ -44,7 +44,7 @@ If you have an Enterprise account, you have the option to remove the Observable 
 <figure>
   <img
    class="screenshot w-70"
-    src="/embedding/removed_attribution_data_table_cell.png" alt="Screen shot of the embed dialog with the 'remove attribution banner' option selected, preview on the right is not showing the Observable logo"
+    src="/embedding/assets/removed_attribution_data_table_cell.png" alt="Screen shot of the embed dialog with the 'remove attribution banner' option selected, preview on the right is not showing the Observable logo"
   />
   <figcaption>By checking the box next to <strong>Remove attribution banner</strong>, Enterprise users can remove the Observable attribution banner.
 </figcaption>

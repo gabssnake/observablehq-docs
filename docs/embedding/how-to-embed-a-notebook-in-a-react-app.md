@@ -12,7 +12,7 @@ Here we have a sample bar chart from the [Plot](https://observablehq.com/@observ
 <figure>
   <img
     style="margin-left:27px;margin-bottom:20px;max-width: 80%"
-    src="/embedding/myBarChart.svg" alt="A bar chart of letter frequencies in english texts"
+    src="/embedding/assets/myBarChart.svg" alt="A bar chart of letter frequencies in english texts"
   />
 </figure>
 
@@ -43,7 +43,7 @@ Your browser should open a new tab to [http://localhost:3000/](http://localhost:
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 50%"
-    src="/embedding/reactScreen.png" alt="A screenshot of a browser window showing the initialized React app running"
+    src="/embedding/assets/reactScreen.png" alt="A screenshot of a browser window showing the initialized React app running"
   />
   <figcaption>The React screen appears at http://localhost:3000.
   </figcaption>
@@ -52,8 +52,8 @@ Your browser should open a new tab to [http://localhost:3000/](http://localhost:
 To now embed our bar chart into a React app, we will open up the embed pane for that cell and copy the instructions. 
 
 <video
-    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 80%"
-    src="/embedding/embed.mov" alt="Video showing the embed dialog being opened, the dropdown switching to React app, and then clicking the Copy button."
+    class="screenshot w-80"
+    src="/embedding/assets/embed.mov" alt="Video showing the embed dialog being opened, the dropdown switching to React app, and then clicking the Copy button."
     autoplay loop controls = "false">
 </video>
 
@@ -71,8 +71,8 @@ Use the code you copied from the Embed pane.
 Next we'll need the React code to create this component. You can also find this from the embed pane for the cell. 
 
 <video
-    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 80%"
-    src="/embedding/embed2.mov" alt="Video showing the embed dialog being opened, the dropdown switching to React app, and then clicking the Copy button."
+    class="screenshot w-80"
+    src="/embedding/assets/embed2.mov" alt="Video showing the embed dialog being opened, the dropdown switching to React app, and then clicking the Copy button."
     autoplay loop controls = "false">
 </video>
 
@@ -126,7 +126,7 @@ Now when you go to localhost:3000, you should see this:
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 60%"
-    src="/embedding/react-bar-chart.png" alt="A screenshot of the bar chart rendered inside the React app"
+    src="/embedding/assets/react-bar-chart.png" alt="A screenshot of the bar chart rendered inside the React app"
   />
   <figcaption>The chart appears at http://localhost:3000.
   </figcaption>

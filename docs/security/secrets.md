@@ -13,8 +13,8 @@ Guest users have access to any secret enabled with <b>Allow guest access.</b> Ac
 
 <figure>
   <img
-    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 80%"
-    src="/security/secrets.png" alt="Screen shot of open secrets configuration tab in the user settings page"
+    class="screenshot w-80"
+    src="./assets/secrets.png" alt="Screen shot of open secrets configuration tab in the user settings page"
   />
   <figcaption>The <b>Secrets</b> page under Settings.</figcaption>
 </figure>

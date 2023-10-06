@@ -25,7 +25,7 @@ features:
     details: Set up your Observable account and configure your workspace.
   - title: Cells
     details: Learn how to use the building blocks of Observable notebooks.
-    link: /cells/overview/overview
+    link: /cells/
   - title: Data
     details: Securely get data in and out of Observable.
   - title: Inputs

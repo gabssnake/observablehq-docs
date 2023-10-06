@@ -24,7 +24,7 @@ In the following example, the user Lionel Hollins, who also belongs to the Portl
 <figure>
   <img
     class="screenshot" style="max-width:450px;"
-    src="/reusing/forking/proIndForkingPublicNotebook.png"
+    src="./assets/proIndForkingPublicNotebook.png"
     alt="Screenshot of the Fork dialog, showing options to pick the workspace to place the fork in and the visibility, Public or Only you."
   />
   <figcaption>Example of a Pro Individual and Pro Team member forking a public notebook. The notebook can go into either of the user's available workspaces, and can be public or private.</figcaption>

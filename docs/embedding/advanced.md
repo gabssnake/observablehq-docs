@@ -39,7 +39,7 @@ Your notebook can be compiled and downloaded as a [JavaScript module](https://ha
 <figure>
   <img
     class="screenshot w-70"
-    src="/embedding/download-code.png" alt="Screen shot of open sidebar showing the Embed option, next to the notebook menu in the top right also showing the Export->Embed cells option highlighted"
+    src="/embedding/assets/download-code.png" alt="Screen shot of open sidebar showing the Embed option, next to the notebook menu in the top right also showing the Export->Embed cells option highlighted"
   />
 </figure>
 
@@ -204,7 +204,7 @@ As an fun, off-site example of an embedded notebook in action, see [Breakout!](h
 <figure>
   <img
     class="screenshot w-70"
-    src="/embedding/breakout.png" alt="Screen shot of a breakout game running in a browser, on a website that is not Observable"
+    src="/embedding/assets/breakout.png" alt="Screen shot of a breakout game running in a browser, on a website that is not Observable"
   />
 </figure>
 

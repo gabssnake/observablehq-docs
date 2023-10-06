@@ -2,6 +2,6 @@
 
 Welcome to our Learning Observable course! This collection aims to provide high-level introductions to core methods and tools that you will need to start working with your data in Observable, along with links to more in-depth documentation.
 
-1. [Overview](/learn/learn-overview/learn-overview.md)
-2. [Notebooks and cells](/learn/learn-notebooks-cells/learn-notebooks-cells.md)
+1. [Overview](/learn/overview)
+2. [Notebooks and cells](/learn/notebooks-cells)
 

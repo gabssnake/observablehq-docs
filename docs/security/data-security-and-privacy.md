@@ -17,8 +17,8 @@ An Observable notebook appears to be a single, seamless user interface, but you 
 
 <figure>
   <img
-    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 90%"
-    src="/security/notebook-editor-sandbox.png" alt="A diagram showing the parts of a notebook that are part of the editor in green and the sandbox in red."
+    class="screenshot w-90"
+    src="./assets/notebook-editor-sandbox.png" alt="A diagram showing the parts of a notebook that are part of the editor in green and the sandbox in red."
   />
   <figcaption>The two parts of a notebook.</figcaption>
 </figure>
@@ -27,8 +27,8 @@ The lower part of the cell, in gray (or blue when focused), contains the cell’
 
 <figure>
   <img
-    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 90%"
-    src="/security/cell-anatomy.png" alt="A screenshot of a cell in an Observable notebook, showing a text input field at the top and the gray source code of the cell below."
+    class="screenshot w-90"
+    src="./assets/cell-anatomy.png" alt="A screenshot of a cell in an Observable notebook, showing a text input field at the top and the gray source code of the cell below."
   />
 </figure>
 
