@@ -310,7 +310,11 @@ export default defineConfig({
     ],
     footer: {
       copyright: `Copyright ${new Date().getUTCFullYear()} Observable, Inc.`
+    },
+    editLink: {
+      pattern: "https://github.com/observablehq/documentation/edit/main/docs/:path",
+      text: "Suggest changes to this page"
     }
   },
-  ignoreDeadLinks: 'localhostLinks',
+  ignoreDeadLinks: "localhostLinks",
 })
