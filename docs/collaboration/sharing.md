@@ -4,25 +4,28 @@ Observable makes sharing your work with others easy and productive. Whether you 
 
 Users who receive an invitation to share a notebook will receive an email message with an optional message from the person sharing the notebook.
 
-## Individual sharing
+## Free, Pro & Enterprise sharing
 
-Individual sharing allows you to share your notebooks with up to four individually specified collaborators. You can choose to give these collaborators view-only access, or allow them full freedom to make edits.
-
-- With **view-only** access, a collaborator can see and use your notebook, make comments, but they cannot save their changes to the original. 
-- With **edit** access, a collaborator can make and save changes to the original too. You, as the notebook owner, retain control over who has edit access to the notebook. If you are a Pro user, you also retain control over whether or not the notebook is made public.
-
-You can work with your collaborators in real-time and you will see each other's edits live, as they are typed.
-
-## Team sharing
-
-You can share with individual members of your team, granting view or edit permission.
-
-If you are a member of a team, you can grant permission to your entire team. The same choices apply: 
-
-- Can view or edit (which will allow team viewers to view and team editors to edit)
-- Can view
-- No access
-
+### Free workspaces
+- The Share modal for a Free workspaces allows you to:
+  - Define access granted to other individuals (up to four).
+    - **Can edit** makes the notebook viewable and editable by the specified individual.
+    - **Can view** makes the notebook viewable but not editable by the specified individual.
+  - Sign up for a free trial of Pro Individual, which enables private notebooks.
+ 
+### Pro and Enterprise workspaces
+- The Share modal for a Pro workspaces allows you to:
+  - Define Access granted to the public:
+    - **Can view** makes the notebook viewable by the public
+    - **Can view (unlisted)** makes the notebook viewable by the public but only if they know the URL
+    - **No access** makes the notebook invisible to the public and to search queries in Observable
+  - Define Access granted to your team
+    - **Can view or edit** makes the notebook viewable and editable by your team
+    - **Can view** makes the notebook viewable but not editable by your team
+    - **No access** makes the notebook invisible to your team and to search queries in Observable
+  - Define Access granted to specific team members
+    - After specifying an individual team member, you can set their access to **Can edit** or **Can view**. 
+    
 You can also grant permission to specific notebooks to users who are outside of your team using guest viewer or guest editor roles.
 
 - **Guest viewer:** The person who needs to read, search and comment on team notebooks explicitly shared with them.

@@ -1,4 +1,4 @@
-# Observable’s security model
+# Observable's security model
 
 Observable provides a secure environment for working with private data. This notebook details how Observable restricts access to sensitive resources including [secrets](https://observablehq.com/@observablehq/secrets), [databases](https://observablehq.com/@observablehq/databases), [files](https://observablehq.com/@observablehq/file-attachments), and [other notebooks](https://observablehq.com/@observablehq/imports).
 

@@ -1,4 +1,4 @@
-# Using transfer to move notebooks
+# Transfer
 
 When you have a notebook in one workspace but want to move it to another workspace, use **Transfer**, under the notebook menu (<Icon name="threeHorizDots" />) Settings.
 

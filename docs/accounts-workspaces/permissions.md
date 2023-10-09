@@ -1,11 +1,9 @@
-# Permissions for team workspace notebooks
-
-## Sharing model
+# Permissions
 
 Team workspaces allow each team member to control how notebooks are shared within their team. With any notebook, you have the option of reserving edit capability to just a select few members. 
 
 
-## Sharing and access levels
+### Sharing and access levels
 
 The default visibility and access for notebooks is different for free team notebooks versus private or Enterprise team notebooks.
 
@@ -30,7 +28,9 @@ You can grant two different levels of access:
 
 2. **Can view and edit** – Grants full read/write access to the notebook to all team editors, including the ability to further change the sharing settings. Team viewers can view the notebook. 
 
-### Private team and Enterprise team sharing and access levels
+### Pro & Enterprise team sharing and access levels
+
+<PricingBadge level="pro" />
 
 By default, noteboooks created in a private or Enterprise team workspace are private, meaning they are visible only to the notebook creator. You can decide whether or not to share read access or edit access to the notebook.
 
@@ -86,8 +86,6 @@ Private team and Enterprise team notebooks, because they can be published, can a
 - **Published** – Visible to anyone outside the team through search or other listings. The published version represents a snapshot in time and subsequent changes are not visible until the notebook is republished.
 - **Public** – Notebooks that are visible to anyone and are *live*; that is, changes are immediately visible to anyone.
 
-## More about permissions
-
 ### Permissions changes
 
 * Any team member with permission to edit a notebook can change the sharing settings for that notebook, including removing access by other team members or the entire team. 
@@ -109,5 +107,3 @@ For example, if a notebook is shared with the entire team as _Can view_ and _edi
 Note that it is not possible to grant team notebook permissions to someone who is not a member of the team. Conversely, if someone is removed from a team, then they will lose all access (permissions) to the team's notebooks. In addition, all team notebooks that a team member created that were still **Private** to them will be trashed if the member is removed from the team. 
 
 
- 
-**For more information** on team workspaces, see [Team and individual workspaces](https://observablehq.com/@observablehq/team-and-individual-workspaces?collection=@observablehq/workspaces).

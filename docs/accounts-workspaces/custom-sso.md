@@ -1,4 +1,4 @@
-# Custom SSO for Teams
+# Custom SSO
 
 "Single Sign-On" or SSO is the term used to describe the process where a user's identity is authenticated by an identity provider service for use with multiple applications. With SSO, users can have a single user name and password that works across all of the applications they use. Observable supports SSO using external identity provider services with built-in support for Google, GitHub, and Microsoft identity providers. **Custom SSO** is a feature available to Observable Enterprise teams that allows them to associate their logins with their own additional identity provider service, like [Okta Identity Cloud](https://www.okta.com/products/) or [OneLogin](https://www.onelogin.com/pages/openid-connect), using the standard OpenID Connect (OIDC) protocol.
 

@@ -1,4 +1,4 @@
-# Deleting your account
+# Delete an account
 
 
 :::info Note

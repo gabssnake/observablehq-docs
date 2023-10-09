@@ -1,6 +1,6 @@
-# Security and data access in Observable
+# Security and data access
 
-We'll look at the security implications of Observable's architecture and data flow, and we'll demonstrate how to safely access data with File Attachments, Secrets, Cloud files, and Databases, and how to configure your Team members' permissions to best suit your organization.
+In this video, we will look at the security implications of Observable's architecture and data flow, demonstrate how to safely access data with File Attachments, Secrets, Cloud files, and Databases, and walk through how to configure your team members' permissions to best suit your organization.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7l_VDsZSSjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -12,6 +12,3 @@ Contents:
 - [6:02](https://youtu.be/7l_VDsZSSjM?t=362) - Cloud files
 - [7:26](https://youtu.be/7l_VDsZSSjM?t=446) - Databases
 - [11:18](https://youtu.be/7l_VDsZSSjM?t=678) - Team permissions & settings
-
-With a free one-month trial, take Observable Teams for a spin to explore all the features we've seen today and many more. To learn more or start your free trial, visit: https://observablehq.com/product
-

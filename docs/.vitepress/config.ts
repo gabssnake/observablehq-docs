@@ -49,16 +49,6 @@ export default defineConfig({
            {text: "Importing and remixing", link: "/learn/importing"}
           ]
           },
-          {text: "Enterprise and Pro",
-            collapsed: true,
-            items: [
-              {text: "Getting Started", link: "/enterprise-pro/getting-started"},
-              {text: "Securely connecting to data", link: "/enterprise-pro/connecting-to-data"},
-              {text: "Collaboration and sharing", link: "/enterprise-pro/collaboration-sharing"},
-              {text: "Reusing content", link: "/enterprise-pro/reusing-content"},
-              {text: "Team and project management", link: "/enterprise-pro/team-project-management"},
-              {text: "Get help and stay informed", link: "/enterprise-pro/getting-help"},
-            ]},
           {text: "Hands-on tutorials", link: "https://observablehq.com/@observablehq/hands-on-tutorials-overview"},
           {text: "Quick guides", link: "https://observablehq.com/@observablehq/observable-quick-guides"}
         ]
@@ -207,6 +197,7 @@ export default defineConfig({
               {text: "Forking", link: "/reusing/forking"},
               {text: "History", link: "/saving-and-history/notebook-history"},
               {text: "Imports", link: "/reusing/imports"},
+              {text: "URLs", link: "/"},
               {text: "Saving", link: "/saving-and-history/how-saving-works"},
               {text: "Templates",
               collapsed: true,
@@ -234,15 +225,15 @@ export default defineConfig({
             items: [
               {text: "Comments", link: "/collaboration/comments"},
               {text: "Following", link: "/collaboration/following-users-and-teams"},
-              {text: "Sharing work",
-              collapsed: true,
-               items: [
-                {text: "Licenses", link: "/collaboration/licenses"},
-                {text: "Pause live edits", link: "/collaboration/pause-live-edits"},
-                {text: "Search", link: "/collaboration/search"},
-                {text: "Sharing", link: "/collaboration/sharing"},
-                {text: "Tags", link: "/collaboration/tags"},
-               ]
+              {text: "Sharing",
+                link: "/collaboration/sharing",
+                collapsed: true,
+                items: [
+                  {text: "Licenses", link: "/collaboration/licenses"},
+                  {text: "Pause live edits", link: "/collaboration/pause-live-edits"},
+                  {text: "Search", link: "/collaboration/search"},
+                  {text: "Tags", link: "/collaboration/tags"},
+                ]
               },
               {text: "Suggestions", link: "/collaboration/suggestions"},
               {text: "Tinker mode", link: "/collaboration/tinker-mode"}
@@ -252,18 +243,20 @@ export default defineConfig({
             text: "Accounts and Workspaces",
             collapsed: true,
             items: [
-              {text: "Creating your account", link: "/accounts-workspaces/create-account"},
-              {text: "Deleting your account", link: "/accounts-workspaces/delete-account"},
-              {text: "Workspace settings", link: "/accounts-workspaces/workspace-settings"},
-              {text: "Advantages of team workspaces", link: "/accounts-workspaces/team-workspace-advantages"},
-              {text: "Team creation and administration", link: "/accounts-workspaces/team-creation-administration"},
-              {text: "Team notebook permissions", link: "/accounts-workspaces/permissions"},
-              {text: "Using transfer to move notebooks", link: "/accounts-workspaces/transfer-move-notebooks"},
-              {text: "Custom SSO for Teams", link: "/accounts-workspaces/custom-sso-teams"},
-              {text: "Workspace Audit Logs", link: "/accounts-workspaces/workspace-audit-logs"},
-              {text: "Microsoft Teams integration", link: "/accounts-workspaces/microsoft-teams-integration"},
+              {text: "Accounts", link: "/accounts-workspaces/accounts"},
+              {text: "Custom SSO", link: "/accounts-workspaces/custom-sso"},
+              {text: "Permissions", link: "/accounts-workspaces/permissions"},
               {text: "Profile", link: "/accounts-workspaces/profile"},
-              {text: "Trash", link: "/accounts-workspaces/trash"}
+              {text: "Transfer", link: "/accounts-workspaces/transfer"},
+              {text: "Trash", link: "/accounts-workspaces/trash"},
+              {text: "Workspaces", link: "/accounts-workspaces/workspaces",
+                collapsed: true,
+                items: [
+                  {text: "Audit logs", link: "/accounts-workspaces/audit-logs"},
+                  {text: "Setup", link: "/accounts-workspaces/team-creation-administration"},
+                  {text: "Settings", link: "/accounts-workspaces/workspace-settings"},
+                ]
+              },
 
             ]
           },
@@ -271,28 +264,21 @@ export default defineConfig({
             text: "Security",
             collapsed: true,
             items: [
-
-              {text: "Observable's Security model", link: "/security/data-security-and-privacy"},
-              {text: "Security and data access in Observable", link: "/security/security-and-data-access"},
-              {text: "Security and data access in Observable", link: "/"},
-              {text: "Using secrets with Observable", link: "/security/secrets"}
+              {text: "Security model", link: "/security/data-security-and-privacy"},
+              {text: "Security & data access", link: "/security/security-and-data-access"},
+              {text: "Secrets", link: "/security/secrets"}
             ]
           },
           {
             text: "Misc",
             collapsed: true,
             items: [
-
-              {text: "Observable terminology", link: "/misc/observable-terminology"},
-              {text: "Observable FAQ", link: "/misc/faq"},    
-              {text: "Standard library", link: "/"},
-              {text: "Don't do this!", link: "/"},
-              {text: "Keyboard shortcuts", link: "/"},
-              {text: "Find and replace", link: "/"}, 
               {text: "Awaiting visibility", link: "/"},
-              {text: "Custom notebook URLs", link: "/"},
-              {text: "Mixing queries and arrays into SQL", link: "/"}
-
+              {text: "FAQ", link: "/misc/faq"},  
+              {text: "Keyboard shortcuts", link: "/"},
+              {text: "Microsoft Teams integration", link: "/accounts-workspaces/microsoft-teams-integration"},
+              {text: "Observable terminology", link: "/misc/observable-terminology"},  
+              {text: "Standard library", link: "/"},
             ]
           }
         ],

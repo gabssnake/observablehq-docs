@@ -1,4 +1,4 @@
-# Workspace Audit Logs 
+# Audit logs 
 <a class="enterprise-label" href="https://observablehq.com/pricing">Learn more about Enterprise</a>
 
 
