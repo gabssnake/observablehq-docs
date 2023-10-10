@@ -32,7 +32,6 @@ export default defineConfig({
       {
         text: "Getting Started",
         items: [
-          {text: "Why Observable?", link: "/"},
           {text: "Observable overview", 
           collapsed: true,
            link: "/learn/overview",
