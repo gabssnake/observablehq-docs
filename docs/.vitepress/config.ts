@@ -26,7 +26,7 @@ export default defineConfig({
       dark: "/observable-dark.svg"
     },
     nav: [
-      {text: "Sign up", link: "https://observablehq.com/login?screen=signup"},
+      {text: "Observable", link: "https://observablehq.com/"},
       {text: "Forum", link: "https://talk.observablehq.com/"},
     ],
     sidebar: [

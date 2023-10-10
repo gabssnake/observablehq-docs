@@ -8,18 +8,12 @@ hero:
   tagline: Your spot for all questions Observable.
   actions:
     - theme: brand
-      text: Sign Up
-      link: https://observablehq.com/login?screen=signup
+      text: Get started
+      link: /learn/overview
     - theme: alt
-      text: Why Observable
-      link: https://observablehq.com/why-observable
-    - theme: alt
-      text: Take a Tour
+      text: Try Observable
       link: https://observablehq.com/@observablehq/a-taste-of-observable
 features:
-  - title: Overview
-    details: Walk-through of the high-level concepts in Observable.
-    link: /learn/overview
   - title: Cells
     details: Learn the building blocks of Observable notebooks.
     link: /cells/
@@ -40,6 +34,9 @@ features:
     details: Build in Observable and deploy everywhere. 
   - title: Security
     link: /security/data-security-and-privacy
-    details: Learn about our security model and how to set up secrets.
+    details: Read about our security model and how to set up secrets.
+  - title: Accounts & Workspaces
+    details: Learn how to manage your account, billing, and workspaces.
+    link: /accounts-workspaces/accounts
 ---
 
