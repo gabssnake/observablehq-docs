@@ -21,7 +21,6 @@ All content in notebooks is made in cells. Within cells, you can author formatte
 
 <figure>
   <img
-    class="screenshot w-80"
     src="./assets/cells.jpg" alt="An illustration of an Observable notebook being broken down into its cells."
   />
   <figcaption></figcaption>

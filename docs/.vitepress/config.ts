@@ -26,8 +26,7 @@ export default defineConfig({
       dark: "/observable-dark.svg"
     },
     nav: [
-      {text: "Sign up", link: "/"},
-      {text: "Quick guides", link: "https://observablehq.com/@observablehq/observable-quick-guides"}
+      {text: "Sign up", link: "https://observablehq.com/login?screen=signup"},
     ],
     sidebar: [
       {
@@ -50,7 +49,7 @@ export default defineConfig({
           ]
           },
           {text: "Hands-on tutorials", link: "https://observablehq.com/@observablehq/hands-on-tutorials-overview"},
-          {text: "Quick guides", link: "https://observablehq.com/@observablehq/observable-quick-guides"}
+          {text: "Quick guides", link: "https://observablehq.com/guides"}
         ]
       },
       {

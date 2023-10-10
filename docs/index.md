@@ -4,37 +4,42 @@ layout: home
 
 hero:
   name: "Observable Docs"
-  text: "[DRAFT] How to work in Observable"
+  text: "[Work in Progress]"
   tagline: Your spot for all questions Observable.
   actions:
     - theme: brand
-      text: Tour the product
-      link: https://observablehq.com/@observablehq/a-taste-of-observable
-    - theme: brand
-      text: Sign Up!
+      text: Sign Up
       link: https://observablehq.com/login?screen=signup
     - theme: alt
-      text: Quick guides
+      text: Why Observable
+      link: https://observablehq.com/why-observable
     - theme: alt
-      text: Interactive tutorials
+      text: Take a Tour
+      link: https://observablehq.com/@observablehq/a-taste-of-observable
 features:
-  - title: Why Observable?
-    details: Understand our use case.
-    link: /fundamentals/
-  - title: Learning Observable
-    details: Set up your Observable account and configure your workspace.
+  - title: Observable Overview
+    details: Walk through the high-level concepts for Observable
+    link: /learn/overview
   - title: Cells
-    details: Learn how to use the building blocks of Observable notebooks.
+    details: Learn the building blocks of Observable notebooks.
     link: /cells/
   - title: Data
-    details: Securely get data in and out of Observable.
+    details: Securely get data in and out of Observable with files, apis and databases.
+    link: /data/files/file-attachments
   - title: Inputs
     details: Observable Inputs allows you to quickly add interactivity to your analysis.
-  - title: Observable JavaScript
-    details: Learn about the differences between Observable JavaScript and vanilla JavaScript.
-  - title: Debugging
-    details: Follow these tips to solving issues in Observable
-  - title: Tips & Tricks
-    details: Keyboard shortcuts, custom templates, version locking, and more!
+    link: /inputs/overview
+  - title: Notebooks
+    details: Learn about forking, history, imports and more settings for your Observable notebook.
+    link: /collaboration/collections
+  - title: Collaboration
+    details: Comment, follow and suggest with others to build visualizations together.
+    link: /collaboration/sharing
+  - title: Embeds
+    link: /embedding/basic
+    details: Build in Observable and deploy everywhere. 
+  - title: Security
+    link: /security/data-security-and-privacy
+    details: Learn about our security model and how to set up secrets.
 ---
 
