@@ -23,7 +23,7 @@ File attachments behave predictably:
 - Files can be reused through [imports](https://observablehq.com/@observablehq/import?collection=@observablehq/notebook-fundamentals).
 - You can go back in time with [history](/saving-and-history/notebook-history) and see when a file was attached (as long as they were not deleted).
 - In Free workspaces, all files are visible, and the history of which files were attached to which versions are also visible.
-- If you are in a [Pro or Enterprise workspace](/enterprise-pro/introduction), files in your private notebooks remain private. That is, those files are only accessible from your notebooks.
+- If you are in a Pro or Enterprise workspace, files in your private notebooks remain private. That is, those files are only accessible from your notebooks.
 - And because Observable is designed for tinkering, you can even play with your local files in other people’s notebooks, then fork to upload your files and save your work.
 
 ### File size limits

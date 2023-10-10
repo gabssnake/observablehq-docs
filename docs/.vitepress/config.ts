@@ -220,6 +220,7 @@ export default defineConfig({
           {
             text: "Collaboration",
             collapsed: true,
+            link: "/collaboration/",
             items: [
               {text: "Comments", link: "/collaboration/comments"},
               {text: "Following", link: "/collaboration/following-users-and-teams"},
