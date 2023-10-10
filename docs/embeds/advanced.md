@@ -8,7 +8,7 @@ Luckily, Observable provides an [open-source runtime](https://github.com/observa
 
 ## Embed a cell
 
-[Previously](/embedding/basic), you saw how named cells from any published or shared notebook — a chart, a visualization, a widget — are quick and easy to embed.
+[Previously](/embeds/), you saw how named cells from any published or shared notebook — a chart, a visualization, a widget — are quick and easy to embed.
 
 Click **Embed** in the menu to the left of the cell below to open the Embed tool. The default Iframe method is fairly self-contained; this time, select **Runtime with JavaScript** from the dropdown so we can dive into it.
 
@@ -39,7 +39,7 @@ Your notebook can be compiled and downloaded as a [JavaScript module](https://ha
 <figure>
   <img
     class="screenshot w-70"
-    src="/embedding/assets/download-code.png" alt="Screen shot of open sidebar showing the Embed option, next to the notebook menu in the top right also showing the Export->Embed cells option highlighted"
+    src="./assets/download-code.png" alt="Screen shot of open sidebar showing the Embed option, next to the notebook menu in the top right also showing the Export->Embed cells option highlighted"
   />
 </figure>
 
@@ -204,7 +204,7 @@ As an fun, off-site example of an embedded notebook in action, see [Breakout!](h
 <figure>
   <img
     class="screenshot w-70"
-    src="/embedding/assets/breakout.png" alt="Screen shot of a breakout game running in a browser, on a website that is not Observable"
+    src="./assets/breakout.png" alt="Screen shot of a breakout game running in a browser, on a website that is not Observable"
   />
 </figure>
 

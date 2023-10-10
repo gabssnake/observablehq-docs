@@ -27,6 +27,7 @@ export default defineConfig({
     },
     nav: [
       {text: "Sign up", link: "https://observablehq.com/login?screen=signup"},
+      {text: "Forum", link: "https://talk.observablehq.com/"},
     ],
     sidebar: [
       {
@@ -210,13 +211,13 @@ export default defineConfig({
           },
           {
             text: "Embeds",
-            link: "/embedding/basic",
+            link: "/embeds/",
             collapsed: true,
             items: [
-              {text: "Advanced embeds", link: "/embedding/advanced"},
-              {text: "API and notebook keys", link: "/embedding/api-keys"},
-              {text: "Embed in a React app", link: "/embedding/how-to-embed-a-notebook-in-a-react-app"},
-              {text: "Troubleshooting", link: "/embedding/troubleshooting"}
+              {text: "Advanced embeds", link: "/embeds/advanced"},
+              {text: "API and notebook keys", link: "/embeds/api-keys"},
+              {text: "Embed in a React app", link: "/embeds/how-to-embed-a-notebook-in-a-react-app"},
+              {text: "Troubleshooting", link: "/embeds/troubleshooting"}
             ]
           },
           {

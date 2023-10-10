@@ -14,7 +14,7 @@ To create a new API key, visit the [API Keys section](https://observablehq.com/s
 <figure>
   <img
     class="screenshot"
-    src="/embedding/assets/api-keys.png" alt="The API keys section of user settings"
+    src="./assets/api-keys.png" alt="The API keys section of user settings"
   />
 </figure>
 
@@ -36,7 +36,7 @@ After selection options, click "Create notebook key" to create a key and update 
 <figure>
   <img
     class="screenshot"
-    src="/embedding/assets/embedModal.png" alt="Embed dialog showing options to create a notebook key"
+    src="./assets/embedModal.png" alt="Embed dialog showing options to create a notebook key"
   />
   <figcaption>The <strong>Preview</strong> section includes a form to create a notebook key. Optionally pin to this notebook version, and provide an expiration date for the notebook key.</figcaption>
 </figure>
@@ -74,7 +74,7 @@ To authenticate a request for a compiled private notebook with the API key as a 
 <figure>
   <img
     class="screenshot"
-    src="/embedding/assets/browser-raw.png" alt="The embedding code for a notebook shown in a browser window"
+    src="./assets/browser-raw.png" alt="The embedding code for a notebook shown in a browser window"
   />
 </figure>
 
@@ -83,7 +83,7 @@ Or on the command line, as an HTTP header:
 <figure>
   <img
     class="screenshot"
-    src="/embedding/assets/curl-key.png" alt="A terminal window showing the code for running curl to retrieve the notebook contents"
+    src="./assets/curl-key.png" alt="A terminal window showing the code for running curl to retrieve the notebook contents"
   />
 </figure>
 
@@ -104,7 +104,7 @@ API keys don’t expire, but you can delete them to immediately cause requests t
 <figure>
   <img
     class="screenshot"
-    src="/embedding/assets/dashboard-api-key.png" alt="API key settings page showing when a key was created and last used"
+    src="./assets/dashboard-api-key.png" alt="API key settings page showing when a key was created and last used"
   />
 </figure>
 
@@ -118,7 +118,7 @@ We also show the key's (optional) expiration date.
 <figure>
   <img
     class="screenshot"
-    src="/embedding/assets/notebookKeys.png" alt="The notebook keys sections of the team settings page"
+    src="./assets/notebookKeys.png" alt="The notebook keys sections of the team settings page"
   />
 </figure>
 

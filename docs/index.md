@@ -17,26 +17,26 @@ hero:
       text: Take a Tour
       link: https://observablehq.com/@observablehq/a-taste-of-observable
 features:
-  - title: Observable Overview
-    details: Walk through the high-level concepts for Observable
+  - title: Overview
+    details: Walk-through of the high-level concepts in Observable.
     link: /learn/overview
   - title: Cells
     details: Learn the building blocks of Observable notebooks.
     link: /cells/
   - title: Data
     details: Securely get data in and out of Observable with files, apis and databases.
-    link: /data/files/file-attachments
+    link: /data/
   - title: Inputs
     details: Observable Inputs allows you to quickly add interactivity to your analysis.
     link: /inputs/overview
   - title: Notebooks
     details: Learn about forking, history, imports and more settings for your Observable notebook.
-    link: /collaboration/collections
+    link: /notebooks/
   - title: Collaboration
     details: Comment, follow and suggest with others to build visualizations together.
-    link: /collaboration/sharing
+    link: /collaboration/
   - title: Embeds
-    link: /embedding/basic
+    link: /embeds/
     details: Build in Observable and deploy everywhere. 
   - title: Security
     link: /security/data-security-and-privacy
