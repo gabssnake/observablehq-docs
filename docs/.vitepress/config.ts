@@ -151,8 +151,8 @@ export default defineConfig({
               text: "Datasets",
               collapsed: true,
               items: [
-                {text: "Sample datasets", link: "/"},
-                {text: "Curated datasets", link: "/"}
+                {text: "Curated datasets", link: "https://observablehq.com/@observablehq/curated-datasets"},
+                {text: "Sample datasets", link: "https://observablehq.com/@observablehq/sample-datasets"},
               ]
             }
            
