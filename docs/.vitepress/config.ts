@@ -180,9 +180,10 @@ export default defineConfig({
           },
           {
             text: "Notebooks",
+            link: "/notebooks/",
             collapsed: true,
             items: [
-              {text: "Collections", link: "/collaboration/collections"},
+              {text: "Collections", link: "/notebooks/collections"},
               {
                 text: "Debugging",
                 collapsed: true,
@@ -193,16 +194,16 @@ export default defineConfig({
                   {text: "How to require stubborn modules", link: "/debugging/require-stubborn-modules"}
                 ]
               },
-              {text: "Forking", link: "/reusing/forking"},
-              {text: "History", link: "/saving-and-history/notebook-history"},
-              {text: "Imports", link: "/reusing/imports"},
+              {text: "Forking", link: "/notebooks/forking"},
+              {text: "History", link: "/notebooks/history"},
+              {text: "Imports", link: "/notebooks/imports"},
               {text: "URLs", link: "/"},
-              {text: "Saving", link: "/saving-and-history/how-saving-works"},
+              {text: "Saving", link: "/notebooks/saving"},
               {text: "Templates",
               collapsed: true,
                items: [
-                {text: "Using templates", link: "/reusing/templates#existing-templates"},
-                {text: "Custom templates", link: "/reusing/templates#custom-templates"}
+                {text: "Using templates", link: "/notebooks/templates#existing-templates"},
+                {text: "Custom templates", link: "/notebooks/templates#custom-templates"}
                ]
               },
             ]

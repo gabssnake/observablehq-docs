@@ -1,4 +1,4 @@
-# Notebook history
+# History
 
 Observable keeps a history of all edits made to a notebook, allowing you to undo (and redo) changes whenever needed. Notebook history lets authors edit fearlessly with the knowledge that they can always go back to a previous version of their notebook. It also allows teams to better understand how their notebooks have changed over time, and who edited them.
 

@@ -19,7 +19,7 @@ When another user from your workspace is in the same notebook you're working in,
     autoplay loop controls = "false">
 </video>
 
-Whether working solo or with collaborators in a notebook, it is useful to have a record of changes made. The [History](/saving-and-history/notebook-history) pane (accessed by clicking the clock icon in the right margin) shows what changes were made to your notebook. You also have the option to revert back to an earlier version by choosing to "Restore" a version that you select.
+Whether working solo or with collaborators in a notebook, it is useful to have a record of changes made. The [History](/notebooks/history) pane (accessed by clicking the clock icon in the right margin) shows what changes were made to your notebook. You also have the option to revert back to an earlier version by choosing to "Restore" a version that you select.
 
 <video
     style="border-radius:5px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 80%"

@@ -21,7 +21,7 @@ File attachments behave predictably:
 
 - Files are copied when you [fork](https://observablehq.com/@observablehq/fork-suggest-merge?collection=@observablehq/editing-publishing-collaborating).
 - Files can be reused through [imports](https://observablehq.com/@observablehq/import?collection=@observablehq/notebook-fundamentals).
-- You can go back in time with [history](/saving-and-history/notebook-history) and see when a file was attached (as long as they were not deleted).
+- You can go back in time with [history](/notebooks/history) and see when a file was attached (as long as they were not deleted).
 - In Free workspaces, all files are visible, and the history of which files were attached to which versions are also visible.
 - If you are in a Pro or Enterprise workspace, files in your private notebooks remain private. That is, those files are only accessible from your notebooks.
 - And because Observable is designed for tinkering, you can even play with your local files in other people’s notebooks, then fork to upload your files and save your work.
@@ -378,7 +378,7 @@ Here are a few more details about files you might want to know.
 
 **Files are securely hosted on our servers.** Our production infrastructure is hosted by Heroku, and is contained within Heroku's secure network. In addition, we rely on GitHub Enterprise's advanced vulnerability scanning and security alerts. For more information, see our [Security FAQ document](https://observablehq.com/resources/security).
 
-**Files are immutable.** The contents associated with a given file name never change. Instead of replacing a file’s contents, you replace a file, which automatically generates a new name and updates all code references to point to the new file. This preserves [notebook history](/saving-and-history/notebook-history): you can view any version of your notebook and see the original data, and compare different versions of files.
+**Files are immutable.** The contents associated with a given file name never change. Instead of replacing a file’s contents, you replace a file, which automatically generates a new name and updates all code references to point to the new file. This preserves [notebook history](/notebooks/history): you can view any version of your notebook and see the original data, and compare different versions of files.
 
 **But, files can be deleted.** While file immutability ensures that you can go back in time to see earlier versions of a notebook, we recognize that there are times when you simply want a file taken down for good. In this case, delete the file from the files pane. This will cause references to the deleted file to error (and break old versions of the notebook).
 
