@@ -76,6 +76,7 @@ export default defineConfig({
         {
             text: "Data",
             collapsed: true,
+            link: "/data/",
            items: [
             { 
               text: "Files",
@@ -97,7 +98,7 @@ export default defineConfig({
                   {text: "ZIP", link: "/data/files/file-attachments#zip-files"},
                  ]
                 },
-              {text: "Cloud files", link: "/data/files/cloud-files/cloud-files.md"}
+              {text: "Cloud files", link: "/data/files/cloud-files.md"}
               ]
             },
             {
