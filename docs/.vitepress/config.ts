@@ -275,7 +275,7 @@ export default defineConfig({
             text: "Misc",
             collapsed: true,
             items: [
-              {text: "Awaiting visibility", link: "/"},
+              {text: "Awaiting visibility", link: "/misc/awaiting-visibility"},
               {text: "FAQ", link: "/misc/faq"},  
               {text: "Keyboard shortcuts", link: "/"},
               {text: "Microsoft Teams integration", link: "/accounts-workspaces/microsoft-teams-integration"},
