@@ -280,7 +280,7 @@ export default defineConfig({
               {text: "Keyboard shortcuts", link: "/"},
               {text: "Microsoft Teams integration", link: "/accounts-workspaces/microsoft-teams-integration"},
               {text: "Observable terminology", link: "/misc/observable-terminology"},  
-              {text: "Standard library", link: "/"},
+              {text: "Standard library", link: "/misc/standard-library"},
             ]
           }
         ],
