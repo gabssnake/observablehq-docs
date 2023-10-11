@@ -198,7 +198,7 @@ export default defineConfig({
               {text: "Forking", link: "/notebooks/forking"},
               {text: "History", link: "/notebooks/history"},
               {text: "Imports", link: "/notebooks/imports"},
-              {text: "URLs", link: "/"},
+              {text: "URLs", link: "/notebooks/urls"},
               {text: "Saving", link: "/notebooks/saving"},
               {text: "Templates",
               collapsed: true,
