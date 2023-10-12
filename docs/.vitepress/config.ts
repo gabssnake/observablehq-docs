@@ -277,7 +277,7 @@ export default defineConfig({
             items: [
               {text: "Awaiting visibility", link: "/misc/awaiting-visibility"},
               {text: "FAQ", link: "/misc/faq"},  
-              {text: "Keyboard shortcuts", link: "/"},
+              {text: "Keyboard shortcuts", link: "/misc/keyboard-shortcuts"},
               {text: "Microsoft Teams integration", link: "/accounts-workspaces/microsoft-teams-integration"},
               {text: "Observable terminology", link: "/misc/observable-terminology"},  
               {text: "Standard library", link: "/misc/standard-library"},

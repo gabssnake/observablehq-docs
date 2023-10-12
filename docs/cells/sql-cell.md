@@ -20,7 +20,7 @@ Below, we show what's possible with SQL cells using a sample SQLite database cli
 
 ## Example SQL queries
 
-To query a database, write SQL into the editor and then click the play <Icon name="playButton" /> button to run the query. You can also use the Shift-Enter keyboard shortcut to commit and run your query.
+To query a database, write SQL into the editor and then click the play <Icon name="playButton" /> button to run the query. You can also use the <Keys set="Shift-Enter" /> shortcut to commit and run your query.
 
 <figure>
   <img

@@ -3,6 +3,7 @@
 defineProps({
     level: {
         type: String,
+        required: true,
         validator(val) {
             return ['free', 'pro', 'enterprise'].includes(val);
         }

@@ -4,6 +4,7 @@ import {watch} from "vue";
 import "./custom.css";
 import PricingBadge from "./PricingBadge.vue";
 import Icon from "./Icon.vue";
+import Keys from "./Keys.vue";
 
 export default {
   extends: DefaultTheme,
@@ -11,6 +12,7 @@ export default {
     Object.defineProperty(app.config.globalProperties, "$dark", {get: () => useData().isDark.value});
     app.component('PricingBadge', PricingBadge);
     app.component('Icon', Icon);
+    app.component('Keys', Keys);
     enableAnalytics(router);
   }
 };

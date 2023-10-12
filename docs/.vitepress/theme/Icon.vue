@@ -4,6 +4,7 @@ import icons from "./icons.json";
 const props = defineProps({
   name: {
     type: String,
+    required: true,
     validator(val) {
       return [
         "paperclip",        // formerly filePane

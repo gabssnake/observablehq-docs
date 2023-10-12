@@ -34,7 +34,7 @@ A cell can contain code, like in this example:
 
 The content of the cell is the code, in this case the simple calculation `1+2`, and on Observable the result is shown above the code.
 
-After typing into a cell, whether it's code or text, you need to run the cell to see the result. You do that by clicking the play button in the top right corner of the cell, or by pressing shift-enter/shift-return.
+After typing into a cell, whether it's code or text, you need to run the cell to see the result. You do that by clicking the play button in the top right corner of the cell, or by pressing <Keys set="Shift-Enter" />.
 
 Cells can contain computations of any complexity, and they can produce much more than just numbers. Here's an example of a chart (don't worry about the details, we'll get to Plot [later](https://observablehq.com/d/79f43da4b58ef64e?collection=@observablehq/intro-to-observable)):
 

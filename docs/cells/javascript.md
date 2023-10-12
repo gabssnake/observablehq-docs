@@ -4,7 +4,7 @@ Observable notebooks are often written in [JavaScript](https://developer.mozilla
 
 ## Evaluating cells
 
-To have the results of your edits appear, click the Play (▶︎) button, or type Shift-Enter.
+To have the results of your edits appear, click the Play (▶︎) button, or type <Keys set="Shift-Enter" />.
 
 ## Cells—for expressions, variable definitions, blocks
 

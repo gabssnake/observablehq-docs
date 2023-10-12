@@ -22,7 +22,7 @@ For example, to create emphasis using italics, use a single pair of asterisks or
 For a bit more oomph, use two asterisks or underscores to create bold text: `**important**` turns into **important**.
 
 You can create hyperlinks with this pattern: `[Observable](https://observablehq.com)`, which turns into a link pointing to [Observable](https://observablehq.com). This might look complicated, but there are two shortcuts for this:
-- Select the text you want to use for the link and select Cmd-K/Ctrl-K to insert the link code. Then you can paste the URL and get the link.
+- Select the text you want to use for the link and select <Keys set="Mod-K" /> to insert the link code. Then you can paste the URL and get the link.
 - Or simply select your link text and paste a URL. Observable will insert the correct Markdown code for you.
 
 There's more markup, for example to create lists, which are simply lines starting with dashes or asterisks, like so:

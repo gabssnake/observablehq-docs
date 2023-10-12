@@ -60,7 +60,7 @@ By extension, circular definitions are not allowed:
 
 ## Cells re-run when any referenced cell changes
 
-You don't have to run cells explicitly when you edit or interact—the notebook updates automatically. Run the cell below by clicking the play button <Icon name="playButton" />, or by focusing and hitting `Shift-Enter`. Only the referencing cells run, then *their* referencing cells, and so on—other cells are unaffected.
+You don't have to run cells explicitly when you edit or interact—the notebook updates automatically. Run the cell below by clicking the play button <Icon name="playButton" />, or by focusing and hitting <Keys set="Shift-Enter" />. Only the referencing cells run, then *their* referencing cells, and so on—other cells are unaffected.
 
 If a cell allocates resources that won't be automatically cleaned up by the garbage collector, such as an animation loop or event listener, use the [invalidation promise](https://observablehq.com/@observablehq/invalidation) to dispose of these resources manually and avoid leaks.
 
