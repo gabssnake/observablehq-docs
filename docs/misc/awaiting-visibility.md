@@ -22,7 +22,7 @@ In the example below, notice that *i* stops incrementing when the *i* cell is of
 <video
     class="screenshot w-70"
     src="./assets/scrollPause.mp4" alt="An iterating value increases when the cell it's created in is in view, but pauses once a user scrolls up or down making the cell not visible."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
 </video>
 
 For reusable code, pass the visibility function across cells. For example, the *fadeIn* function below takes an *element* and a cell's *visibility* function, and sets the element’s initial opacity to zero; when the cell becomes visible, its opacity is set to one, causing it to fade in.
@@ -42,5 +42,5 @@ Each paragraph wrapped in the *fadeIn* helper will now fade in as a user scrolls
 <video
     class="screenshot"
     src="./assets/fadeInParagraphs.mp4" alt="As a user scrolls down, paragraph text fades in as the section becomes visible."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
 </video>

@@ -48,7 +48,7 @@ Perhaps the easiest way to access data is to import it from an existing notebook
 Importing a dataset works just like importing any other cell: copy the import statement using the menu in the left toolbar of the cell you're looking to import, and paste it into your notebook as shown below.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/copy-import-data.mov" alt="Screen capture showing how to copy import code for a dataset, so that data can be imported into another notebook." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/copy-import-data.mov" alt="Screen capture showing how to copy import code for a dataset, so that data can be imported into another notebook." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 ## File attachments
@@ -73,7 +73,7 @@ Learn more about Observable's [File Attachments](https://observablehq.com/@obser
 For Pro and Enterprise workspaces, Observable supports access to [cloud files](https://observablehq.com/@observablehq/cloud-files) hosted on Google or Microsoft. To connect, open up the files pane by clicking the <Icon name="paperclip" /> icon, then click on "Cloud Files." You'll be directed to authenticate and grant access to Observable.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/cloud.mov" alt="Screen capture of an Observable notebook showing a user choosing Cloud files from the files pane, selecting to connect to Google cloud files, then being prompted to input authentication information." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/cloud.mov" alt="Screen capture of an Observable notebook showing a user choosing Cloud files from the files pane, selecting to connect to Google cloud files, then being prompted to input authentication information." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 Once you've authenticated, you'll see all your cloud files available to import directly into a notebook, just like you would with file attachments. To learn more, read our walk through on [cloud files](https://observablehq.com/@observablehq/cloud-files).

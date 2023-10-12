@@ -34,7 +34,7 @@ Learn more about [How Observable Runs](https://observablehq.com/@observablehq/ho
 We can see how this works by looking at the [_Minimap_](https://observablehq.com/@observablehq/minimap?collection=@observablehq/visualizing-debugging-notebooks). Open it by clicking the Minimap button in the sidebar on the right and then click the cell named `value` inside it (or click within the cell in the document).
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/minimap2.mov" alt="User clicks on the Minimap pane, which pulls up a dependency tree view of all the cells in the notebook. The user then clicks on each cell in the Minimap to see if it has upstream or downstream dependencies." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/minimap2.mov" alt="User clicks on the Minimap pane, which pulls up a dependency tree view of all the cells in the notebook. The user then clicks on each cell in the Minimap to see if it has upstream or downstream dependencies." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 The `value` cell is now highlighted, and lines link to cells that depend on it. This reads left to right: the cell we selected has a dot toward the left, and cells that depend on it have a dot toward the right.
@@ -52,7 +52,7 @@ Suppose we were to add two more cells:
 The resulting dependency tree can be followed easily:
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/minimap.mov" alt="User clicks on the Minimap pane, which pulls up a dependency tree view of all the cells in the notebook. The user then clicks on each cell in the Minimap to see if it has upstream or downstream dependencies." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/minimap.mov" alt="User clicks on the Minimap pane, which pulls up a dependency tree view of all the cells in the notebook. The user then clicks on each cell in the Minimap to see if it has upstream or downstream dependencies." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 In this somewhat contrived example, `doublesquaredplus` depends on the `doublesquared` and `value` cells, with `doublequared` depending on `double` and `squared`. The Minimap shows us one level up and down from `doublesquared` when we click on it, and indicates that there are more dependencies upstream of `doubled` and `squared`. We can follow them by clicking on those cells.
@@ -60,7 +60,7 @@ In this somewhat contrived example, `doublesquaredplus` depends on the `doublesq
 The Minimap also provides another way of reordering cells in a notebook. You can click on a cell in the Minimap, then drag it up or down to move it to a new position in your notebook. This is helpful when you want to move cells over a longer distance, for example to move them into an appendix.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/minimap3.mov" alt="User has an open Minimap, clicks and drags values around the map to move them in the notebook." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/minimap3.mov" alt="User has an open Minimap, clicks and drags values around the map to move them in the notebook." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 ## Advantages of reactive code

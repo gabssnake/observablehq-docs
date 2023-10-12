@@ -54,7 +54,7 @@ To now embed our bar chart into a React app, we will open up the embed pane for 
 <video
     class="screenshot w-80"
     src="./assets/embed.mov" alt="Video showing the embed dialog being opened, the dropdown switching to React app, and then clicking the Copy button."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
 </video>
 
 Now take the code you just copied and run it in a terminal. The example below should be similar:
@@ -73,7 +73,7 @@ Next we'll need the React code to create this component. You can also find this 
 <video
     class="screenshot w-80"
     src="./assets/embed2.mov" alt="Video showing the embed dialog being opened, the dropdown switching to React app, and then clicking the Copy button."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
 </video>
 
 Now we take the copied code and paste it into a new file for our React app. We'll call it *BarChart.js*. It should look like this:

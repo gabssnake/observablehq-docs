@@ -24,7 +24,7 @@ At Observable, we aim to help everyone — regardless of their previous experien
 In Observable, you can quickly access your own data by attaching local files or spreadsheets, connecting to [APIs](https://observablehq.com/@observablehq/working-with-apis-remote-files?collection=@observablehq/working-with-data), and &mdash; for Enterprise and Pro users &mdash;, connecting to [databases](https://observablehq.com/@observablehq/databases) or [cloud files](https://observablehq.com/@observablehq/cloud-files). Here is an example of uploading a CSV file to an Observable notebook, and viewing its contents in a data table. 
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src='https://static.observableusercontent.com/files/9c17031dda3bd7f0dcbf1563224296ead814080c65f23907afbdef78bfe558841076358d1f130dec0c60d8cc02cd845b452569e1b41ea1f61647310f509f0cb9' alt="User clicks on File Attachments pane and drags a csv file called mta.csv, which is then imported into the notebook and viewed with a data table." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src='https://static.observableusercontent.com/files/9c17031dda3bd7f0dcbf1563224296ead814080c65f23907afbdef78bfe558841076358d1f130dec0c60d8cc02cd845b452569e1b41ea1f61647310f509f0cb9' alt="User clicks on File Attachments pane and drags a csv file called mta.csv, which is then imported into the notebook and viewed with a data table." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 #### Visualize data with Plot
@@ -33,7 +33,7 @@ The [Observable Plot](https://observablehq.com/@observablehq/plot) library lets 
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
     <video src="https://static.observableusercontent.com/files/a052dca96a4691cb44670d5622f10829f94e973fadc3a4ec7725b16e9c6574c5ccb4186e405e402e55f509cb0676e340e91c9f02096f72e3f284c23887107ea7"
- alt="Video screenshot of Observable notebook, showing selection of a line chart code snippet from the Add Cell menu. A new cell with starter code appears, then the coder replaces the example Apple stock data with subway ridership data to create an updated chart of ridership over time." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+ alt="Video screenshot of Observable notebook, showing selection of a line chart code snippet from the Add Cell menu. A new cell with starter code appears, then the coder replaces the example Apple stock data with subway ridership data to create an updated chart of ridership over time." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 #### Add interactivity
@@ -44,7 +44,7 @@ Once you've added an Input to your notebook, link its value to one or more eleme
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
     <video src="https://static.observableusercontent.com/files/8b10ec996ff1011f09bb7afa7c6165d2564de7aa457530c8e163ae41557cae2808f5430412b10abf3315cc82223d094b71b064fd863a69d3197401e5a6f4ecf6"
- alt="Video screenshot of Observable notebook, showing selection of a line chart code snippet from the Add Cell menu. A new cell with starter code appears, then the coder replaces the example Apple stock data with subway ridership data to create an updated chart of ridership over time." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+ alt="Video screenshot of Observable notebook, showing selection of a line chart code snippet from the Add Cell menu. A new cell with starter code appears, then the coder replaces the example Apple stock data with subway ridership data to create an updated chart of ridership over time." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 ## Made for collaboration
@@ -55,7 +55,7 @@ You can invite others to join and edit notebooks with you. Edits are live and vi
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
     <video src="https://static.observableusercontent.com/files/306c93b6bdb095e0a53ad4166977f7c84b5cc3b11f070caf99a97da48325f57a8c52189664c1ceb06458f2ab60e715a7175f0c1b12826d3643c6d7e96603c958"
- alt="Screen capture of an Observable notebook showing a user clicking the Share button, then adding another user as an editor. The new editor's avatar now appears in the notebook and is seen making edits." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+ alt="Screen capture of an Observable notebook showing a user clicking the Share button, then adding another user as an editor. The new editor's avatar now appears in the notebook and is seen making edits." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 #### Explore, comment and discuss — right in the notebook
@@ -64,7 +64,7 @@ Collaborators and stakeholders don't require edit access to contribute to work i
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
     <video src="https://static.observableusercontent.com/files/50445938ecd8ba13036f43905c744c949ed6c7ba129fdbde400f97774c86640c88e72ca0665c75a357825fa8c77a07905af9b07ecbe28b642b4b27986d2b8746"
- alt="Screen capture of a user making a comment on a chart, and another user responding and making those changes." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+ alt="Screen capture of a user making a comment on a chart, and another user responding and making those changes." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 #### Version history
@@ -75,7 +75,7 @@ Automated version history in Observable means that everyone working in the noteb
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
     <video src="https://static.observableusercontent.com/files/aa6ff924f4e6e34bdc8e8cd3ba1b1b4c2e85c470d9fd409feb2994b7e49732126b241fc2969b44be3d77156d4e12db6e44d5e45a4b2ff3fb2aa3706c1c49c465"
- alt="Screen capture of an Observable notebook. The user selects the clock icon to open the History pane, selects an older veresion of the notebook, then chooses to Restore the notebook back to that version." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+ alt="Screen capture of an Observable notebook. The user selects the clock icon to open the History pane, selects an older veresion of the notebook, then chooses to Restore the notebook back to that version." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 ## JavaScript for data analysis
 
@@ -109,14 +109,14 @@ Visualization code is easy to reuse for other datasets. The [D3 Charts](https://
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
     <video src="https://static.observableusercontent.com/files/76408ac762f2c821dfeeda57b59f044cb3844bf9a1556240a60c1f0ebcb6f4c87d774e4109c3bc198ac1c76118757cd7bbe3dc427b1001423b6592d32968fbdb"
- alt="Screen capture of a user working in Observable, importing a chart function from the D3 collection then replacing the example data with their own to create their own chart." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+ alt="Screen capture of a user working in Observable, importing a chart function from the D3 collection then replacing the example data with their own to create their own chart." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 The video above shows an example of an [import](https://observablehq.com/@observablehq/import?collection=@observablehq/notebook-fundamentals). Observable lets you quickly reuse content by importing named cells from other notebooks. Most often you'll import code and functions for reuse, but imports are versatile — you can also import charts, inputs, tables, text, or even data.  This works with community notebooks, as well as private notebooks within a team.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
     <video src="https://static.observableusercontent.com/files/d9e7ac8a7d87eae5c097521fe33eb471c4a989657663f168a710fde5d44ac146517c2b2827a3ccf0fe7f669de91457ba18bf3ab7ba88628bf71f2724aa51f56d"
- alt="Screen capture of an Observable user writing a function, choosing Copy Import from the cell menu, then importing and using the function in another notebook." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+ alt="Screen capture of an Observable user writing a function, choosing Copy Import from the cell menu, then importing and using the function in another notebook." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 With content from thousands of community-contributed Observable notebooks available for reuse, how can you focus your search to find what you need? Check out our guide for [searching on Observable](https://observablehq.com/@observablehq/searching-on-observable) and visit a couple of our favorite links:

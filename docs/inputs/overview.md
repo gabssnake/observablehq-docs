@@ -29,7 +29,7 @@ Now you can reference the input's value (here *gain*) in any cell, and the cell 
   <video
     class="screenshot w-80"
     src="./assets/inputs-values.mp4" alt="Video showing values in other JavaScript cells changing instantaneously as the value in a range slider changes."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
   To quickly create an input, open the [**Add cell menu**](https://observablehq.com/@observablehq/adding-cells) by clicking the plus sign in the left margin, then search for an input by name (or search for "input" to see all built-in input options). Click on the desired input, and a new JavaScript cell is added containing placeholder code that you can update to create your input.
@@ -37,7 +37,7 @@ Now you can reference the input's value (here *gain*) in any cell, and the cell 
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 70%"
     src="./assets/input-add-cell-menu.mp4" alt="Video showing a user opening the Add cell menu, searching for 'input', and selecting 'Radio button'. A code snippet for a radio button input appears in the notebook in a JavaScript cell."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 
@@ -72,7 +72,7 @@ viewof clicks = Inputs.button("Click me")
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="./assets/input-button.mp4" alt="A user clicks on a button labeled 'Click me' while a counter increases by 1 each time. Code to create the button is shown below: viewof clicks = Inputs.button('Click me')."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 ### [Toggle](https://observablehq.com/@observablehq/input-toggle) 
@@ -86,7 +86,7 @@ viewof mute = Inputs.toggle({label: "Mute"})
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="./assets/input-toggle.mp4" alt="A user clicks on and off of a single checkbox labeled 'Mute'. Code to create the checkbox is below: viewof mute = Inputs.toggle({label: 'Mute'})."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 ### [Checkbox](https://observablehq.com/@observablehq/input-checkbox) 
@@ -100,7 +100,7 @@ viewof flavors = Inputs.checkbox(["salty", "sweet", "bitter", "sour", "umami"], 
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="./assets/input-checkbox.mp4" alt="A user clicks on and off of multiple checkboxes to select or deselect flavor options. Code to create the checkbox is shown: viewof flavors = Inputs.checkbox(['salty', 'sweet', 'bitter', 'sour', 'umami'], {label: 'Flavors'})."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 ### [Radio](https://observablehq.com/@observablehq/input-radio)
@@ -114,7 +114,7 @@ viewof flavor = Inputs.radio(["salty", "sweet", "bitter", "sour", "umami"], {lab
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="./assets/input-radio.mp4" alt="A user clicks on and off of radio buttons to select a single option. Code to create the input is shown: viewof flavors = Inputs.radio['salty', 'sweet', 'bitter', 'sour', 'umami'], {label: 'Flavor'})."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 ### [Range](https://observablehq.com/@observablehq/input-range)
@@ -128,7 +128,7 @@ viewof n = Inputs.range([0, 255], {step: 1, label: "Favorite number"})
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="./assets/input-range.mp4" alt="A user slides a cursor along a range, change the selected numeric value. Code to create the input is shown: viewof n = Inputs.range([0, 255], {step: 1, label: 'Favorite number'})."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 ### [Select](https://observablehq.com/@observablehq/input-select)
@@ -142,7 +142,7 @@ viewof homeState = Inputs.select([null].concat(stateNames), {label: "Home state"
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="./assets/input-select.mp4" alt="A user chooses different US states from a dropdown list. Code to create the input is shown: viewof homeState = Inputs.select([null].concat(stateNames), {label: 'Home state'})"
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 
@@ -157,7 +157,7 @@ viewof name = Inputs.text({label: "Name", placeholder: "What’s your name?"})
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="./assets/input-text.mp4" alt="A user types text into an initially blank text box to update a stored value. Code to create the input is shown: viewof name = Inputs.text({label: 'Name', placeholder: 'What’s your name?'})"
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 ### [Textarea](https://observablehq.com/@observablehq/input-textarea)
@@ -172,7 +172,7 @@ viewof bio = Inputs.textarea({label: "Biography", placeholder: "What’s your st
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="./assets/input-textarea.mp4" alt="A user types a sentence into an initially blank text box. Code to create the input is shown: viewof bio = Inputs.textarea({label: 'Biography', placeholder: 
     What’s your story?'})"
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 ### [Date](https://observablehq.com/@observablehq/input-date)
@@ -186,7 +186,7 @@ viewof birthday = Inputs.date({label: "Birthday"})
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="./assets/input-date.mp4" alt="A user selects a date from a calendar widget. Code shown to create the date input: viewof birthday = Inputs.date({label: 'Birthday'})"
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 ### [Color](https://observablehq.com/@observablehq/input-color)
@@ -200,7 +200,7 @@ viewof color = Inputs.color({label: "Favorite color", value: "#4682b4"})
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="./assets/input-color.mp4" alt="A user scrolls through different colors to choose one. Code shown to create the date input: viewof color = Inputs.color({label: 'Favorite color', value: '#4682b4'})"
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 ### [File](https://observablehq.com/@observablehq/input-file)
@@ -214,7 +214,7 @@ viewof file = Inputs.file({label: "CSV file", accept: ".csv", required: true})
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="./assets/input-file.mp4" alt="A user clicks a button prompting them to upload a file, which takes them to a finder where they navigate to and select the file. It is then imported into the notebook."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 ## Tabular data
@@ -235,7 +235,7 @@ viewof search = Inputs.search(capitals, {placeholder: "Search U.S. capitals"})
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="./assets/input-search.mp4" alt="A user enters text ('Sacramento') into a text box, and an array of objects is automatically filtered to only contain objects with that string."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 ### [Table](https://observablehq.com/@observablehq/input-table)
@@ -251,7 +251,7 @@ viewof rows = Inputs.table(search)
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="./assets/input-table.mp4" alt="Using Inputs.table, a user scrolls through the rows of a table, then selects several rows by clicking a checkbox in the left margin next to different rows. The information from selected rows is stored in an array of objects in a following cell."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 ## And more!

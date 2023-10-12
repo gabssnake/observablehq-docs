@@ -3,7 +3,7 @@
   <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width:80%;"
     src="./assets/pause-live-edits.mp4" alt="Video showing a user pausing live edits so that they can make changes without viewers seeing their in-progress work."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 You can pause a **public notebook** at the current notebook version, which allows you to edit your notebook without the public seeing your edits in real-time.

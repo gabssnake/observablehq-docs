@@ -40,7 +40,7 @@ You can create inputs using the Add Cell menu that appears when you click a **+*
 You can either scroll down that list, or you can start typing to narrow down the options. At any time, you can select the highlighted item by pressing enter or return, or by clicking on it with your mouse.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/addInput.mov" alt="User is in a blank notebook and opens the cell menu to add a new cell. They type 'rad' to filter the results and click on the radio input. They then another JavaScript cell that takes the value from that radio input and see it update as they interact with the input." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/addInput.mov" alt="User is in a blank notebook and opens the cell menu to add a new cell. They type 'rad' to filter the results and click on the radio input. They then another JavaScript cell that takes the value from that radio input and see it update as they interact with the input." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 ## The `viewof` keyword

@@ -37,7 +37,7 @@ At Observable, we aim to help everyone—regardless of their previous experience
 In Observable, you can quickly access your own data by attaching local files or spreadsheets, connecting to [APIs](https://observablehq.com/@observablehq/working-with-apis-remote-files?collection=@observablehq/working-with-data), and—for Enterprise and Pro users—connecting to [databases](https://observablehq.com/@observablehq/databases) or [cloud files](https://observablehq.com/@observablehq/cloud-files). Here is an example of uploading a CSV file to an Observable notebook, and viewing its contents in a data table.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/files.mp4" alt="User clicks on File Attachments pane and drags a csv file called mta.csv, which is then imported into the notebook and viewed with a data table." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/files.mp4" alt="User clicks on File Attachments pane and drags a csv file called mta.csv, which is then imported into the notebook and viewed with a data table." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 ### Visualize data with Plot
@@ -45,7 +45,7 @@ In Observable, you can quickly access your own data by attaching local files or 
 The [Observable Plot](https://observablehq.com/@observablehq/plot) library lets you quickly build and customize data visualizations. Code snippets are provided in the [cell menu](https://observablehq.com/@observablehq/adding-cells?collection=@observablehq/notebook-fundamentals) as a starting point for many common chart types. They help get you up and running quickly with your own visualizations by simply substituting your data and variable names.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/cellMenuExample.mp4" alt="Video screenshot of Observable notebook, showing selection of a line chart code snippet from the Add Cell menu. A new cell with starter code appears, then the coder replaces the example Apple stock data with subway ridership data to create an updated chart of ridership over time." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/cellMenuExample.mp4" alt="Video screenshot of Observable notebook, showing selection of a line chart code snippet from the Add Cell menu. A new cell with starter code appears, then the coder replaces the example Apple stock data with subway ridership data to create an updated chart of ridership over time." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 ### Add interactivity
@@ -55,7 +55,7 @@ The [Observable Plot](https://observablehq.com/@observablehq/plot) library lets 
 Once you've added an Input to your notebook, link its value to one or more elements of a chart to add interactivity. Since your Observable notebook is _on_ the web and in the language _of_ the web, your interactive chart is immediately shareable with collaborators.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/inputs2.mp4" alt="Video screenshot of Observable notebook, showing selection of a line chart code snippet from the Add Cell menu. A new cell with starter code appears, then the coder replaces the example Apple stock data with subway ridership data to create an updated chart of ridership over time." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/inputs2.mp4" alt="Video screenshot of Observable notebook, showing selection of a line chart code snippet from the Add Cell menu. A new cell with starter code appears, then the coder replaces the example Apple stock data with subway ridership data to create an updated chart of ridership over time." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 ## Made for collaboration
@@ -67,7 +67,7 @@ At Observable, we believe that collaboration is key to doing responsible, innova
 You can invite others to join and edit notebooks with you. Edits are live and visible to all users who are present at the same time. You can see other active users' avatars at the top of the screen. Click on them to automatically follow them around the notebook!
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/collab.mp4" alt="Screen capture of an Observable notebook showing a user clicking the Share button, then adding another user as an editor. The new editor's avatar now appears in the notebook and is seen making edits." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/collab.mp4" alt="Screen capture of an Observable notebook showing a user clicking the Share button, then adding another user as an editor. The new editor's avatar now appears in the notebook and is seen making edits." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 ### Explore, comment and discuss—right in the notebook
@@ -75,7 +75,7 @@ You can invite others to join and edit notebooks with you. Edits are live and vi
 Collaborators and stakeholders don't require edit access to contribute to work in an Observable notebook. Anyone with view access can interact with notebooks using [inputs](https://observablehq.com/d/a6eb5a18f8943489?collection=@observablehq/enterprise-training-curriculum#cell-22), and can give feedback and participate in discussions using [comments](https://observablehq.com/@observablehq/comments). Comments get sent to the original editor so they can respond and resolve. 
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/comments.mp4" alt="Screen capture of a user making a comment on a chart, and another user responding and making those changes." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/comments.mp4" alt="Screen capture of a user making a comment on a chart, and another user responding and making those changes." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 ### Version history
@@ -85,7 +85,7 @@ Whether working solo or with collaborators in a notebook, it is useful to have a
 Automated version history in Observable means that everyone working in the notebook can safely make edits and investigate changes.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/history@1.mp4" alt="Screen capture of an Observable notebook. The user selects the clock icon to open the History pane, selects an older veresion of the notebook, then chooses to Restore the notebook back to that version." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/history@1.mp4" alt="Screen capture of an Observable notebook. The user selects the clock icon to open the History pane, selects an older veresion of the notebook, then chooses to Restore the notebook back to that version." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 ## JavaScript for data analysis
@@ -119,13 +119,13 @@ The Observable community is home to thousands of visualization and data analysis
 Visualization code is easy to reuse for other datasets. The [D3 Charts](https://observablehq.com/collection/@d3/charts) collection features dozens of reusable functions that you can easily import into your own notebooks to analyze your own data.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/reuseViz.mp4" alt="Screen capture of a user working in Observable, importing a chart function from the D3 collection then replacing the example data with their own to create their own chart." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/reuseViz.mp4" alt="Screen capture of a user working in Observable, importing a chart function from the D3 collection then replacing the example data with their own to create their own chart." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 The video above shows an example of an [import](https://observablehq.com/@observablehq/import?collection=@observablehq/notebook-fundamentals). Observable lets you quickly reuse content by importing named cells from other notebooks. Most often you'll import code and functions for reuse, but imports are versatile—you can also import charts, inputs, tables, text, or even data.  This works with community notebooks, as well as private notebooks within a team.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/import.mp4" alt="Screen capture of an Observable user writing a function, choosing Copy Import from the cell menu, then importing and using the function in another notebook." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/import.mp4" alt="Screen capture of an Observable user writing a function, choosing Copy Import from the cell menu, then importing and using the function in another notebook." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
   </div>
 
   With content from thousands of community-contributed Observable notebooks available for reuse, how can you focus your search to find what you need? Check out our guide for [searching on Observable](https://observablehq.com/@observablehq/searching-on-observable) and visit a couple of our favorite links:

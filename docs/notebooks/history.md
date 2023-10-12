@@ -11,7 +11,7 @@ To see explore changes between a selected version and the latest one, click the 
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width:80%;"
     src="./assets/history-compare.mp4" alt="Video showing a user opening the History pane in a notebook, then selecting the Compare option to see how notebook versions differ."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
     <figcaption>Compare differing cells between notebook versions in the History pane.</figcaption>
     </video>
 
@@ -22,7 +22,7 @@ To switch to an earlier version, click on a row in the History pane. The noteboo
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width:80%;"
     src="./assets/history-revert.mp4" alt="Screen recording showing a user selecting a previous notebook version from the history."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
     <figcaption>Compare differing cells between notebook versions in the History pane.</figcaption>
     </video>
 

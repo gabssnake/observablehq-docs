@@ -101,13 +101,13 @@ The calculation below depends on the two controls that come after it. For some v
 Now that you've seen what cells are, you want to create your own! To create a new cell, hover over the left edge of the existing cells to reveal **+** buttons above and below. Clicking any of them will open the [_Add Cell_ menu](https://observablehq.com/@observablehq/adding-cells). You can select from the three main types of cells (JavaScript, Markdown, and HTML) as well as a wide range of useful templates for charts, inputs, tables, and more.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/addCell@1.mp4" alt="User adds a new cell to a blank Observable notebook by clicking on the cell, opening up the cell menu, and clicking on a JavaScript cell. They then write 1 + 1 which computes the value 2." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/addCell@1.mp4" alt="User adds a new cell to a blank Observable notebook by clicking on the cell, opening up the cell menu, and clicking on a JavaScript cell. They then write 1 + 1 which computes the value 2." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 To delete a cell, click the three-dot menu in its left sidebar and select _Delete_. You can also click into the cell and then select the trash can button from the toolbar on the bottom of your browser window.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/delete.mp4" alt="User deletes two cells in an Observable notebook, the first time with the cell options and the second time with the cell menu." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/delete.mp4" alt="User deletes two cells in an Observable notebook, the first time with the cell options and the second time with the cell menu." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 ## Pinning and moving cells
@@ -117,13 +117,13 @@ The little push pin icon you see next to an open cell allows you to _pin_ a cell
 You can move cells by clicking and holding the mouse over the bar on the left of the cell (the pointer will turn into a hand icon). Hold down the mouse or track pad button to drag the cell to a new position in the notebook. A horizontal line indicates where the cell will end up when you drop it. As an alternative, the toolbar on the bottom of the browser lets you move a cell up or down by clicking the arrow buttons.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/drag2.mp4" alt="User moves cells in the notebook by clicking to the left of a cell and dragging it up and down the page." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/drag2.mp4" alt="User moves cells in the notebook by clicking to the left of a cell and dragging it up and down the page." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 To move multiple cells, click Select in the cell menu (three dot menu). This shows checkboxes for each cell, which lets you pick which ones to include. You can bulk move all selected cells at once using arrow buttons in the tool bar at the bottom of your browser window, delete them all using the trash can icon, or duplicate them using the duplicate button.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/dragMultiple.mp4" alt="User moves multiple cells in a notebook at once by selecting each cell then using the up and down arrows to move them in the notebook." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/dragMultiple.mp4" alt="User moves multiple cells in a notebook at once by selecting each cell then using the up and down arrows to move them in the notebook." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 ## Create a notebook
@@ -131,7 +131,7 @@ To move multiple cells, click Select in the cell menu (three dot menu). This sho
 To create a new notebook, scroll to the top of any page on Observable and you will find a _New_ button in the top right. Clicking it presents you with a choice to create a blank notebook or to start from a number of templates, such as charts, data access to a number of services, curated datasets to explore, and more.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/new.mp4" alt="User creates a new notebook by clicking on the 'New +' button on the top right hand corner of the page and then selects one of the notebook templates." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/new.mp4" alt="User creates a new notebook by clicking on the 'New +' button on the top right hand corner of the page and then selects one of the notebook templates." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 You can share notebooks with others to edit together, or keep them to yourself. Notebooks can connect to a variety of data sources including local files, spreadsheets, APIs and for Enterprise and Pro accounts, cloud files and databases.

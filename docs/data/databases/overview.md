@@ -6,7 +6,7 @@ Observable database clients allow secure and convenient querying of SQL database
   <video
     style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;margin-bottom:20px;max-width:80%;"
     src="./assets/db-access-query.mp4" alt="Video showing an interactive SQL query connected to a text input. The user types different names into a text box, and the query results are automatically updated."
-    autoplay loop controls = "false">
+    autoplay loop playsinline controls = "false">
   </video>
 
 This walkthrough discusses connecting notebooks to databases that are reachable from the public internet, with the connection hosted by Observable. If you wish to use your notebooks to query a database on your local computer, or on a private network, we also provide a [self-hosted database proxy](https://observablehq.com/@observablehq/self-hosted-database-proxies) that you may prefer to use.

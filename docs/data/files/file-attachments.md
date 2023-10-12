@@ -279,7 +279,7 @@ Functions identically to [CSV files](/data/files/file-attachments#csv-files).
 ### Video files
 
 ```html
-<video src=${await visibility().then(() => FileAttachment("example.mov").url())} autoplay loop muted></video>
+<video src=${await visibility().then(() => FileAttachment("example.mov").url())} autoplay playsinline loop muted></video>
 ```
 
 Videos do not have their own file attachment method, so the typical usage pattern is to employ the `url()` method within a video tag in an HTML cell.

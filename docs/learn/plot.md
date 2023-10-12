@@ -42,7 +42,7 @@ Plot.plot({
 To get started quickly with Observable Plot, search for then select an existing code snippet from the Add Cell menu. Snippets for many common chart types are included (e.g. scatterplots, line charts, ordered bar graphs, histograms, area charts and more). Once you've selected the right chart type, starter code will be added to a new cell. Replace the fields with your own to get a view of your own data, as shown below.
 
 <div style="max-width: 700px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/line-chart-sales.mp4" alt="Screen capture showing how to create a line chart with Plot snippets in Observable. User navigates to Add Cell menu, searches for a line chart, and selects to insert the code snippet into the notebook. Then, they update the data name and variables to create a plot with the new data." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/line-chart-sales.mp4" alt="Screen capture showing how to create a line chart with Plot snippets in Observable. User navigates to Add Cell menu, searches for a line chart, and selects to insert the code snippet into the notebook. Then, they update the data name and variables to create a plot with the new data." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 ## Analysis in Plot

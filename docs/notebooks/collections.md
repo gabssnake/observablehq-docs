@@ -115,7 +115,7 @@ Use the <svg style="margin: 0 .25rem;display:inline;" viewBox="0 0 16 16" fill="
 The same is true for adding _your collections_ to other collections, which can be done either from the collection page or from the collection's listing menu on your profile's **"Collections"** tab.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/collectionsNested.mov" style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;margin-bottom:20px;" autoplay loop muted
+    <video src="./assets/collectionsNested.mov" style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;margin-bottom:20px;" autoplay playsinline loop muted
     alt="Video of the Collections page. The user clicks on the a collection to open it, then hovers over the Edit menu on the top right and selects 'Add to collections' from it. A dialog appears showing all the collections in the workspace, where the user selects another collection and then clicks 'Confirm'."
     ></video>
 <figcaption>Adding a collection to a collection.</figcaption>

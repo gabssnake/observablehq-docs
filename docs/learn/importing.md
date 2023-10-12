@@ -16,7 +16,7 @@ Notebooks on Observable can be reused in different ways. If you need only very s
 A big strength of notebooks is that they make it easy to write components once, then reuse them in other places, for more efficient and organized data work. This is done using the `import` keyword. You could write it by hand, but it's much easier to simply copy it from a cell, using the cell menu. This also has the advantage of being less error-prone.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/import101.mov" alt="User is in a blank notebook and opens the cell menu to add a new cell. They type 'rad' to filter the results and click on the radio input. They then another JavaScript cell that takes the value from that radio input and see it update as they interact with the input." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/import101.mov" alt="User is in a blank notebook and opens the cell menu to add a new cell. They type 'rad' to filter the results and click on the radio input. They then another JavaScript cell that takes the value from that radio input and see it update as they interact with the input." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 Suppose we were to import the `letterFrequency` chart below from [the earlier notebook about inputs](https://observablehq.com/d/ec4297da21238b6b?collection=@observablehq/intro-to-observable). It depends on a dataset and three variables that pick the letter to highlight as well as the colors of the selected and regular bars. The import brings all of those necessary values with it:
@@ -83,7 +83,7 @@ Many external modules are easy to import, however, such as this [library of fina
 A different way of reusing a notebook, and a way to collaborate, is to _fork_ a notebook. This is done by selecting the _Fork_ option from the menu in the top right of every notebook.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/fork.mov" alt="User is viewing a community notebook on horizon charts and interacts with an input for the number of bands. They then click on the Fork modal and forks a copy of this notebook to their personal account." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/fork.mov" alt="User is viewing a community notebook on horizon charts and interacts with an input for the number of bands. They then click on the Fork modal and forks a copy of this notebook to their personal account." style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 The term forking comes from version control systems, and essentially means making a copy of a document, and that copy knows where it came from. A forked notebook works like a completely independent copy, but because it knows which parent notebook it was derived from, it has some additional functionality.

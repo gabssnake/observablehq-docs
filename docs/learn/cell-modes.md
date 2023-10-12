@@ -83,7 +83,7 @@ You can interpolate with HTML as well:
 The mode of a cell can be changed at any time by clicking the menu on the left of the editing window and selecting the new mode. This is handy if you picked the wrong one by mistake or decide that you wanted to write more text instead of code.
 
 <div style="max-width: 640px; border-radius: 5px; overflow: hidden; padding: 1rem;">
-    <video src="./assets/changeMode.mov" alt="User creates a new markdown cell and write print('Hello World!') and then switches the cell mode to JavaScript so it renders correctly" style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay loop muted></video>
+    <video src="./assets/changeMode.mov" alt="User creates a new markdown cell and write print('Hello World!') and then switches the cell mode to JavaScript so it renders correctly" style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;" autoplay playsinline loop muted></video>
 </div>
 
 ## Backticks for cell modes
