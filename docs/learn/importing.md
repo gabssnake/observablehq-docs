@@ -98,5 +98,5 @@ That's it for our [course](https://observablehq.com/@observablehq/learning-obser
 
 Also, if you're feeling stuck or have questions, the Observable community is here to help. Here are several places to reach out for help, clarification and support:
 - [Observable Community Forum](https://talk.observablehq.com/)
-- [Observable Community Slack Workspace](https://join.slack.com/t/observable-community/shared_invite/zt-1icwex7uf-ovIAS0PcuJ~ZgBToSyUs8w) (#help channel)
+- [Observable Community Slack Workspace](https://observablehq.com/slack/join) (#help channel)
 - Email: support@observablehq.com

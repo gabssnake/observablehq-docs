@@ -50,7 +50,7 @@ Observable's built-in version history (accessed by clicking on the History pane 
 ## User support and feedback
 
 ### Where can I ask questions and find answers from other users? 
-The Observable [Community Forum](https://talk.observablehq.com/) and [Community Slack workspace](https://join.slack.com/t/observable-community/shared_invite/zt-1icwex7uf-ovIAS0PcuJ~ZgBToSyUs8w) are great places to ask questions and find answers from members of the Observable community.
+The Observable [Community Forum](https://talk.observablehq.com/) and [Community Slack workspace](https://observablehq.com/slack/join) are great places to ask questions and find answers from members of the Observable community.
 
 ### How can I report a bug or request a feature? 
 We welcome you to share bug reports, feature requests, and feedback as issues in our [public feedback repository on GitHub](https://github.com/observablehq/feedback).

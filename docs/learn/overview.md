@@ -142,7 +142,7 @@ The video above shows an example of an [import](https://observablehq.com/@observ
 In addition to providing inspiration and reusable code, the Observable Community provides invaluable support while you learn and work. Here are several places to reach out for help, clarification and support:
 
 - [Observable Community Forum](https://talk.observablehq.com/)
-- [Observable Community Slack Workspace](https://join.slack.com/t/observable-community/shared_invite/zt-1icwex7uf-ovIAS0PcuJ~ZgBToSyUs8w)
+- [Observable Community Slack Workspace](https://observablehq.com/slack/join)
 
 To stay up-to-date on new features, community highlights, and events, we also recommend:
 
