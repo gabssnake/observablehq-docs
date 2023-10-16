@@ -439,7 +439,7 @@ See our standard instructions for [Connecting to databases](/data/databases/over
 
 ## Oracle
 
-The database proxy is a simple Node.js webserver that accepts secure requests from your Observable notebooks, and proxies queries to a PostgreSQL, MySQL, Snowflake, SQL Server, Databricks or Oracle database—one that is not necessarily exposed to the web. You can use the database proxy to securely connect to databases on your local computer, on an intranet or within a VPN.
+In order to connect to Oracle, you will have to self-host a database proxy. The database proxy is a simple Node.js webserver that accepts secure requests from your Observable notebooks, and proxies queries to a PostgreSQL, MySQL, Snowflake, SQL Server, Databricks or Oracle database. You can use the database proxy to securely connect to databases on your local computer, on an intranet or within a VPN.
 
 Install the database proxy locally or globally with `npm` or `yarn`:
 
