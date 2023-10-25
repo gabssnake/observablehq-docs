@@ -1,7 +1,7 @@
 # Connecting to databases
 <PricingBadge level="pro" />
 
-Observable database clients allow secure and convenient querying of SQL databases from private notebooks. You can explore the contents of a database table using the [Data table cell](/cells/data-table), query the database using the [SQL cell](/cells/sql-cell), or feed query results directly into visualizations.
+Observable database clients allow secure and convenient querying of SQL databases from private notebooks. You can explore the contents of a database table using the [Data table cell](/cells/data-table), query the database using the [SQL cell](/cells/sql), or feed query results directly into visualizations.
 
   <video
     style="width: 100%; border-radius: 5px; box-shadow: 3px 3px 10px #ccc;margin-bottom:20px;max-width:80%;"
