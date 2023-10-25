@@ -1,4 +1,4 @@
-# JavaScript code in Observable
+# JavaScript cell
 
 Observable notebooks are often written in [JavaScript](https://developer.mozilla.org/docs/Web/JavaScript) cells, using the Web's native language, but [with a few changes](https://observablehq.com/@observablehq/observable-javascript?collection=@observablehq/javascript-in-observable). It's helpful if you have some JavaScript experience, but don't panic if you're rusty or not an expert! Instead, try tinkering with the code to get a feel for how it works. Even the most wizened developer may yet learn by trial and error. (If you *are* an experienced JavaScript developer, definitely look at [Observable JavaScript](https://observablehq.com/@observablehq/observable-javascript?collection=@observablehq/javascript-in-observable).)
 

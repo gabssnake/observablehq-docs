@@ -1,4 +1,4 @@
-# TeX cells
+# TeX cell
 
 For the mathematically inclined, you can use KaTeX leveraging our mathematical formula cell.
 

@@ -1,4 +1,4 @@
-# The Chart cell
+# Chart cell
 
 The **Chart cell** provides a no-code option for building, exploring, and customizing charts with [Observable Plot](https://observablehq.com/@observablehq/plot). With point-and-click menus for variable selection, aggregation (e.g. mean, sum, or count), faceting, color mapping, and more, the Chart cell makes it possible for anyone—regardless of programming experience—to quickly create and iterate on data visualizations.
 

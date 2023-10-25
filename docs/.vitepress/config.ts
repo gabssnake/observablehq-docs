@@ -66,7 +66,7 @@ export default defineConfig({
               ]
              },
              {text: "Text", link: "/cells/text"},
-             {text: "Data Table", link: "/cells/data-table"},
+             {text: "Data table", link: "/cells/data-table"},
              {text: "Chart", link: "/cells/chart-cell"},
              {text: "HTML", link: "/cells/html-cell"},
              {text: "SQL", link: "/cells/sql-cell"},

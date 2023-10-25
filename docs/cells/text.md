@@ -1,4 +1,4 @@
-# Text cells
+# Text cell
 
 Observable notebooks are great for telling compelling stories with data, but to do that well you need more than beautiful visualizations! You'll also want text, lists, and other text elements to help add context, explanations, and structure. This short guide gives you an introduction to Markdown text in Observable.
 
