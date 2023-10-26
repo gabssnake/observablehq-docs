@@ -112,4 +112,4 @@ Note that if you invite a user to collaborate on a private notebook, and they ar
 Invidual sharing is limited to four users besides yourself. To share your notebook with an unlimited number of users, you can create an Observable Team. See our [pricing page](https://observablehq.com/pricing) for details about Free teams, Pro teams, and Enterprise teams.
 
 ## Group Sharing
-Enterprise workspaces have the ability to share notebooks with **Groups**, which are defined lists of users on a given workspace. To learn more about how to setup and use groups, check out our [Enterprise workspace settings.](https://observablehq.com/@observablehq/workspace-settings#cell-145).
+Enterprise workspaces have the ability to share notebooks with **Groups**, which are defined lists of users on a given workspace. To learn more about how to setup and use groups, check out our [Enterprise workspace settings.](/accounts-workspaces/workspace-settings#groups).

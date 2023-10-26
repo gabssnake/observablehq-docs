@@ -1,14 +1,8 @@
 # Pause live edits in public notebooks
 
-  <video
-    style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width:80%;"
-    src="./assets/pause-live-edits.mp4" alt="Video showing a user pausing live edits so that they can make changes without viewers seeing their in-progress work."
-    autoplay loop playsinline controls = "false">
-  </video>
-
 You can pause a **public notebook** at the current notebook version, which allows you to edit your notebook without the public seeing your edits in real-time.
 
-Normally, public notebooks default to live editing (this is explained more fully in [Team and Individual Workspaces](https://observablehq.com/@observablehq/team-and-individual-workspaces#freeIndividual)), which means that changes are visible to viewers immediately. But if you *pause live editing*, you can make changes without showing the changes to the public until you are ready.
+Normally, public notebooks default to live editing, which means that changes are visible to viewers immediately. But if you *pause live editing*, you can make changes without showing the changes to the public until you are ready.
 
 - To pause a notebook, click the menu button and select **Pause live editing**.
 - To resume a notebook, click the menu button and select **Resume live editing**.
@@ -70,7 +64,7 @@ Once a notebook is paused, any further edits to the notebook will continue to be
   />
 </figure>
 
-If a non-member (or a member looking at the paused version) tries to edit the notebook, the user will be placed into [Tinker mode](https://observablehq.com/@observablehq/tinker-mode).
+If a non-member (or a member looking at the paused version) tries to edit the notebook, the user will be placed into [Tinker mode](/collaboration/tinker-mode).
 
 ## How is search handled?
 

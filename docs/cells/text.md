@@ -4,7 +4,7 @@ Observable notebooks are great for telling compelling stories with data, but to 
 
 ## Creating a text cell
 
-To create a new text cell, select the plus sign (+) that appears to the left-side of the notebook between any two cells. As a result, you'll see the [Add cell menu](https://observablehq.com/@observablehq/adding-cells/) appear. Use the mouse to select **Text** at the top of the menu or search for it in the search bar. Text cells are Markdown cells, so you can leverage your Markdown knowledge when defining these cells. 
+To create a new text cell, select the plus sign (+) that appears to the left-side of the notebook between any two cells. As a result, you'll see the [add cell menu](/cells/#add-cell-menu) appear. Use the mouse to select **Text** at the top of the menu or search for it in the search bar. Text cells are Markdown cells, so you can leverage your Markdown knowledge when defining these cells. 
 
 <figure>
   <img
@@ -14,7 +14,7 @@ To create a new text cell, select the plus sign (+) that appears to the left-sid
   <figcaption>Opening the Add cell menu for the Text button.</figcaption>
 </figure>
 
-There are many other options available when you are [adding cells](https://observablehq.com/@observablehq/adding-cells), but in this guide we'll focus on some common formatting options for text/Markdown cells.
+There are many other options available when you are adding cells, but in this guide we'll focus on some common formatting options for text/Markdown cells.
 
 
 ## Basic Formatting

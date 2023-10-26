@@ -33,21 +33,7 @@ export default defineConfig({
       {
         text: "Getting Started",
         items: [
-          {text: "Observable overview", 
-          collapsed: true,
-           link: "/learn/overview",
-          items: [
-           {text: "Notebooks & cells", link: "/learn/notebooks-cells"},
-           {text: "Getting data in", link: "learn/getting-data"},
-           {text: "Chart cell", link: "/learn/viz-chart-cell"},
-           {text: "Observable Plot" , link: "learn/plot"},
-           {text: "Cell modes", link: "learn/cell-modes"},
-           {text: "Reactive dataflow", link: "/learn/reactive-flow"},
-           {text: "Inputs and interactivity", link: "/learn/inputs"},
-           {text: "JavaScript and Observable", link: "/learn/javascript"},
-           {text: "Importing and remixing", link: "/learn/importing"}
-          ]
-          },
+          {text: "Overview", link: "/learn/overview" },
           {text: "Hands-on tutorials", link: "https://observablehq.com/@observablehq/hands-on-tutorials-overview"},
           {text: "Quick guides", link: "https://observablehq.com/guides"}
         ]
@@ -200,13 +186,7 @@ export default defineConfig({
               {text: "Imports", link: "/notebooks/imports"},
               {text: "URLs", link: "/notebooks/urls"},
               {text: "Saving", link: "/notebooks/saving"},
-              {text: "Templates",
-              collapsed: true,
-               items: [
-                {text: "Using templates", link: "/notebooks/templates#existing-templates"},
-                {text: "Custom templates", link: "/notebooks/templates#custom-templates"}
-               ]
-              },
+              {text: "Templates",link: "/notebooks/templates"}
             ]
           },
           {
@@ -254,7 +234,7 @@ export default defineConfig({
               {text: "Workspaces", link: "/accounts-workspaces/workspaces",
                 collapsed: true,
                 items: [
-                  {text: "Audit logs", link: "/accounts-workspaces/audit-logs"},
+                  {text: "Audit logs", link: "/accounts-workspaces/workspace-audit-logs"},
                   {text: "Setup", link: "/accounts-workspaces/team-creation-administration"},
                   {text: "Settings", link: "/accounts-workspaces/workspace-settings"},
                 ]

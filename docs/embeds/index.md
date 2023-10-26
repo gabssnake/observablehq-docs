@@ -7,7 +7,7 @@ Embedding lets you put a working version of your notebooks inside another websit
 <iframe width="100%" height="635" frameborder="0"
   src="https://observablehq.com/embed/@d3/sortable-bar-chart?cell=viewof+order&cell=chart"></iframe>
 
-It shows two cells in one: one to control the sort order, and one to show the chart. And this isn’t an [import](https://observablehq.com/@observablehq/introduction-to-imports) — it’s just HTML, which means it can go anywhere on the web.
+It shows two cells in one: one to control the sort order, and one to show the chart. And this isn’t an [import](/notebooks/imports) — it’s just HTML, which means it can go anywhere on the web.
 
 ## How to embed
 
@@ -34,7 +34,7 @@ Then copy the **Iframe** code at the bottom and paste it into just about anywher
 </figcaption>
 </figure>
 
-In many cases, you’re done! But if you want more control or a deeper integration, you can try the other embedding methods, **Runtime with JavaScript** or **Runtime with React**, which generate code that uses the [Runtime API](https://observablehq.com/@observablehq/downloading-and-embedding-notebooks) to render your cells. Since the code is running directly on your site, and the cells are inserted directly into your document, you can rearrange the cells and style them with CSS; they do not have our site styles. Since the appearance will depend on the site into which you’re embedding, our preview here is only a rough indication of how your embed will look.
+In many cases, you’re done! But if you want more control or a deeper integration, you can try the other embedding methods, **Runtime with JavaScript** or **Runtime with React**, which generate code that uses the [Runtime API](https://github.com/observablehq/runtime) to render your cells. Since the code is running directly on your site, and the cells are inserted directly into your document, you can rearrange the cells and style them with CSS; they do not have our site styles. Since the appearance will depend on the site into which you’re embedding, our preview here is only a rough indication of how your embed will look.
 
 ### Iframe embeds without the Observable attribution banner
 <PricingBadge level="enterprise" />
@@ -55,11 +55,11 @@ If you have an Enterprise account, you have the option to remove the Observable 
 
 Private notebooks are not embeddable by default. To embed a private notebook, you can use a notebook key or API key with the embed code.
 
-See [API and Notebook Keys](https://observablehq.com/@observablehq/api-keys) for more details.
+See [API and Notebook Keys](/embeds/api-keys) for more details.
 
 ## Embed environment
 
-The Runtime-based embedding methods are limited to environments where you can run your own scripts. But since the Iframe isolates that in a different document, it can go in more controlled WordPress blogs, content management systems like Gatsby, and note-taking software like Notion or Roam. Closer to home, you can now embed cells in posts on the Observable forum. It even makes embedding easier on Observable itself, since the Iframe can go directly in an \`html\` template literal! (If you want to pass data in and out of the cells, you’re still better off using [imports](https://observablehq.com/@observablehq/imports).)
+The Runtime-based embedding methods are limited to environments where you can run your own scripts. But since the Iframe isolates that in a different document, it can go in more controlled WordPress blogs, content management systems like Gatsby, and note-taking software like Notion or Roam. Closer to home, you can now embed cells in posts on the Observable forum. It even makes embedding easier on Observable itself, since the Iframe can go directly in an \`html\` template literal! (If you want to pass data in and out of the cells, you’re still better off using [imports](/notebooks/imports).)
 
 Some sites like Medium and Reddit that don’t allow arbitrary HTML still “unfurl” certain links you paste to interactive versions, using a standard called [oEmbed](https://oembed.com/). Under the Iframe code, click “Copy URL only” and paste it elsewhere; depending on the site, it will expand to the full interactive embed. If the site uses Embedly, the Iframe can automatically resize to match the height of your content.
 

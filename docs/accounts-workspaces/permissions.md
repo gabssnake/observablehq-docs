@@ -1,13 +1,8 @@
 # Permissions
 
-Team workspaces allow each team member to control how notebooks are shared within their team. With any notebook, you have the option of reserving edit capability to just a select few members. 
+Team workspaces allow each team member to control how notebooks are shared within their team. With any notebook, you have the option of reserving edit capability to just a select few members. The default visibility and access for notebooks is different for free team notebooks versus private or Enterprise team notebooks.
 
-
-### Sharing and access levels
-
-The default visibility and access for notebooks is different for free team notebooks versus private or Enterprise team notebooks.
-
-### Free team sharing and access levels
+## Free teams
 
 By default, noteboooks created in a free team workspace are public, meaning they can be viewed by anyone. You can decide whether or not to share edit access to the notebook.
 
@@ -28,7 +23,7 @@ You can grant two different levels of access:
 
 2. **Can view and edit** – Grants full read/write access to the notebook to all team editors, including the ability to further change the sharing settings. Team viewers can view the notebook. 
 
-### Pro & Enterprise team sharing and access levels
+## Pro & Enterprise teams
 
 <PricingBadge level="pro" />
 
@@ -51,7 +46,7 @@ There are **three different levels of access** that can be granted in private an
 2. **Can view** – The notebook will be listed and accessible by specific team members (or by all team members if set for the entire team), but if they make any edits they will not be saved unless they fork the notebook. Also allows comment access to the notebook. 
 3. **Can view or edit** – The notebook is viewable and fully editable (based on team membership permissions), and team editors have the ability to further change the sharing settings.
 
-### Listing
+## Listing
 
 When viewing a team's notebook list, you can filter by access level. This allows you to see notebooks categorized into **All**, **You**, **Shared** and **Team**:
 
@@ -86,7 +81,7 @@ Private team and Enterprise team notebooks, because they can be published, can a
 - **Published** – Visible to anyone outside the team through search or other listings. The published version represents a snapshot in time and subsequent changes are not visible until the notebook is republished.
 - **Public** – Notebooks that are visible to anyone and are *live*; that is, changes are immediately visible to anyone.
 
-### Permissions changes
+## Permissions changes
 
 * Any team member with permission to edit a notebook can change the sharing settings for that notebook, including removing access by other team members or the entire team. 
 * If a team member's role is changed (can only be done by team owners) to _viewer_ , then any notebooks they had _Can view or edit_ permission on it will be changed to just _Can view_. 
@@ -98,7 +93,7 @@ Private team and Enterprise team notebooks, because they can be published, can a
   * If the same team member is added back to the team, they will be able to retrieve any trashed (but not yet permanently deleted) private notebooks.
 
 
-### Permission combinations
+## Permission combinations
 
 Different combinations of individual and team sharing are possible, with the restriction that a team member who only has the _viewer_ role on the team (set by the team owner in the initial invitation or in the Team Settings) may not be given _editor_ permission on a notebook. Also note that when a team member is given notebook permissions in two ways, they will get the **more permissive** role. 
 

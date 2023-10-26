@@ -4,13 +4,13 @@ Templates provide pre-packaged artifacts for common data-related workflows. Whet
 
 This page describes how you can use existing templates to avoid starting your work from scratch, and how to make your own custom templates for reuse by you and your team.
 
-## Use existing templates {#existing-templates}
+## Observable templates
 
-Observable provides a number of [pre-made templates](http://observablehq.com/templates) for common data-related tasks like boilerplates for basic charts and maps, starters to access APIs or connect to Google sheets, and templates for common analyses for business planning and product insights.
+Observable provides a number of [pre-made templates](https://observablehq.com/templates) for common data-related tasks like boilerplates for basic charts and maps, starters to access APIs or connect to Google sheets, and templates for common analyses for business planning and product insights.
 
 To use an existing template:
 
-1. Open a template from our [pre-made templates](http://observablehq.com/templates) page:
+1. Open a template from our [pre-made templates](https://observablehq.com/templates) page:
 
 <figure>
   <img
@@ -32,10 +32,10 @@ To use an existing template:
 
 4. Replace the template contents with your own data, and make any edits to customize your notebook. Underneath the pre-packaged Templates there is limitless flexibility. The code and data are right there, so you can customize, extend, and re-write any or all of it, as you see fit.
 
-## Create custom templates {#custom-templates}
+## Custom templates
 <PricingBadge level="pro" />
 
-If you have a [Pro Team](https://observablehq.com/@observablehq/team-and-individual-workspaces?collection=@observablehq/workspaces#teamPrivate) or [Pro Individual](https://observablehq.com/@observablehq/team-and-individual-workspaces?collection=@observablehq/workspaces#cell-1094) account, Observable offers the ability to create your own custom templates. These can be tailored to exactly suit your working methods. You will be able to create new notebooks even faster because the template is customized to save you from repetitive steps.
+If you have a Pro Team or Pro Individual account, Observable offers the ability to create your own custom templates. These can be tailored to exactly suit your working methods. You will be able to create new notebooks even faster because the template is customized to save you from repetitive steps.
 
 Once created, custom templates appear as a choice whenever anyone chooses to create a new notebook.
 
@@ -49,13 +49,13 @@ Once created, custom templates appear as a choice whenever anyone chooses to cre
 A few notes on custom templates: 
 
 - Any editor can create a custom template.
-- Custom templates are in addition to the standard set of [pre-defined Observable templates](http://observablehq.com/templates). 
+- Custom templates are in addition to the standard set of [pre-defined Observable templates](https://observablehq.com/templates). 
 - You can [group](#grouping) custom templates to match your work projects or work groups.
 
 ### How to create a custom template
 
-1. In your account, create a new collection named **Templates**. (See [How to create a new collection](https://observablehq.com/@observablehq/collections?collection=@observablehq/editing-publishing-collaborating)).
-2. Create the new custom template in a notebook, either from scratch, or by [forking](https://observablehq.com/@observablehq/fork-share-merge) one of the pre-defined [Observable Templates](https://observablehq.com/templates).
+1. In your account, create a new collection named **Templates**. (See [How to create a new collection](/notebooks/collections)).
+2. Create the new custom template in a notebook, either from scratch, or by [forking](/notebooks/forking) one of the pre-defined [Observable Templates](https://observablehq.com/templates).
 3. Add the new custom template to the **Templates** collection by clicking **Add to collection** from the notebook menu (<svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="display: inline !important;"><path fillRule="evenodd" clipRule="evenodd" d="M4.5 8C4.5 8.82843 3.82843 9.5 3 9.5C2.17157 9.5 1.5 8.82843 1.5 8C1.5 7.17157 2.17157 6.5 3 6.5C3.82843 6.5 4.5 7.17157 4.5 8ZM9.5 8C9.5 8.82843 8.82843 9.5 8 9.5C7.17157 9.5 6.5 8.82843 6.5 8C6.5 7.17157 7.17157 6.5 8 6.5C8.82843 6.5 9.5 7.17157 9.5 8ZM14.5 8C14.5 8.82843 13.8284 9.5 13 9.5C12.1716 9.5 11.5 8.82843 11.5 8C11.5 7.17157 12.1716 6.5 13 6.5C13.8284 6.5 14.5 7.17157 14.5 8Z" fill="currentColor"/></svg>). 
 
 ::: info NOTE
@@ -79,10 +79,6 @@ You can place one or more collections inside your <b>Templates</b> collection, b
 ### Hints for using custom templates
 
 - Give your sub-collections useful titles and descriptions to make it easier to find the best templates for a given task.
-- When a new notebook is created from a template, it is simply created as a [fork](https://observablehq.com/@observablehq/fork-suggest-merge) of a notebook in the templates collection. If you look at the template notebook, you can see the forks, assuming it has been shared with you.
+- When a new notebook is created from a template, it is simply created as a fork of a notebook in the templates collection. If you look at the template notebook, you can see the forks, assuming it has been shared with you.
 - Notebooks in the templates collection need to be visible to the user who is creating a new notebook to show up.
 - If you want to prevent other users from accidentally modifying the templates, you can share them as *View only*.
-
-### More about Pro Team and Pro Individual workspaces
-- [Team and individual workspaces](https://observablehq.com/@observablehq/team-and-individual-workspaces?collection=@observablehq/workspaces)
-- [Permissions for Teams Notebooks](https://observablehq.com/@observablehq/permissions-for-teams-notebooks)

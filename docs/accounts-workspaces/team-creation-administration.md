@@ -108,7 +108,7 @@ If your workspace requires the ability to work in private and access to private 
 All charges are in USD ($).
 :::
 
-On your workspace settings page, you can configure your workspace's profile picture and various other configurations as described in [Settings](https://observablehq.com/@observablehq/settings) and, most importantly, you will be able to invite additional workspace members.
+On your workspace settings page, you can configure your workspace's profile picture and various other configurations as described in [Settings](https://observablehq.com/settings) and, most importantly, you will be able to invite additional workspace members.
 
 When inviting workspace members, you can specify whether you want them to be workspace owners, editors, guest editors, viewers or guest viewers. Owners are editors with workspace admin privileges, and are charged the same as editors.  Viewers are free! Note that we do not add a person to a workspace until the invitation has been accepted.
 

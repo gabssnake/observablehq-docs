@@ -32,7 +32,7 @@ Now you can reference the input's value (here *gain*) in any cell, and the cell 
     autoplay loop playsinline controls = "false">
   </video>
 
-  To quickly create an input, open the [**Add cell menu**](https://observablehq.com/@observablehq/adding-cells) by clicking the plus sign in the left margin, then search for an input by name (or search for "input" to see all built-in input options). Click on the desired input, and a new JavaScript cell is added containing placeholder code that you can update to create your input.
+  To quickly create an input, open the [**add cell menu**](/cells/#add-cell-menu) by clicking the plus sign in the left margin, then search for an input by name (or search for "input" to see all built-in input options). Click on the desired input, and a new JavaScript cell is added containing placeholder code that you can update to create your input.
 
 <video
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: 70%"
@@ -63,7 +63,7 @@ Minimal examples of each are shown below. Click on the input name and links for 
 
 ### [Button](https://observablehq.com/@observablehq/input-button) 
 
-Do something when a button is clicked. [Examples ›](https://observablehq.com/@observablehq/input-button) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#button)
+Do something when a button is clicked. [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#button)
 
 ```js
 viewof clicks = Inputs.button("Click me")
@@ -77,7 +77,7 @@ viewof clicks = Inputs.button("Click me")
 
 ### [Toggle](https://observablehq.com/@observablehq/input-toggle) 
 
-Toggle between two values (on or off). [Examples ›](https://observablehq.com/@observablehq/input-toggle) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#toggle)
+Toggle between two values (on or off). [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#toggle)
 
 ```js
 viewof mute = Inputs.toggle({label: "Mute"})
@@ -91,7 +91,7 @@ viewof mute = Inputs.toggle({label: "Mute"})
 
 ### [Checkbox](https://observablehq.com/@observablehq/input-checkbox) 
 
-Choose any from a set. [Examples ›](https://observablehq.com/@observablehq/input-checkbox) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#checkbox)
+Choose any from a set. [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#checkbox)
 
 ```js
 viewof flavors = Inputs.checkbox(["salty", "sweet", "bitter", "sour", "umami"], {label: "Flavors"})
@@ -105,7 +105,7 @@ viewof flavors = Inputs.checkbox(["salty", "sweet", "bitter", "sour", "umami"], 
 
 ### [Radio](https://observablehq.com/@observablehq/input-radio)
 
-Choose one from a set. [Examples ›](https://observablehq.com/@observablehq/input-radio) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#radio)
+Choose one from a set. [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#radio)
 
 ```js
 viewof flavor = Inputs.radio(["salty", "sweet", "bitter", "sour", "umami"], {label: "Flavor"})
@@ -119,7 +119,7 @@ viewof flavor = Inputs.radio(["salty", "sweet", "bitter", "sour", "umami"], {lab
 
 ### [Range](https://observablehq.com/@observablehq/input-range)
 
-Pick a number. [Examples ›](https://observablehq.com/@observablehq/input-range) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#range)
+Pick a number. [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#range)
 
 ```js
 viewof n = Inputs.range([0, 255], {step: 1, label: "Favorite number"})
@@ -133,7 +133,7 @@ viewof n = Inputs.range([0, 255], {step: 1, label: "Favorite number"})
 
 ### [Select](https://observablehq.com/@observablehq/input-select)
 
-Choose one, or any, from a menu. [Examples ›](https://observablehq.com/@observablehq/input-select) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#select)
+Choose one, or any, from a menu. [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#select)
 
 ```js
 viewof homeState = Inputs.select([null].concat(stateNames), {label: "Home state"})
@@ -148,7 +148,7 @@ viewof homeState = Inputs.select([null].concat(stateNames), {label: "Home state"
 
 ### [Text](https://observablehq.com/@observablehq/input-text)
 
-Enter freeform single-line text. [Examples ›](https://observablehq.com/@observablehq/input-text) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#text)
+Enter freeform single-line text. [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#text)
 
 ```js
 viewof name = Inputs.text({label: "Name", placeholder: "What’s your name?"})
@@ -162,7 +162,7 @@ viewof name = Inputs.text({label: "Name", placeholder: "What’s your name?"})
 
 ### [Textarea](https://observablehq.com/@observablehq/input-textarea)
 
-Enter freeform multi-line text. [Examples ›](https://observablehq.com/@observablehq/input-textarea) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#textarea)
+Enter freeform multi-line text. [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#textarea)
 
 ```js
 viewof bio = Inputs.textarea({label: "Biography", placeholder: "What’s your story?"})
@@ -177,7 +177,7 @@ viewof bio = Inputs.textarea({label: "Biography", placeholder: "What’s your st
 
 ### [Date](https://observablehq.com/@observablehq/input-date)
 
-Choose a date, or a date and time. [Examples ›](https://observablehq.com/@observablehq/input-date) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#date)
+Choose a date, or a date and time. [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#date)
 
 ```js
 viewof birthday = Inputs.date({label: "Birthday"})
@@ -191,7 +191,7 @@ viewof birthday = Inputs.date({label: "Birthday"})
 
 ### [Color](https://observablehq.com/@observablehq/input-color)
 
-Choose a color. [Examples ›](https://observablehq.com/@observablehq/input-color) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#color)
+Choose a color. [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#color)
 
 ```js
 viewof color = Inputs.color({label: "Favorite color", value: "#4682b4"})
@@ -205,7 +205,7 @@ viewof color = Inputs.color({label: "Favorite color", value: "#4682b4"})
 
 ### [File](https://observablehq.com/@observablehq/input-file)
 
-Choose a local file. [Examples ›](https://observablehq.com/@observablehq/input-file) [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#file)
+Choose a local file. [API Reference ›](https://github.com/observablehq/inputs/blob/main/README.md#file)
 
 ```js
 viewof file = Inputs.file({label: "CSV file", accept: ".csv", required: true})
@@ -217,9 +217,9 @@ viewof file = Inputs.file({label: "CSV file", accept: ".csv", required: true})
     autoplay loop playsinline controls = "false">
   </video>
 
-## Tabular data
+## Inputs for tabular data
 
-These fancy inputs are designed to work with tabular data such as CSV or TSV [file attachments](https://observablehq.com/@observablehq/file-attachments) and [database clients](https://observablehq.com/@observablehq/databases).
+These inputs are designed to work with tabular data such as CSV or TSV [file attachments](/data/files/file-attachments) and [database clients](/data/databases/overview).
 
 * [Search](https://observablehq.com/@observablehq/input-search) - query a tabular dataset
 * [Table](https://observablehq.com/@observablehq/input-table) - browse a tabular dataset
@@ -254,15 +254,13 @@ viewof rows = Inputs.table(search)
     autoplay loop playsinline controls = "false">
   </video>
 
-## And more!
+## Advanced & community inputs
 
 Got the basics? Here are a few more advanced techniques:
 
 * [Form](https://observablehq.com/@observablehq/input-form?collection=@observablehq/inputs) - combine multiple inputs for a compact display
 * [Synchronized inputs](https://observablehq.com/@observablehq/synchronized-inputs?collection=@observablehq/inputs) - bind two or more inputs
 * [Introduction to Views](https://observablehq.com/@observablehq/introduction-to-views) - more on Observable's `viewof`
-
-We are grateful to Jeremy Ashkenas for blazing the trail with ["The Grand Native Inputs Bazaar"](https://observablehq.com/@jashkenas/inputs). To migrate from Jeremy's inputs to our new official inputs, consider our [legacy inputs](https://observablehq.com/@observablehq/legacy-inputs).
 
 For even more, consider these "friends & family" inputs and techniques shared by the Observable community:
 

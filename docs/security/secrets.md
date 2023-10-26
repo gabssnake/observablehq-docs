@@ -3,7 +3,7 @@
 
 Observable is a collaborative programming environment—for reading, sharing, forking, importing—but it’s also for private work. The **Secrets** feature makes it easier to securely access private data and APIs on Observable. This feature lets you analyze or visualize private data while keeping your secrets, well, *secret*.
 
-Secrets are name-value pairs, similar to environment variables, that you can specify [in your settings](https://observablehq.com/settings/secrets). 
+Secrets are name-value pairs, similar to environment variables, that you can specify [in your settings](https://observablehq.com/settings). 
 
 You can also choose whether to share each secret with members of guest roles in your organization via the __Allow guest access__ option when creating or updating a secret. Secrets are always unshared with guests by default.
 

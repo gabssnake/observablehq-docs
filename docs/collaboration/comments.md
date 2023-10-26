@@ -81,7 +81,3 @@ Notebook owners can delete any comments. To delete a comment, open the comment t
   />
   <figcaption>Resolve, edit or delete notebook comments.</figcaption>
 </figure>
-
-::: info NOTE
-If you have been a longtime Observable user, you may want to check out information on how <a href="https://observablehq.com/@observablehq/comments#migration">comment behaviors have changed</a>.
-:::

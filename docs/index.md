@@ -3,9 +3,8 @@
 layout: home
 
 hero:
-  name: "Observable Docs"
-  text: "[Work in Progress]"
-  tagline: Your spot for all questions Observable.
+  text: "Observable Documentation"
+  tagline: The place for all questions Observable.
   actions:
     - theme: brand
       text: Get started

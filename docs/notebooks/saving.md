@@ -8,7 +8,7 @@ Changes you make to a notebook are saved automatically as soon as you do any of 
 - Clicking the Play button (<Icon name="playButton" />)
 - Typing <Keys set="Shift-Enter" />
 - Focusing a different cell
-- Opening your notebook in another window (this is useful with [safe mode](https://observablehq.com/@observablehq/safe-mode?collection=@observablehq/visualizing-debugging-notebooks))
+- Opening your notebook in another window (this is useful with [safe mode](/debugging/safe-mode))
 
 ## Editing other people's notebooks
 
@@ -62,4 +62,4 @@ If you have older notebooks that are showing the **Published** label, you will n
 
 ## Paused notebooks and saving
 
-[Paused notebooks](https://observablehq.com/@observablehq/pause-live-edits-in-public-notebooks?collection=@observablehq/editing-publishing-collaborating), which are edited out of the view of the public, are also saved automatically. See [Pause live edits in public notebooks](https://observablehq.com/@observablehq/pause-live-edits-in-public-notebooks?collection=@observablehq/editing-publishing-collaborating) for more information.
+Paused notebooks, which are edited out of the view of the public, are also saved automatically. See [Pause live edits in public notebooks](/collaboration/pause-live-edits) for more information.

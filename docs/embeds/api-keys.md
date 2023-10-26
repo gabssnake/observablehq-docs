@@ -1,15 +1,15 @@
 # API and notebook keys
 <PricingBadge level="pro" />
 
-**API keys** allow you to [download and embed](https://observablehq.com/@observablehq/embeds?collection=@observablehq/embedding-notebooks) any of your _private_ notebooks with a single secure key. For example, you can use these keys to embed a visualization from any private notebook in your workspace into your internal dashboard connected to private data from your intranet, or download a tarball of your private notebook and bundle it into an app.
+**API keys** allow you to [download and embed](/embeds/) any of your _private_ notebooks with a single secure key. For example, you can use these keys to embed a visualization from any private notebook in your workspace into your internal dashboard connected to private data from your intranet, or download a tarball of your private notebook and bundle it into an app.
 
 **Notebook keys** allow you to specify a key for accessing an individual private notebook from your workspace. This gives you more control and limits the scope of the access to a single notebook at a articular version. And because of this more granular access, it allows these embeds to the referenced _database connections_ and _secrets_ in iframe embeds.
 
-Since notebook keys grant access to a private notebook’s [secrets](https://observablehq.com/@observablehq/secrets) and [database clients](https://observablehq.com/@observablehq/connecting-to-databases) at the specified notebook version, they provide more fine-grained control over private notebook access.
+Since notebook keys grant access to a private notebook’s [secrets](/security/secrets) and [database clients](/data/databases/overview) at the specified notebook version, they provide more fine-grained control over private notebook access.
 
 ## Creating API keys
 
-To create a new API key, visit the [API Keys section](https://observablehq.com/settings/api-keys) in your workspace settings and click on **New API key**. Give it a friendly description so that you can remember what it’s being used for later.
+To create a new API key, visit the API Keys section in your workspace settings and click on **New API key**. Give it a friendly description so that you can remember what it’s being used for later.
 
 <figure>
   <img

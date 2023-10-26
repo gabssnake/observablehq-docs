@@ -3,11 +3,7 @@
 
 Squinting at them from a certain distance, Observable notebooks and [React apps](https://reactjs.org/tutorial/tutorial.html) can look like close cousins: both are functional, reactive ways of writing UIs in JavaScript. Let’s see if we can get them to play nicely together, by embedding and controlling a notebook from React.
 
-::: info NOTE
-You should read the <a href="https://observablehq.com/@observablehq/embeds?collection=@observablehq/editing-publishing-collaborating"> Introduction to Embedding</a> notebook before continuing.
-:::
-
-Here we have a sample bar chart from the [Plot](https://observablehq.com/@observablehq/plot?collection=@observablehq/plot) snippets in the [cell menu](https://observablehq.com/@observablehq/adding-cells?collection=@observablehq/notebook-fundamentals#cell-558). 
+Here we have a sample bar chart from the [Plot](https://observablehq.com/@observablehq/plot?collection=@observablehq/plot) snippets in the [add cell menu](/cells/#add-cell-menu). 
 
 <figure>
   <img
@@ -132,6 +128,4 @@ Now when you go to localhost:3000, you should see this:
   </figcaption>
 </figure>
 
-Now you've learned how to embed an Observable cell within a React app. Again, if you haven’t already, check out our [introduction to downloading and embedding notebooks](https://observablehq.com/@observablehq/downloading-and-embedding-notebooks). That tutorial will provide more details how embeds work and what you can do with them. 
-
-For more examples of using Observable with React apps, including passing data, check out our [examples on Github](https://github.com/observablehq/examples). 
+Now you've learned how to embed an Observable cell within a React app. For more examples of using Observable with React apps, including passing data, check out our [examples on Github](https://github.com/observablehq/examples). 

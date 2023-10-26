@@ -7,7 +7,7 @@ An Observable account makes it possible for you to use the Observable platform a
 To get started, click the **Sign up** button on https://www.observablehq.com.
 
 :::info Note
-If you <a href="https://observablehq.com/@observablehq/fork-suggest-merge">fork</a> a notebook before you have created an account, you will be asked to sign up to save your fork; the dialog box will look very similar to the one below.`)
+If you fork a notebook before you have created an account, you will be asked to sign up to save your fork; the dialog box will look very similar to the one below.
 :::
 
 ### Continue with... (or email)

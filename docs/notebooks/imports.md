@@ -117,7 +117,7 @@ As long as the new data conforms to the same shape as the old data (here, a tree
 
 ## Version locking
 
-Observable notebooks go through different versions, like different versions of a document (see [Notebook history](https://observablehq.com/@observablehq/history)).
+Observable notebooks go through different versions, like different versions of a document (see [Notebook history](/notebooks/history)).
 
 When importing content, you can use *version locking* to ensure that you are always importing from the same notebook version. If an import is locked, a padlock icon appears to the top right of the cell: 
 

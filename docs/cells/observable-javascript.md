@@ -1,6 +1,6 @@
 # Observable JavaScript
 
-JavaScript on Observable is almost—_but not entirely_ —vanilla. This is intentional: by building on the native language of the web, Observable is familiar. And you can use the libraries you know and love, such as D3, Lodash, and Apache Arrow. Yet for [dataflow](https://observablehq.com/@observablehq/how-observable-runs), Observable needed to change JavaScript in a few ways. (For the technical details, see also our [grammar](https://observablehq.com/@observablehq/observable-grammar) and [parser](https://github.com/observablehq/parser).)
+JavaScript on Observable is almost—_but not entirely_ —vanilla. This is intentional: by building on the native language of the web, Observable is familiar. And you can use the libraries you know and love, such as D3, Lodash, and Apache Arrow. Yet for [dataflow](https://observablehq.com/@observablehq/how-observable-runs), Observable needed to change JavaScript in a few ways. 
 
 Here's a quick overview of what's different from vanilla.
 

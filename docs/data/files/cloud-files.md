@@ -3,7 +3,7 @@
 
 In Observable, you can currently access cloud files in *Microsoft Office 365, Microsoft OneDrive* as well as *Google Drive*. Support for more cloud providers will be added over time, based on user requests.
 
-Access to cloud files makes it possible for your Observable notebooks to have a live references to data stored in the cloud, while still supporting all other existing ways to access data ([File Attachments](https://observablehq.com/@observablehq/file-attachments), [Database Connectors](https://observablehq.com/@observablehq/databases), and notebook [Secrets](https://observablehq.com/@observablehq/secrets) for securely accessing data via private APIs).
+Access to cloud files makes it possible for your Observable notebooks to have a live references to data stored in the cloud, while still supporting all other existing ways to access data ([File Attachments](/data/files/file-attachments), [Database Connectors](/data/databases/overview), and notebook [Secrets](/security/secrets) for securely accessing data via private APIs).
 
 Cloud file access is convenient and secure:
 
@@ -83,5 +83,3 @@ You can create a public notebook with the information from a cloud file if you f
 
 1. Downloading a version of the cloud file.
 2. Attach the downloaded file to your notebook using the **File attachments menu item** in the **Files pane**.
-
-See [File Attachments](https://observablehq.com/@observablehq/file-attachments) for more information.

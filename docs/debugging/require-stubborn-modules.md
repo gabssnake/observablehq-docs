@@ -1,7 +1,7 @@
 # How to require stubborn modules
 
-::: info NOTE
-In a rush? Confused? Try the <a href='https://beta.observablehq.com/@tmcw/module-require-debugger'>module require debugger</a> to get some instant answers.
+::: info []()
+In a rush? Confused? Try the <a href='https://observablehq.com/@observablehq/module-require-debugger'>module require debugger</a> to get some instant answers.
 :::
 
 Requiring modules in Observable is sometimes tricky: there are many ways to write and publish JavaScript modules. We use [unpkg](https://unpkg.com/#/) to load external modules when you call `require()`. Modules that include UMD or AMD bundled files work great with Observable.

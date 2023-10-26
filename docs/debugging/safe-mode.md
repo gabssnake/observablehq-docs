@@ -47,6 +47,4 @@ To enable safe mode, choose **View > Enable safe mode**:
   <figcaption>Enable safe mode from the View menu.</figcaption>
 </figure>
 
-Alternatively, you can append `/safe` to the URL for your notebook to enter and work in safe mode: 
-
-https://observablehq.com/@observablehq/safe-mode/safe
+Alternatively, you can append `/safe` to the URL for your notebook to enter and work in safe mode.

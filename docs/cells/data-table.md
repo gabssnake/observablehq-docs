@@ -224,7 +224,7 @@ A built-in object called **row** allows you to access other column data that can
 
 You can perform most of the computation available in normal JavaScript cells. This includes the ability to write arbitrary JavaScript expressions, reference the output of other cells, and call functions defined in other cells. There are some notable limitations to what you can do with this cell:
  - You cannot render HTML or a Plot in the cell.
- - You cannot render an [input](https://observablehq.com/@observablehq/inputs?collection=@observablehq/notebook-fundamentals) in the cell.
+ - You cannot render an [input](/inputs/overview) in the cell.
  - You cannot reference another derived cell.
  - You cannot access an entire column of data from within the expression cell (i.e. all of the rows at once), only each row one at a time (i.e. using the **row** object).
 
@@ -463,7 +463,7 @@ The summary charts are an extension of previous work on the [Summary Table](http
 
 ## Convert to SQL
 
-If you want to create a hand-tuned SQL query on selected results, you can convert a populated data table cell to a [SQL cell](https://observablehq.com/@observablehq/sql). Select the **+** below a data table cell and select **Convert to SQL**.
+If you want to create a hand-tuned SQL query on selected results, you can convert a populated data table cell to a [SQL cell](/cells/sql). Select the **+** below a data table cell and select **Convert to SQL**.
 
 <figure>
   <img

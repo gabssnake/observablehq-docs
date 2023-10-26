@@ -64,4 +64,4 @@ Once in the **Personal profile** section of your Settings, you will see options 
 
 ## Viewing other user profiles
 
-Clicking a users' name or avatar (e.g., atop a notebook they haver authored) will take you to their user profile. Then, you can choose to [follow them](https://observablehq.com/@observablehq/following?collection=@observablehq/editing-publishing-collaborating) to more easily stay up-to-date with their recent work. 
+Clicking a users' name or avatar (e.g., atop a notebook they haver authored) will take you to their user profile. Then, you can choose to [follow them](/collaboration/following-users-and-teams) to more easily stay up-to-date with their recent work. 

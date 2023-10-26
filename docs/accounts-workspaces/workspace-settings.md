@@ -135,7 +135,7 @@ In order to protect team assets, public notebooks (listed or unlisted) do not ha
 
 In addition, as a team owner, you can configure whether you want to limit who in the team can make content public, by checking a box in the permissions tab of your team settings, as shown earlier. For more information about this feature, please refer to [this notebook](https://observablehq.com/@observablehq/better-controls-for-team-content).
 
-You can also select whether you want to allow [File Attachments](https://observablehq.com/@observablehq/file-attachments) in your team’s workspace. 
+You can also select whether you want to allow [File Attachments](/data/files/file-attachments) in your team’s workspace. 
 
 
 ### Authentication and identity management
@@ -163,7 +163,7 @@ Enterprise customers may avail of federated log-in using Gsuite and custom SSO p
 
 "Single Sign-On" or SSO is the term used to describe the process where a user's identity is authenticated by an identity provider service for use with multiple applications. With SSO, users can have a single user name and password that works across all of the applications they use. Observable supports SSO using external identity provider services with built-in support for Google, GitHub, and Microsoft identity providers. 
 
-A feature available to Observable Enterprise teams allows them to associate their logins with their own additional identity provider service, like [Okta Identity Cloud](https://www.okta.com/products/) or [OneLogin](https://www.onelogin.com/pages/openid-connect), using the standard OpenID Connect (OIDC) protocol. See [this notebook](https://observablehq.com/d/cc22936f68cc5544) for more information about support for Enterprise SSO.
+A feature available to Observable Enterprise teams allows them to associate their logins with their own additional identity provider service, like [Okta Identity Cloud](https://www.okta.com/products/) or [OneLogin](https://www.onelogin.com/pages/openid-connect), using the standard OpenID Connect (OIDC) protocol. See [the docs](/accounts-workspaces/custom-sso) for more information about support for Enterprise SSO.
 
 
 ## Legacy workspaces {#freeIndividual}
@@ -261,7 +261,7 @@ Shared database connections for your workspace's private notebooks.
 Use API keys to securely load and embed private notebooks outside of Observable.
 
 ### OAuth Tokens
-OAuth tokens are used to allow notebooks to access data in cloud files. After you have signed in to the cloud service provider for a given cloud file, an OAuth token is stored in your Settings so that you will not have to sign in each time you want to visit a notebook that requires them. See [Cloud Files](https://observablehq.com/@observablehq/cloud-files?collection=@observablehq/getting-data-in-and-out) for more information.
+OAuth tokens are used to allow notebooks to access data in cloud files. After you have signed in to the cloud service provider for a given cloud file, an OAuth token is stored in your Settings so that you will not have to sign in each time you want to visit a notebook that requires them. See [Cloud Files](/data/files/cloud-files) for more information.
 
 
 ## Billing & upgrades {#billing}

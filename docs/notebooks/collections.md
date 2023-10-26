@@ -151,5 +151,5 @@ To search for a string in a collection, add the string after the collection name
 
 <code>collection</code>:<i>collectionName</i> <i>string</i>
 
-See [Introduction to search](https://observablehq.com/@observablehq/searching-on-observable) for more about searching collections.
+See [Introduction to search](/collaboration/search) for more about searching collections.
 

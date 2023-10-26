@@ -66,7 +66,6 @@ Like the **Add cell menu**, the **Add cell bar** highlights the most commonly us
 
 The bar appears below _the currently focused cell_. 
 
-
 ### Freeform text input
 
 When you input freeform text into the search box that does not match any known menu items, you are prompted to insert the content typed as a JavaScript cell, or optionally as a Markdown or HTML cell.
@@ -94,6 +93,10 @@ Cell suggestions are over to the right side of the space that the next cell's **
 </figure>
 
 Some suggestions create a new cell below in an effort to keep you moving to the next logical step in the analysis process (e.g. the **Create chart** suggestion in the screenshot above). Suggestions that show an arrow indicate that the focused cell will be non-destructively transformed into another cell (e.g. the **Convert to SQL** suggestion in the screenshot above).
+
+## Evaluating cells
+
+To have the results of your cell appear, click the Play <Icon name="playButton" /> button, or type <Keys set="Shift-Enter" /> to run your cell. 
 
 ## Anchor links
 

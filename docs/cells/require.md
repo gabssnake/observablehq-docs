@@ -1,6 +1,6 @@
 # Require
 
-Observable's [`require`](https://github.com/observablehq/stdlib/blob/master/README.md#require) lets you use thousands of open-source JavaScript modules in your notebooks. If you can think of a task—say date manipulation, math, or music—there's probably already a module that can help. Just as you can [reuse code from other notebooks using imports](https://observablehq.com/@observablehq/introduction-to-imports), you can load JavaScript modules using `require`.
+Observable's [`require`](https://github.com/observablehq/stdlib/blob/master/README.md#require) lets you use thousands of open-source JavaScript modules in your notebooks. If you can think of a task—say date manipulation, math, or music—there's probably already a module that can help. Just as you can [reuse code from other notebooks using imports](/notebooks/imports), you can load JavaScript modules using `require`.
 
 Here's an example requiring [Simple Statistics](https://www.npmjs.com/package/simple-statistics), a module that includes many statistical functions, to compute a standard deviation.
 
@@ -90,7 +90,7 @@ Specifying multiple inputs—multiple module names, or URLs, or module names wit
 
 `require` returns a promise with the module's contents, or, if the module can't be loaded, a promise rejection.
 
-Most of the time, you'll use `require` in a cell of its own, as in the examples above, so you won't need to worry about the return value being asynchronous. But if you do want to use `require` in the context of other code, you’ll need to await the value of the promise it returns. (Observable implicitly awaits promises across cell boundaries. For more information, see [Introduction to Promises](https://observablehq.com/@observablehq/introduction-to-promises?collection=@observablehq/javascript-in-observable).)
+Most of the time, you'll use `require` in a cell of its own, as in the examples above, so you won't need to worry about the return value being asynchronous. But if you do want to use `require` in the context of other code, you’ll need to await the value of the promise it returns. (Observable implicitly awaits promises across cell boundaries. For more information, see [Observable JavaScript](/cells/observable-javascript#cells-implicitly-await-promises).)
 
 <figure>
   <img
@@ -148,7 +148,7 @@ In addition to `require`, which uses the widely-supported [AMD](https://github.c
 
 `import` is a native browser feature that's just now gaining adoption. It only works in the newest versions of Chrome, Safari, Firefox, and Edge. It also requires modules to be published in the [ES6 module specification](http://exploringjs.com/es6/ch_modules.html), which is still gaining adoption.
 
-If the library is also published to npm, [Skypack](https://www.skypack.dev) provides a fast CDN; otherwise, consider [attaching a file](https://observablehq.com/@observablehq/file-attachments).
+If the library is also published to npm, [Skypack](https://www.skypack.dev) provides a fast CDN; otherwise, consider [attaching a file](/data/files/file-attachments).
 
 <figure>
   <img

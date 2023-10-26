@@ -21,7 +21,7 @@ You can override this behavior by customizing the URL of any of your notebooks: 
 
 ## Setting custom urls
 
-Set a custom URL by accessing the notebook menu <svg style="display: inline !important" viewBox="0 0 16 16" fill="currentColor" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><circle r="2" cy="8" cx="2"></circle><circle r="2" cy="8" cx="8"></circle><circle r="2" cy="8" cx="14"></circle></svg> at the top right of the page. If you have [edit access](https://observablehq.com/@observablehq/permissions-for-teams-notebooks) on the notebook, you will see the **Set URL** option:
+Set a custom URL by accessing the notebook menu <svg style="display: inline !important" viewBox="0 0 16 16" fill="currentColor" stroke="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><circle r="2" cy="8" cx="2"></circle><circle r="2" cy="8" cx="8"></circle><circle r="2" cy="8" cx="14"></circle></svg> at the top right of the page. If you have [edit access](/accounts-workspaces/permissions) on the notebook, you will see the **Set URL** option:
 
 <figure>
   <img
@@ -41,7 +41,7 @@ Clicking opens a modal that allows you to define your custom URL:
   <figcaption>The full notebook URL contains your username (for example, @jzhang) along with your chosen URL. This username will be your team name if the notebook belongs to a team.</figcaption>
 </figure>
 
-If your chosen URL is valid (see [URL Constraints](https://observablehq.com/@observablehq/custom-notebook-urls#constraints) below), you will see the browser's address bar update after clicking **Confirm**.
+If your chosen URL is valid (see [URL Constraints](/notebooks/urls#url-constraints) below), you will see the browser's address bar update after clicking **Confirm**.
 
 You can now **access, share, and import your notebook using the new custom URL.**
 
@@ -55,7 +55,7 @@ Publishing or sharing a notebook with a custom URL will not change the URL, and 
 
 If at any point you wish to clear the custom URLs associated with a notebook, you can click the **Reset** button on the bottom left of the modal. This will clear all custom URLs and restore the notebook URL back to its default.
 
-## URL Constraints
+## URL constraints
 
 There are a few contraints on what you can include in your notebook URL:
 * The URL must be unique across your own "user" namespace—individual (e.g., @jzhang) or team (e.g., @observablehq), depending on the context in which the notebook was created.
@@ -66,7 +66,7 @@ There are a few contraints on what you can include in your notebook URL:
 
 If any of these constraints are violated, the modal will display the appropriate error message.
 
-## ⚠️ Important Considerations
+## Considerations
 
 Even though they do not change the visibility of notebooks, you should be careful of the risks associated with custom URLs:
 

@@ -2,7 +2,7 @@
 
 Observable's SQL cell type enables easy exploration of databases. You can connect a SQL cell to a [database](/data/databases/overview), view [the schema of the database](/data/databases/databases-pane-schema-viewer#schema-viewer), write a SQL query directly in the cell, and view the results of that query as a table.
 
-To use a SQL cell, you first need a database, which can either be an [external database](https://observablehq.com/@observablehq/databases), a [SQLite file](https://observablehq.com/@observablehq/sqlite), or a [custom database client](https://observablehq.com/@observablehq/database-client-specification). External databases are only allowed in private notebooks, but SQLite files and custom database clients can work in both public and private notebooks.
+To use a SQL cell, you first need a database, which can either be an [external database](/data/databases/overview), a [SQLite file](/data/files/file-attachments#sqlite), or a [custom database client](/data/databases/databaseclient-specification). External databases are only allowed in private notebooks, but SQLite files and custom database clients can work in both public and private notebooks.
 
 Once you have your database, create a SQL cell by inserting a new cell and selecting **Database query** in the cell menu. You'll then see a selector in the cell that allows you to select a database. You can select either an external database that you've set up on your workspace, a SQLite file attachment, or a DatabaseClient you've defined in another JavaScript cell.
 
@@ -60,9 +60,9 @@ Most database clients also expose some schema information alongside query result
   <figcaption>Using SQLite's <i>columns</i> property to get an array of column names.</figcaption>
 </figure>
 
-We can also make a query dynamic by adding parameters. SQL cells function exactly the same way as the [DatabaseClient `sql` tagged template literal](https://observablehq.com/@observablehq/databases#sql): we can interpolate parameters into the query by wrapping them in `${…}`.
+We can also make a query dynamic by adding parameters. SQL cells function exactly the same way as the [DatabaseClient `sql` tagged template literal](/data/databases/databaseclient-specification#sql-strings-values): we can interpolate parameters into the query by wrapping them in `${…}`.
 
-For example, here we use a [text input](https://observablehq.com/@observablehq/input-text) to query a table interactively.
+For example, here we use a [text input](/inputs/overview#text) to query a table interactively.
 
 <figure>
   <img
@@ -154,9 +154,9 @@ In the following example, the pointer is hovered over the row with "Dazed and Co
 
 ## Custom database clients
 
-We can also use a custom database client as a data source for a SQL cell. In order for a database client to be recognized as a valid data source, it must satisfy the requirements outlined in [DatabaseClient Specification](https://observablehq.com/@observablehq/database-client-specification).
+We can also use a custom database client as a data source for a SQL cell. In order for a database client to be recognized as a valid data source, it must satisfy the requirements outlined in [DatabaseClient Specification](/data/databases/databaseclient-specification).
 
-Here's an oversimplified example where any query returns the same static value. You can extend this example to return data from any source. See the [DuckDB Client for Observable](https://observablehq.com/@cmudig/duckdb-client) for a fully-fledged example of this.
+Here's an oversimplified example where any query returns the same static value. You can extend this example to return data from any source. See the [DuckDB Client for Observable](/data/databases/database-clients#duckdb) for a fully-fledged example of this.
 
 <figure>
   <img

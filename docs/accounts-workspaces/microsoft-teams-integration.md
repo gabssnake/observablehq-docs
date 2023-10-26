@@ -85,7 +85,7 @@ After you click **Sign in to Observable**, you are shown the Observable **Sign i
 
 If you already have an Observable account, sign in with your preferred authentication provider. (Note that there are [advantages](#notification) to signing in using your Microsoft authentication.)
 
-If you have not yet created an account, you can sign up by clicking **Create an account** and creating your Observable Team. You can read more about that [here](https://observablehq.com/@observablehq/signing-on). If you want to learn more about Observable, take a look at our [Getting Started](https://observablehq.com/@observablehq/documentation#gettingStarted) notebooks.
+If you have not yet created an account, you can sign up by clicking **Create an account** and creating your Observable Team. You can read more about that [here](/accounts-workspaces/accounts#create-an-account). If you want to learn more about Observable, take a look at our [Getting Started](/learn/overview) guide.
 
 Once you have signed in to Observable, the Observable tab appears:
 
@@ -107,13 +107,7 @@ Once you have installed the Observable tab, you can do the following:
 When you want to view a notebook, clicking the notebook thumbnail opens the notebook, where you can view and comment on it.
 
 
-
 If you want to edit the notebook, you can then click **Edit**. This will open a new browser window where you can edit the notebook within Observable.
-
-For more about creating notebooks, editing notebooks, and leaving comments in Observable:
-- [Create a new notebook](https://observablehq.com/@observablehq/creating-a-new-notebook)
-- [Edit an existing notebook](https://observablehq.com/@observablehq/a-taste-of-observable)
-- [Comment on notebooks](https://observablehq.com/@observablehq/comments)
 
 :::info Note
   When navigating to Observable in your browser, if you have not previously logged into Observable from that browser, you will be prompted to sign into the browser also (use your Microsoft account to log in to Observable if you want to receive notifications). This will only be needed the first time you access Observable in the browser.

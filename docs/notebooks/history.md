@@ -50,15 +50,15 @@ History is a great tool for teams working collaboratively in notebooks because i
 
 ## Forking from history
 
-Notebook history also allows you to explore 'what-ifs' by choosing a point in history to explore from. When using [the fork function](https://observablehq.com/@observablehq/fork-suggest-merge), the notebook is forked at the version you are currently viewing. Usually this is the latest version, but if you're viewing an older version, the notebook gets forked from there.
+Notebook history also allows you to explore 'what-ifs' by choosing a point in history to explore from. When using [the fork function](/notebooks/forking), the notebook is forked at the version you are currently viewing. Usually this is the latest version, but if you're viewing an older version, the notebook gets forked from there.
 
 You can work in a fork just like you would work in any other notebook. If you prefer the content in your fork to the original notebook version, you can merge it back in.
 
 ## Who can see history?
 
-Only you and members of your team can see the history of private notebooks, which you created either in your personal or a [team workspace](https://observablehq.com/teams).
+Only you and members of your team can see the history of private notebooks, which you created either in your personal or a [team workspace](/accounts-workspaces/workspaces#workspaces).
 
-The history of public notebooks is visible to all visitors. When you publish a private notebook, its history becomes visible to anybody from the point where you published it (but not before). Note the first version number visible in [the history of this notebook](https://observablehq.com/@observablehq/learning-observable-observable-overview), v541, which is the first version after it was made public.
+The history of public notebooks is visible to all visitors. When you publish a private notebook, its history becomes visible to anybody from the point where you published it (but not before), therefore, the first version number visible in the history of your notebook is the first time it is made public. 
 
 <figure>
   <img

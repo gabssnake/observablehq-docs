@@ -232,7 +232,7 @@ We at Observable want to ensure you understand how AI Assist works with respect 
 - **We do not train the AI model with your data**, neither does the third-party AI service (OpenAI). So there is no chance of intellectual property you share with the model being leaked to another customer using AI Assist.
 - **We do not share your database connections with the AI model.** So the values of specific rows from tables in your connected databases are not shared with the AI model by using AI Assist with them connected.
 - **We do share schema information and project code as model context.** So column names or specific bits of code could be sent to the model.
-- **AI Assist is backed by Observable's secure data platform.** So it is afforded the same security posture as the rest of the platform. For more information, read [more regarding our platform's security model](https://observablehq.com/@observablehq/security-model).
+- **AI Assist is backed by Observable's secure data platform.** So it is afforded the same security posture as the rest of the platform. For more information, read [more regarding our platform's security model](/security/data-security-and-privacy).
 
 Workspace admins can turn off AI Assist via **Settings>General>AI Assist**. This will turn the feature off for all team members of the workspace.
 
@@ -241,7 +241,7 @@ Please see our official [Terms of Service](https://observablehq.com/@observableh
 ## Known Issues
 
 - Responses may require editing before they are able to be run in the notebook.
-  - To ensure your code is compatible with Observable JavaScript, see [this notebook](https://observablehq.com/@observablehq/observable-javascript).
+  - To ensure your code is compatible with Observable JavaScript, read about [Observable JavaScript](/cells/observable-javascript).
 - If a response is not valid, asking the same question a second or third time may yield better results.
 
 ## Limitations

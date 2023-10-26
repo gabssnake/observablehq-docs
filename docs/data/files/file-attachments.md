@@ -19,8 +19,8 @@ To attach a file:
 
 File attachments behave predictably:
 
-- Files are copied when you [fork](https://observablehq.com/@observablehq/fork-suggest-merge?collection=@observablehq/editing-publishing-collaborating).
-- Files can be reused through [imports](https://observablehq.com/@observablehq/import?collection=@observablehq/notebook-fundamentals).
+- Files are copied when you [fork](/notebooks/forking).
+- Files can be reused through [imports](/notebooks/imports).
 - You can go back in time with [history](/notebooks/history) and see when a file was attached (as long as they were not deleted).
 - In Free workspaces, all files are visible, and the history of which files were attached to which versions are also visible.
 - If you are in a Pro or Enterprise workspace, files in your private notebooks remain private. That is, those files are only accessible from your notebooks.
@@ -31,25 +31,16 @@ File attachments behave predictably:
 - An individual user can upload up to 50 megabytes (MB) of data.
 - Over a 28-day period, there’s a rolling quota of 1GB per user.
 - In your team workspace, the quota is pooled for all editors on the team. For example, a team with 10 editors has a 10GB quota.
-- There is no cap on the total file size usage per user. (For larger files, you’ll either need to host the files yourself, or use a [local file input](https://observablehq.com/@observablehq/input-file).)
+- There is no cap on the total file size usage per user. (For larger files, you’ll either need to host the files yourself, or use a [local file input](/inputs/overview#file).)
 
 ### Speed tips
 
 Here are a few alternate methods to attach files in a notebook:
 
 - Drag the file over the notebook, and the **Files pane** will automatically appear. Release the file over the open **Files pane**, and Observable will add it to the **Files list**.
-- Open the **[Add cell menu](https://observablehq.com/@observablehq/adding-cells?collection=@observablehq/notebook-fundamentals#addCellMenu)**, and choose **File attachment** from there.
+- Open the **[add cell menu](/cells/#add-cell-menu)**, and choose **File attachment** from there.
 - Create a JavaScript cell, then copy a file type that `FileAttachment` knows how to interpret (the ones mentioned in this notebook) to your clipboard. Paste the file into the JavaScript cell, and Observable will automatically upload the file and create the proper `FileAttachment` call.
 - Press Shift-Command-U (⇧⌘U) while editing a cell. This will display a modal for selecting files. Once you have selected and uploaded the file, Observable automatically inserts the proper `FileAttachment` call for the file.
-
-## Private file storage
-<PricingBadge level="enterprise" />
-
-Private file storage allows Enterprise users the ability to use their own organization-managed s3 bucket for the purposes of storing file attachments. This is different from the default file attachment experience, which is to store them in an Observable-managed bucket. If you have more stringent data security practices in your Enterprise organization that require you to store data on organization controlled infrastructure, this is the right option for storing your notebooks’ file attachments.
-
-If you are a workspace admin for your organizations’ Enterprise account and want to utilize this feature, follow our [instructions to enable Private file storage](https://observablehq.com/@observablehq/private-file-storage-setup).
-
-For more technical details regarding how the Private file storage experience compares with the default experience and how the two will interact, see our [FAQ reference notebook](https://observablehq.com/@observablehq/private-file-storage-faq).
 
 ## Using files
 

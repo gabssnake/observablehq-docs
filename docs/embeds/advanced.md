@@ -188,7 +188,7 @@ Depending on your version of Node, you’ll either need to use Node’s `--exper
 
 ## Version pinning
 
-To pin your notebook to a specific version, find the desired version number in the [history](https://observablehq.com/@observablehq/history) and add it to the URL. Both the ES module and tarball formats support versioning. For example:
+To pin your notebook to a specific version, find the desired version number in the [history](/notebooks/history) and add it to the URL. Both the ES module and tarball formats support versioning. For example:
 
 ```
 https://api.observablehq.com/@jashkenas/my-neat-notebook@42.js?v=3

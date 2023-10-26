@@ -12,7 +12,7 @@ There are two steps in setting up Custom SSO for Observable. The first step is t
 
 ## Defining an Identity Domain
 
-Enterprise teams can define their identity domain by first navigating to the **Authentication** section in the [team settings](https://observablehq.com/@observablehq/settings) page. The Authentication Settings initially looks like this:
+Enterprise teams can define their identity domain by first navigating to the **Authentication** section in the [team settings](https://observablehq.com/settings) page. The Authentication Settings initially looks like this:
 
 <figure>
     <img

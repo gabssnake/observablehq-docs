@@ -54,16 +54,16 @@ When one cell is focused, the Minimap draws connections to other cells in blue:
 
 ## Using keyboard shortcuts in the Minimap
 
-The Minimap has no special keyboard shortcuts of its own, but works well with the [existing shortcuts](https://observablehq.com/@observablehq/keyboard-shortcuts?collection=@observablehq/notebook-fundamentals) for moving among cells, including:
+The Minimap has no special keyboard shortcuts of its own, but works well with the [existing shortcuts](/misc/keyboard-shortcuts) for moving among cells, including:
 
 <figure>
   <img
     class="screenshot w-80"
-    src="/debugging/assets/minimap-shortcuts.png" alt="Useful shortcuts that work in the Minimap to move or select cells. The shortcuts are the same as those listed in our Keyboard Shortcuts documentation: https://observablehq.com/@observablehq/keyboard-shortcuts?collection=@observablehq/notebook-fundamentals." />
+    src="/debugging/assets/minimap-shortcuts.png" alt="Useful shortcuts that work in the Minimap to move or select cells. The shortcuts are the same as those listed in our Keyboard Shortcuts documentation." />
   <figcaption>Useful keyboard shortcuts for navigating between and selecting cells in the Minimap.</figcaption>
 </figure>
 
 ::: info NOTE
-The Minimap is not omniscient: it only knows about static references to other cells. It is possible for one cell to affect the output of another (that doesn’t refer to it) by using side effects, like mutation. In those cases, the Minimap does not know that the cell depends on side effects from other cells. For this and other reasons, [we discourage mutation](https://observablehq.com/@tmcw/observable-anti-patterns-and-code-smells#mutation).
+The Minimap is not omniscient: it only knows about static references to other cells. It is possible for one cell to affect the output of another (that doesn’t refer to it) by using side effects, like mutation. In those cases, the Minimap does not know that the cell depends on side effects from other cells. 
 :::
 

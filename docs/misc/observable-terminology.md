@@ -19,7 +19,7 @@ As a **platform**, Observable is the place where data practitioners:
 
 ## Observable notebooks
 
-Observable notebooks are collaborative data canvases built for and powered by community. They are interactive, editable documents defined by code where data practitioners work with, analyze, collaborate around, and quickly share insights from data (learn more in our [Introduction to Notebooks](https://observablehq.com/@observablehq/introduction-to-notebooks)). 
+Observable notebooks are collaborative data canvases built for and powered by community. They are interactive, editable documents defined by code where data practitioners work with, analyze, collaborate around, and quickly share insights from data.
 
 In Observable notebooks, users can weave together text, code and outputs by working in different cell types (e.g. Markdown, Observable JavaScript, SQL, and HTML). Notebooks live on the web and are shared using a URL. There is not an Observable notebook file type (like .Rmd, .qmd, or .ipynb). Instead, either the web-based notebook _itself_ can be the shared or published product, or elements from notebooks can be downloaded, imported, or embedded for use in other places. Notebooks can also be downloaded as complete JavaScript modules, including all implicit dependences (e.g. Observable runtime) and explicit dependencies (e.g. imports).
 
@@ -27,7 +27,7 @@ Depending on the specific notebook purpose and design, you may also see folks de
 
 ## Observable JavaScript
 
-When you write code in JavaScript cells in an Observable notebook, you're writing JavaScript code—with a few minor twists to allow for Observable's reactive data flow (described [below](https://observablehq.com/d/0aa4658cc5dc529f#cell-648)). Those twists are described in more detail in [Observable JavaScript](https://observablehq.com/@observablehq/observables-not-javascript). 
+When you write code in JavaScript cells in an Observable notebook, you're writing JavaScript code—with a few minor twists to allow for Observable's reactive data flow. Those twists are described in more detail in [Observable JavaScript](/cells/observable-javascript). 
 
 It can at times be useful to differentiate between Observable JavaScript and vanilla JavaScript, for example when communicating with folks familiar with vanilla JavaScript who may be surprised by the Observable flavor of JavaScript. 
 
@@ -37,7 +37,7 @@ In summary: it's correct to say you're writing JavaScript code when working in O
 
 [Observable Plot](https://observablehq.com/@observablehq/plot) is an open source JavaScript library for data visualization, built and maintained by Observable developers. Plot is part of Observable's standard library, which means it is available for use in Observable notebooks out-of-the-box.
 
-That does not mean you are limited to using Observable Plot for data visualization in Observable notebooks. [D3](https://d3js.org/) is also included in the standard library, so is available by default in all notebooks. You can additionally access and use any existing JS data visualization library (like [Vega-Lite](https://vega.github.io/vega-lite/), [highcharts](https://www.highcharts.com/) and [chart.js](https://www.chartjs.org/)) in your Observable notebook with [require](https://observablehq.com/@observablehq/require). Or, reuse existing data visualization code from public Observable notebooks with [imports](https://observablehq.com/@observablehq/import). 
+That does not mean you are limited to using Observable Plot for data visualization in Observable notebooks. [D3](https://d3js.org/) is also included in the standard library, so is available by default in all notebooks. You can additionally access and use any existing JS data visualization library (like [Vega-Lite](https://vega.github.io/vega-lite/), [highcharts](https://www.highcharts.com/) and [chart.js](https://www.chartjs.org/)) in your Observable notebook with [require](https://observablehq.com/@observablehq/require). Or, reuse existing data visualization code from public Observable notebooks with [imports](/notebooks/imports). 
 
 ## Observable runtime
 

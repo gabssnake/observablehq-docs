@@ -28,4 +28,4 @@ The Transfer dialog box will only show you options that are available. If you ar
 
 You can only transfer notebooks from and to workspaces where you have edit permission. For example, if you are a viewer in a team workspace, you cannot transfer a notebook into our out of that team.
 
-To work on a copy of a public notebook created by another Observable user, use [Fork](https://observablehq.com/@observablehq/fork-suggest-merge).
+To work on a copy of a public notebook created by another Observable user, use [forking](/notebooks/forking).
