@@ -71,7 +71,7 @@ export default defineConfig({
              {text: "HTML", link: "/cells/html"},
              {text: "SQL", link: "/cells/sql"},
              {text: "TeX", link: "/cells/tex"},
-             {text: "AI Assist", link: "/ai-assist/ai-assist"}
+             {text: "AI Assist", link: "/ai-assist/"}
            ]
         },
         {
