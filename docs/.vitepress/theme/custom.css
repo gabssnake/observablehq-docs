@@ -11,6 +11,7 @@
     sans-serif;
 }
 
+
 .vp-doc figure img.screenshot {
   border-radius: 2px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);
@@ -38,6 +39,10 @@
   overflow: visible;
   position: relative;
   z-index: 1;
+}
+
+:root.dark .VPButton {
+  background-color: var(--vp-c-brand-light);
 }
 
 .vp-doc .plot a:hover {
