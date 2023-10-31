@@ -34,8 +34,8 @@ export default defineConfig({
         text: "Getting Started",
         items: [
           {text: "Overview", link: "/learn/overview" },
-          {text: "Hands-on tutorials", link: "https://observablehq.com/@observablehq/hands-on-tutorials-overview"},
-          {text: "Quick guides", link: "https://observablehq.com/guides"}
+          {text: "Tutorials", link: "https://observablehq.com/tutorials"},
+          {text: "Quick guides", link: "https://observablehq.com/@observablehq/observable-quick-guides"}
         ]
       },
       {
@@ -259,7 +259,6 @@ export default defineConfig({
               {text: "FAQ", link: "/misc/faq"},  
               {text: "Keyboard shortcuts", link: "/misc/keyboard-shortcuts"},
               {text: "Microsoft Teams integration", link: "/accounts-workspaces/microsoft-teams-integration"},
-              {text: "Observable terminology", link: "/misc/observable-terminology"},  
               {text: "Standard library", link: "/misc/standard-library"},
             ]
           }

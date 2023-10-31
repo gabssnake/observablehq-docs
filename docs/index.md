@@ -7,11 +7,8 @@ hero:
   tagline: The place for all questions Observable.
   actions:
     - theme: brand
-      text: Get started
+      text: Overview
       link: /learn/overview
-    - theme: alt
-      text: Try Observable
-      link: https://observablehq.com/@observablehq/a-taste-of-observable
 features:
   - title: Cells
     details: Learn the building blocks of Observable notebooks.
