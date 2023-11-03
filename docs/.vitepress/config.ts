@@ -270,7 +270,7 @@ export default defineConfig({
     },
     socialLinks: [
       {icon: "github", link: "https://github.com/observablehq/plot"},
-      {icon: "twitter", link: "https://twitter.com/observablehq"},
+      {icon: "x", link: "https://twitter.com/observablehq"},
       {icon: "mastodon", link: "https://vis.social/@observablehq"},
       {icon: "slack", link: "https://observablehq.com/slack/join"},
       {icon: "linkedin", link: "https://www.linkedin.com/company/observable"},
