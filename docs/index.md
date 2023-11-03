@@ -2,6 +2,9 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: Observable documentation
+titleTemplate: false
+
 hero:
   text: "Observable Documentation"
   tagline: The place for all questions Observable.

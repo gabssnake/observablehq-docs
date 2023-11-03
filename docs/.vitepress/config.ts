@@ -3,7 +3,7 @@ import {defineConfig} from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Observable",
+  title: "Observable documentation",
   description: "Learn how to work in Observable",
   base: "/documentation/",
   cleanUrls: true,
