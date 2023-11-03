@@ -85,7 +85,7 @@ After you click **Sign in to Observable**, you are shown the Observable **Sign i
 
 If you already have an Observable account, sign in with your preferred authentication provider. (Note that there are [advantages](#notification) to signing in using your Microsoft authentication.)
 
-If you have not yet created an account, you can sign up by clicking **Create an account** and creating your Observable Team. You can read more about that [here](/accounts-workspaces/accounts#create-an-account). If you want to learn more about Observable, take a look at our [Getting Started](/learn/overview) guide.
+If you have not yet created an account, you can sign up by clicking **Create an account** and creating your Observable Team. You can read more about that [here](/accounts-workspaces/accounts#create-an-account). If you want to learn more about Observable, take a look at our [Getting started](/learn/overview) guide.
 
 Once you have signed in to Observable, the Observable tab appears:
 

@@ -6,7 +6,7 @@ title: Observable documentation
 titleTemplate: false
 
 hero:
-  text: "Observable Documentation"
+  text: "Observable documentation"
   tagline: The place for all questions Observable.
   actions:
     - theme: brand
@@ -30,7 +30,7 @@ features:
     link: /collaboration/
   - title: Embeds
     link: /embeds/
-    details: Build in Observable and deploy everywhere. 
+    details: Build in Observable and deploy everywhere.
   - title: Security
     link: /security/data-security-and-privacy
     details: Read about our security model and how to set up secrets.

@@ -12,7 +12,7 @@ Cells can be added in a few different ways in Observable.
 
 ## Add cell menu
 
-The **Add cell menu** appears as the first thing you see upon opening a blank notebook. 
+The **Add cell menu** appears as the first thing you see upon opening a blank notebook.
 
 <figure>
   <img src="./assets/blankNotebook.png" alt="The Add cell menu opened up as it would be by default in a new notebook." style="border-radius: 8px; overflow: hidden;"/>
@@ -33,14 +33,14 @@ Besides providing options to add any of the top four cell types - *JavaScript*, 
 
 ### Searching the Add cell menu
 
-The search bar is ready at the top of the **Add cell menu**. Selecting an option will insert the corresponding type of cell into your notebook. 
+The search bar is ready at the top of the **Add cell menu**. Selecting an option will insert the corresponding type of cell into your notebook.
 
 <figure>
   <img
     style="border-radius:2px;box-shadow:0 4px 12px rgba(0,0,0,0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);margin-left:27px;margin-bottom:40px;max-width: ${width}"
     src="./assets/cellMenuSearch.png" alt="The Add cell menu search bar."
   />
-  <figcaption>The <b>Add cell menu</b> search bar. 
+  <figcaption>The <b>Add cell menu</b> search bar.
 </figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ Like the **Add cell menu**, the **Add cell bar** highlights the most commonly us
 - **Data**: The Data Table cell, capable of visualizing tabular data, offering interactive filters
 - **Chart**: The Chart cell, delivering no-code charts and visual data exploration
 
-The bar appears below _the currently focused cell_. 
+The bar appears below _the currently focused cell_.
 
 ### Freeform text input
 
@@ -96,15 +96,14 @@ Some suggestions create a new cell below in an effort to keep you moving to the 
 
 ## Evaluating cells
 
-To have the results of your cell appear, click the Play <Icon name="playButton" /> button, or type <Keys set="Shift-Enter" /> to run your cell. 
+To have the results of your cell appear, click the Play <Icon name="playButton" /> button, or type <Keys set="Shift-Enter" /> to run your cell.
 
 ## Anchor links
 
-You can link directly to a section of the notebook with an auto-generated anchor link using the "Copy Link" action in the cell menu. This will copy a special URL to the clipboard like: 
+You can link directly to a section of the notebook with an auto-generated anchor link using the "Copy Link" action in the cell menu. This will copy a special URL to the clipboard like:
 
 ```
 https://observablehq.com/@observablehq/a-taste-of-observable#cell-0
-
 ```
 
 <figure>
@@ -117,9 +116,9 @@ https://observablehq.com/@observablehq/a-taste-of-observable#cell-0
 
 ## Naming cells
 
-Naming cells allows you to call the cell elsewhere in a notebook, or import cell contents for reuse in another notebook. 
+Naming cells allows you to call the cell elsewhere in a notebook, or import cell contents for reuse in another notebook.
 
-Name a **JavaScript cell** in one of four ways: 
+Name a **JavaScript cell** in one of four ways:
 
 - Name a cell expression:
 
@@ -133,7 +132,7 @@ expressionName = 8
 blockName = {return 80;}
 ```
 
-- Name a function declaration: 
+- Name a function declaration:
 
 ```js
 function functionName() {return 800;}
@@ -155,7 +154,7 @@ Name a **Markdown cell** by entering the name of the cell in the following area 
   />
 </figure>
 
-For specialty cells like the Data Table, SQL and Chart cell, you can either edit the cell name from the menu in the bottom of the browser as shown above, or you can update the cell name in the top left of the cell: 
+For specialty cells like the Data Table, SQL and Chart cell, you can either edit the cell name from the menu in the bottom of the browser as shown above, or you can update the cell name in the top left of the cell:
 
 <figure>
   <img

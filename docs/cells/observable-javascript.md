@@ -1,12 +1,12 @@
 # Observable JavaScript
 
-JavaScript on Observable is almost—_but not entirely_ —vanilla. This is intentional: by building on the native language of the web, Observable is familiar. And you can use the libraries you know and love, such as D3, Lodash, and Apache Arrow. Yet for [dataflow](https://observablehq.com/@observablehq/how-observable-runs), Observable needed to change JavaScript in a few ways. 
+JavaScript on Observable is almost—_but not entirely_—vanilla. This is intentional: by building on the native language of the web, Observable is familiar. And you can use the libraries you know and love, such as D3, Lodash, and Apache Arrow. Yet for [dataflow](https://observablehq.com/@observablehq/how-observable-runs), Observable needed to change JavaScript in a few ways.
 
 Here's a quick overview of what's different from vanilla.
 
 ## Cells are separate scripts
 
-Each cell in a notebook is a separate script that runs independently. A syntax error in one cell won't prevent other cells from running. 
+Each cell in a notebook is a separate script that runs independently. A syntax error in one cell won't prevent other cells from running.
 
 <figure>
   <img
@@ -84,7 +84,7 @@ You can define a cell whose value is a promise:
   <figcaption>A cell whose value is a promise.</figcaption>
 </figure>
 
-If you reference such a cell, you don't need to `await`; the referencing cell won't run until the value resolves. 
+If you reference such a cell, you don't need to `await`; the referencing cell won't run until the value resolves.
 
 ## Cells implicitly iterate over generators
 

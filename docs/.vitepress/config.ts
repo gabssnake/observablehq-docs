@@ -21,6 +21,7 @@ export default defineConfig({
     ["script", {}, "window.dataLayer=window.dataLayer||[];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js',new Date());\ngtag('config','G-9B88TP6PKQ');"]
   ],
   themeConfig: {
+    siteTitle: "Observable",
     logo: {
       light: "/observable-light.svg",
       dark: "/observable-dark.svg"
@@ -31,7 +32,7 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: "Getting Started",
+        text: "Getting started",
         items: [
           {text: "Overview", link: "/learn/overview" },
           {text: "Tutorials", link: "https://observablehq.com/tutorials"},
@@ -65,7 +66,7 @@ export default defineConfig({
             collapsed: true,
             link: "/data/",
            items: [
-            { 
+            {
               text: "Files",
               collapsed: true,
               items: [
@@ -118,7 +119,7 @@ export default defineConfig({
                   {text: "Trino/Presto", link: "/data/databases/database-clients#trino-presto"},
                  ]},
                  {text: "Custom Database Clients", link: "/data/databases/databaseclient-specification"},
-                
+
               ]
             },
             {
@@ -141,7 +142,7 @@ export default defineConfig({
                 {text: "Sample datasets", link: "https://observablehq.com/@observablehq/sample-datasets"},
               ]
             }
-           
+
            ],
           },
           {
@@ -256,14 +257,14 @@ export default defineConfig({
             collapsed: true,
             items: [
               {text: "Awaiting visibility", link: "/misc/awaiting-visibility"},
-              {text: "FAQ", link: "/misc/faq"},  
+              {text: "FAQ", link: "/misc/faq"},
               {text: "Keyboard shortcuts", link: "/misc/keyboard-shortcuts"},
               {text: "Microsoft Teams integration", link: "/accounts-workspaces/microsoft-teams-integration"},
               {text: "Standard library", link: "/misc/standard-library"},
             ]
           }
         ],
-    
+
     search: {
       provider: "local"
     },
