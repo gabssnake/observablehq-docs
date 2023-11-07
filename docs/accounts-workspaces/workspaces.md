@@ -3,10 +3,10 @@
 ## Team roles
 Team members often specialize in different tasks, so when you create a team, you as the team owner can define team roles.  
 
-- **Viewer**: The person who needs to read, search and comment on team notebooks.
-  - **Guest Viewer**: The person who needs to read, search and comment on team notebooks explicitly shared with them.
-- **Editor**: The person who needs to create or edit notebooks, decide whether notebooks should be public,  make suggestions, and delete notebooks and collections.
-  - **Guest Editor**: The person who needs edit notebooks explicitly shared with them. Guests are not able to create new notebooks, fork and suggest on notebooks, and update the sharing for other members on a notebook. 
+- **Viewer**: The person who needs to read, search, and comment on team notebooks.
+  - **Guest Viewer**: The person who needs to read, search, and comment on team notebooks explicitly shared with them.
+- **Editor**: The person who needs to create or edit notebooks, decide whether notebooks should be public, make suggestions, or delete notebooks and collections.
+  - **Guest Editor**: The person who needs to edit notebooks explicitly shared with them. Guests are not able to create new notebooks, fork or suggest notebooks, or update the sharing for other members on a notebook. 
 - **Owner**: The person sharing team ownership. Owners can invite new members, assign roles, empty the trash, and manage team settings.
 
 Anyone you invite can join the team using their existing Observable accounts, or they can create new accounts. 
