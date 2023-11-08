@@ -4,7 +4,7 @@ import {defineConfig} from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Observable documentation",
-  description: "Learn how to work in Observable",
+  description: "All your Observable questions answered",
   base: "/documentation/",
   cleanUrls: true,
   vite: {
